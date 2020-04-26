@@ -1,0 +1,70 @@
+---
+pagetitle: "Art by Danielle Navarro"
+---
+
+```{r echo=FALSE}
+source("helpers.R")
+
+galleries <- c(
+  make_gallery(
+    id = "flametree", 
+    name = "Flametree",
+    dir = "flametree",
+    text = '"Fractious petals, stop interrupting me with your boring beauty." (Jennifer Chang)'
+  ),
+  
+  make_gallery(
+    id = "scrawl", 
+    name = "Scrawl",
+    dir = "scrawl",
+    text = '"I must confess, I\'ve made a mess of what should be a small success<br>But I digress, at least I\'ve tried my very best, I guess"<br>(Courtney Barnett)'
+  ),
+  
+  make_gallery(
+    id = "scope", 
+    name = "Scope",
+    dir = "scopes",
+    text = '"I know who I was when I got up this morning,<br>but I think I must have been changed several times since then"<br>(Lewis Carroll)'
+  ),
+  
+  make_gallery(
+    id = "popart", 
+    name = "Pop Art and Fracture",
+    dir = "popart",
+    text = '"Fifteen minutes is too long" (TISM)'
+  ),
+  
+  make_gallery(
+    id = "dust", 
+    name = "Dust",
+    dir = "dust",
+    text = '"Mental states of every kind, – sensations, feelings, ideas, – which were at one time present in consciousness and then have disappeared from it, have not with their disappearance absolutely ceased to exist. Although the inwardly-turned look may no longer be able to find them, nevertheless they have not been utterly destroyed and annulled, but in a certain manner they continue to exist, stored up, so to speak, in the memory. We cannot, of course, directly observe their present existence, but it is revealed by the effects which come to our knowledge with a certainty like that with which we infer the existence of the stars below the horizon." (Hermann Ebbinghaus)'
+    ),
+  
+  make_gallery(
+    id = "nye2019", 
+    name = "NYE 2019",
+    dir = "nye2019",
+    text = '"Just close your eyes, \'cause, baby you never do know<br>And I\'ll be on the sidelines with my hands tied,<br>Watching the show" (Aimee Mann)'
+    ),
+  
+  make_gallery(
+    id = "rosemary", 
+    name = "Rosemary",
+    dir = "rosemary",
+    text = '"There\'s rosemary, that\'s for remembrance, pray you love, remember"	(William Shakespeare)'
+  )
+)
+
+knitr::raw_html(
+  c(
+    make_menu(), 
+    make_carousel(), 
+    make_profile(),
+    galleries,
+    make_footer(), 
+    make_scripts()
+  )
+)
+```
+

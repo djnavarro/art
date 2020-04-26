@@ -1,0 +1,14 @@
+name: "my-website"
+output_dir: docs
+output:
+  html_document:
+    theme: null  
+    includes:
+      in_header: header.html    
+    lib_dir: site_libs
+    self_contained: no
+exclude: 
+  - "header.html"
+  - "resources"
+  - "docs"
+  - "README.*"
