@@ -7,6 +7,13 @@ source("helpers.R")
 
 galleries <- c(
   make_gallery(
+    id = "voronoise", 
+    name = "Voronoise",
+    dir = "voronoise",
+    text = '"." ()'
+  ),
+
+  make_gallery(
     id = "flametree", 
     name = "Flametree",
     dir = "flametree",
