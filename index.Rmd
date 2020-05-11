@@ -15,21 +15,21 @@ galleries <- c(
 
   make_gallery(
     id = "flametree", 
-    name = "Flametree",
+    name = "Flametree <a href='https://github.com/djnavarro/flametree'><i class='fa fa-github'></i></a>",
     dir = "flametree",
     text = '"Fractious petals, stop interrupting me with your boring beauty." (Jennifer Chang)'
   ),
   
   make_gallery(
     id = "scrawl", 
-    name = "Scrawl",
+    name = "Scrawl <a href='https://github.com/djnavarro/scrawl'><i class='fa fa-github'></i></a>",
     dir = "scrawl",
     text = '"I must confess, I\'ve made a mess of what should be a small success<br>But I digress, at least I\'ve tried my very best, I guess"<br>(Courtney Barnett)'
   ),
   
   make_gallery(
     id = "scope", 
-    name = "Scope",
+    name = "Scope <a href='https://github.com/djnavarro/scopes'><i class='fa fa-github'></i></a>",
     dir = "scopes",
     text = '"I know who I was when I got up this morning,<br>but I think I must have been changed several times since then"<br>(Lewis Carroll)'
   ),
@@ -57,7 +57,7 @@ galleries <- c(
   
   make_gallery(
     id = "rosemary", 
-    name = "Rosemary",
+    name = "Rosemary <a href='https://github.com/djnavarro/rosemary'><i class='fa fa-github'></i></a>",
     dir = "rosemary",
     text = '"There\'s rosemary, that\'s for remembrance, pray you love, remember"	(William Shakespeare)'
   )
