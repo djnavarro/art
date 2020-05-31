@@ -39,6 +39,7 @@ make_menu <- function() {
     '      <div class="main-menubar d-flex align-items-center">',
     '      <nav class="hide">',
     '      <a href="#home">Home</a>',
+    '      <a href="#quarantine">Quarantine</a>',
     '      <a href="#voronoise">Voronoise</a>',
     '      <a href="#flametree">Flametree</a>',
     '      <a href="#scrawl">Scrawl</a>',
