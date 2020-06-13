@@ -8,6 +8,13 @@ source("helpers.R")
 galleries <- c(
 
   make_gallery(
+    id = "stonetree", 
+    name = "Stonetrees",
+    dir = "stonetree",
+    text = '"If I look at my most vulnerable places and acknowledge the pain I have felt, I can remove the source of that pain from my enemies\' arsenals. My history cannot be used to feather my enemies\' arrows then, and that lessens their power over me. Nothing I accept about myself can be used against me to diminish me. I am who I am, doing what I came to do" (Audre Lorde)'
+  ),
+
+  make_gallery(
     id = "stoneskip", 
     name = "Skipping Stones <a href='https://github.com/djnavarro/stoneskip'><i class='fa fa-github'></i>",
     dir = "stoneskip",
