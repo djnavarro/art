@@ -14,6 +14,6 @@ for(path in img) {
     im <- magick::image_read(input)
     im <- magick::image_resize(im, geometry = "400x")
     magick::image_write(im, output)
-    Sys.sleep(1)
+    Sys.sleep(1.5)
   }
 }

@@ -6,7 +6,14 @@ pagetitle: "Art by Danielle Navarro"
 source("helpers.R")
 
 galleries <- c(
-  
+
+  make_gallery(
+    id = "stoneskip", 
+    name = "Skipping Stones <a href='https://github.com/djnavarro/stoneskip'><i class='fa fa-github'></i>",
+    dir = "stoneskip",
+    text = '"Sometimes I found there was more to be learned from an example than I had initially anticipated. Motifs, themes, and patterns would emerge, surprising me with their unity" (Kate Manne)'
+  ),
+    
   make_gallery(
     id = "quarantine", 
     name = "Quarantine Moods",
