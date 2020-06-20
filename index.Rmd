@@ -8,6 +8,14 @@ source("helpers.R")
 galleries <- c(
 
   make_gallery(
+    id = "turmite", 
+    name = "Turmites",
+    dir = "turmite",
+    text = '"From little things big things grow" (Paul Kelly, Kev Carmody)'
+  ),
+  
+  
+  make_gallery(
     id = "stonetree", 
     name = "Stonetrees",
     dir = "stonetree",
