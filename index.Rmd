@@ -8,6 +8,15 @@ source("helpers.R")
 galleries <- c(
 
   make_gallery(
+    id = "generalisation", 
+    name = "Generalisations",
+    dir = "generalisation",
+    text = '"Possibly, behind the diverse behaviors of humans
+and animals, as behind the various motions of planets and stars, we may discern
+the operation of universal laws" (Roger Shepard)'
+  ),
+  
+  make_gallery(
     id = "turmite", 
     name = "Turmites",
     dir = "turmite",
