@@ -21,12 +21,13 @@
         <!-- Add gallery content -->
         {{ .Content }}
 
-        <!--paste(links, collapse = "\n"),-->
+        <!-- footer inside gallery div -->
+        {{ partial "footer.html" . }}
+
       </div>
     </div>
     </section>
 
-    <!-- {{ partial "footer.html" . }} -->
 
   </body>
 </html>
