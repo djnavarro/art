@@ -1,0 +1,12 @@
+---
+output: hugodown::md_document
+title: "Turmites"
+date: 2020-06-20
+summary: '"From little things big things grow" (Paul Kelly, Kev Carmody)'
+---
+
+```{r echo=FALSE, results='asis'}
+source("gallery.R")
+make_gallery()
+```
+

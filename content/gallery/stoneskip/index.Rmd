@@ -1,0 +1,12 @@
+---
+output: hugodown::md_document
+title: "Skipping Stones"
+date: 2020-06-05
+summary: '"The animated figures stand<br>Adorning every public street<br>And seem to breathe in stone, or<br>move their marble feet."<br>(Pindar)'
+---
+
+```{r echo=FALSE, results='asis'}
+source("gallery.R")
+make_gallery()
+```
+

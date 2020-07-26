@@ -1,0 +1,12 @@
+---
+output: hugodown::md_document
+title: "Flametrees"
+date: 2020-04-30
+summary: '"Fractious petals, stop interrupting me with your boring beauty." (Jennifer Chang)'
+---
+
+```{r echo=FALSE, results='asis'}
+source("gallery.R")
+make_gallery()
+```
+
