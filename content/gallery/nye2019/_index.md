@@ -3,7 +3,9 @@ output: hugodown::md_document
 title: "NYE 2019"
 date: 2019-12-31
 summary: '"Just close your eyes, ’cause, baby you never do know<br>And I’ll be on the sidelines with my hands tied,<br>Watching the show" (Aimee Mann)'
-rmd_hash: 3eac4a80d106e041
+trailer: "gallery/nye2019/image/art032.png"
+
+rmd_hash: d59da5757117b265
 
 ---
 

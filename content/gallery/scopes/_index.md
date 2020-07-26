@@ -3,7 +3,8 @@ output: hugodown::md_document
 title: "Scope"
 date: 2020-04-03
 summary: '"I know who I was when I got up this morning,<br>but I think I must have been changed several times since then" (Lewis Carroll)'
-rmd_hash: 9862225bcc1c7b9a
+trailer: "gallery/scopes/image/scope_06_272.png"
+rmd_hash: bcb7153129e22136
 
 ---
 

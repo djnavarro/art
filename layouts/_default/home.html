@@ -11,6 +11,25 @@
 
     {{ .Content }}
 
+
+<div class="highlight">
+<div class="gal">
+{{ range .Sections }}
+{{ range .Sections }}
+{{ if isset .Params "trailer" }}
+
+    <span style="position: relative;text-align: center;">
+      <p style="color: black; font-size: 200%; position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);">{{ .Title | markdownify }}</p>
+      <a href="{{ .URL }}"><img src={{ .Params.Trailer | relURL }}></a>
+    </span>
+
+{{ end }}
+{{ end }}
+{{ end }}
+</div></div>
+
+
+
     {{ partial "footer.html" . }}
 
   </body>

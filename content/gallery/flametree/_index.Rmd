@@ -1,8 +1,9 @@
 ---
 output: hugodown::md_document
-title: "Flametrees"
-date: 2020-04-30
+title: "Flametree"
+date: 2020-03-15
 summary: '"Fractious petals, stop interrupting me with your boring beauty." (Jennifer Chang)'
+trailer: "gallery/flametree/image/001_flametree_20_13.png"
 ---
 
 ```{r echo=FALSE, results='asis'}

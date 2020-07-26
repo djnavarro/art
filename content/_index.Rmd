@@ -2,6 +2,7 @@
 output: hugodown::md_document
 title: Home
 summary: "Art by Danielle Navarro"
+profile: "hi"
 ---
 
 <!-- Start About Area -->

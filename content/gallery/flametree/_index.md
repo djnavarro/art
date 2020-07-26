@@ -3,7 +3,8 @@ output: hugodown::md_document
 title: "Flametree"
 date: 2020-03-15
 summary: '"Fractious petals, stop interrupting me with your boring beauty." (Jennifer Chang)'
-rmd_hash: 4b0d3c09a184d7dc
+trailer: "gallery/flametree/image/001_flametree_20_13.png"
+rmd_hash: 91f40245ec17eb86
 
 ---
 

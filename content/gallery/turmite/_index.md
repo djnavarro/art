@@ -3,7 +3,8 @@ output: hugodown::md_document
 title: "Turmites"
 date: 2020-06-20
 summary: '"From little things big things grow" (Paul Kelly, Kev Carmody)'
-rmd_hash: 5ad85b4b49c63236
+trailer: "gallery/turmite/image/turmite_12.png"
+rmd_hash: ea72bdaa13510898
 
 ---
 

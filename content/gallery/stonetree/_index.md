@@ -3,7 +3,8 @@ output: hugodown::md_document
 title: "Stonetrees"
 date: 2020-06-13
 summary: '"If I look at my most vulnerable places and acknowledge the pain I have felt, I can remove the source of that pain from my enemies’ arsenals. My history cannot be used to feather my enemies’ arrows then, and that lessens their power over me. Nothing I accept about myself can be used against me to diminish me. I am who I am, doing what I came to do" (Audre Lorde)'
-rmd_hash: 8e7eef7267fea967
+trailer: "gallery/stonetree/image/vstone_06.png"
+rmd_hash: 76e2043ac152923e
 
 ---
 

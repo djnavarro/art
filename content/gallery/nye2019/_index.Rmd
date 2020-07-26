@@ -3,6 +3,7 @@ output: hugodown::md_document
 title: "NYE 2019"
 date: 2019-12-31
 summary: '"Just close your eyes, ’cause, baby you never do know<br>And I’ll be on the sidelines with my hands tied,<br>Watching the show" (Aimee Mann)'
+trailer: "gallery/nye2019/image/art032.png"
 ---
 
 ```{r echo=FALSE, results='asis'}

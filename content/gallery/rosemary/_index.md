@@ -3,7 +3,8 @@ output: hugodown::md_document
 title: "Rosemary"
 date: 2019-12-27
 summary: '"There’s rosemary, that’s for remembrance, pray you love, remember" (William Shakespeare)'
-rmd_hash: e4233d23d339bdc1
+trailer: "gallery/rosemary/image/006-stars_and_the_night_sky.png"
+rmd_hash: 804f1c32661b1558
 
 ---
 

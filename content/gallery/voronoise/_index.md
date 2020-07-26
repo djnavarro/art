@@ -3,7 +3,8 @@ output: hugodown::md_document
 title: "Voronoise"
 date: 2020-05-06
 summary: '"I’ve been a bad bad girl<br>I’ve been careless<br>with a delicate man<br>and it’s a sad sad world<br>when a girl will break a boy<br>just because she can"<br>(Fiona Apple)'
-rmd_hash: 167146d37683a5c7
+trailer: "gallery/voronoise/image/voronoise_07.png"
+rmd_hash: 2a0987bfa2334607
 
 ---
 
