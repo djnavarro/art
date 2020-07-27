@@ -2,7 +2,7 @@
 output: hugodown::md_document
 title: Home
 summary: "Art by Danielle Navarro"
-profile: "hi"
+trailer: "gallery/turmite/preview/turmite_16b.png"
 ---
 
 <!-- Start About Area -->
