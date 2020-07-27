@@ -20,8 +20,8 @@
 {{ range .Sections }}
 {{ if isset .Params "trailer" }}
 
-    <span style="position: relative;text-align: center;">
-      <p style="color: black; font-size: 200%; position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);">{{ .Title | markdownify }}</p>
+    <span style="position: relative;text-align: center">
+      <div style="color: white; background-color: #00000088; font-size: 120%; font-weight: 700; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width:100%; height: 300%;">{{ .Title | markdownify }}</div>
       <a href="{{ .URL }}"><img src={{ .Params.Trailer | relURL }}></a>
     </span>
 
