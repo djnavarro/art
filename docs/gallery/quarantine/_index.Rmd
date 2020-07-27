@@ -1,0 +1,13 @@
+---
+output: hugodown::md_document
+title: "Quarantine Moods"
+date: 2020-05-28
+summary: '"I’m slow like honey, and heavy with mood" (Fiona Apple)'
+trailer: "gallery/quarantine/preview/layers_03.png"
+---
+
+```{r echo=FALSE, results='asis'}
+source("gallery.R")
+make_gallery()
+```
+
