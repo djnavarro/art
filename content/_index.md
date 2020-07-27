@@ -3,7 +3,7 @@ output: hugodown::md_document
 title: Home
 summary: "Art by Danielle Navarro"
 trailer: "gallery/turmite/preview/turmite_16b.png"
-rmd_hash: 8c40d933db4de172
+rmd_hash: 3e76e67f2cb8b991
 
 ---
 

@@ -1,0 +1,13 @@
+---
+output: hugodown::md_document
+title: "The Heart Speaks"
+date: 2020-07-27
+summary: '"You can pretend you don’t wanna know<br>But I read the signs from your head to your toes<br>Yeah, you don’t need to say a word cause<br>Your body talks"<br>(The Struts, ft. Kesha)'
+trailer: "gallery/the-heart-speaks/preview/turmite_22.png"
+---
+
+```{r echo=FALSE, results='asis'}
+source("gallery.R")
+make_gallery()
+```
+

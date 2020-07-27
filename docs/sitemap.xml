@@ -4,17 +4,22 @@
   
   <url>
     <loc>/gallery/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/gallery/generalisation/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/gallery/the-heart-speaks/</loc>
+    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gallery/generalisation/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   

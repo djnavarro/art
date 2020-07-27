@@ -22,5 +22,3 @@ trailer: "gallery/turmite/preview/turmite_16b.png"
 </div>    
 </section>
 <!-- End About Area -->
-
-
