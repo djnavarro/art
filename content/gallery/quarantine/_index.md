@@ -3,8 +3,8 @@ output: hugodown::md_document
 title: "Quarantine Moods"
 date: 2020-05-28
 summary: '"I’m slow like honey, and heavy with mood" (Fiona Apple)'
-trailer: "gallery/quarantine/image/layers_03.png"
-rmd_hash: 0c1390d11c8612eb
+trailer: "gallery/quarantine/preview/layers_03.png"
+rmd_hash: d3a57b32b6fa6314
 
 ---
 

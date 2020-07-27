@@ -3,8 +3,8 @@ output: hugodown::md_document
 title: "Skipping Stones"
 date: 2020-06-05
 summary: '"The animated figures stand<br>Adorning every public street<br>And seem to breathe in stone, or<br>move their marble feet."<br>(Pindar)'
-trailer: "gallery/stoneskip/image/stoneskip_90.png"
-rmd_hash: bb7deed41c3fb9d5
+trailer: "gallery/stoneskip/preview/stoneskip_90.png"
+rmd_hash: ebac3a93a6e0743a
 
 ---
 

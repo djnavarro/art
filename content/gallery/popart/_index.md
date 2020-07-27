@@ -3,8 +3,8 @@ output: hugodown::md_document
 title: "Pop Art and Fracture"
 date: 2020-03-23
 summary: '"Fifteen minutes is too long" (TISM)'
-trailer: "gallery/popart/image/valkyrie_pop.png"
-rmd_hash: 7f16fdde54434657
+trailer: "gallery/popart/preview/valkyrie_pop.png"
+rmd_hash: 130ce4af21b211c5
 
 ---
 

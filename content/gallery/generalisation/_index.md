@@ -3,8 +3,8 @@ output: hugodown::md_document
 title: "Generalisation"
 date: 2020-07-01
 summary: '"Possibly, behind the diverse behaviors of humans and animals, as behind the various motions of planets and stars, we may discern the operation of universal laws" (Roger Shepard)'
-trailer: "gallery/generalisation/image/rectgenerate_3_28.png"
-rmd_hash: 3771b74aec165dda
+trailer: "gallery/generalisation/preview/rectgenerate_3_28.png"
+rmd_hash: d67cd0b82bf9af1d
 
 ---
 
