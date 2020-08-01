@@ -20,7 +20,7 @@ make_previews <- function(path) {
     if(!file.exists(output)) {
       cat(input, "\n")
       im <- magick::image_read(input)
-      im <- magick::image_resize(im, geometry = "400x")
+      im <- magick::image_resize(im, geometry = "800x")
       magick::image_write(im, output)
       Sys.sleep(1.5)
     }
