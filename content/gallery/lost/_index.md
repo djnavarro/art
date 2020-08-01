@@ -3,8 +3,8 @@ output: hugodown::md_document
 title: "Lost In All This Light"
 date: 2020-08-01
 summary: '"I coupled with dust in the shadow of a stone.<br>My ankles brighten. Brightness ascends my thighs.<br>I am lost, I am lost, in the robes of all this light."<br>(Sylvia Plath)'
-trailer: "gallery/lost/preview/turmite_27.png"
-rmd_hash: c2ae755295f2461b
+trailer: "gallery/lost/preview/turmite_41.png"
+rmd_hash: 1dab53415bbadec4
 
 ---
 
