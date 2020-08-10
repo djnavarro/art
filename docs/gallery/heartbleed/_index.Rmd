@@ -10,4 +10,3 @@ trailer: "gallery/heartbleed/preview/turmite_52.png"
 source("gallery.R")
 make_gallery()
 ```
-
