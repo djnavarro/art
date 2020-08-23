@@ -2,9 +2,9 @@
 output: hugodown::md_document
 title: "Mad Woman"
 date: 2020-08-24
-summary: '"What do you sing on your drive home?<br>Do you see my face in the neighbor’s lawn?<br>Does she smile?<br>Or does she mouth "fuck you forever"?"<br> (Taylor Swift)'
+summary: '"What do you sing on your drive home?<br>Do you see my face in the neighbor’s lawn?<br>Does she smile?<br>Or does she mouth "fuck you forever"?"<br> (Taylor Swift) '
 trailer: "gallery/mad-woman/preview/ff_04_1_3_5.png"
-rmd_hash: 293e56eaffca3788
+rmd_hash: 8b4075b49571d905
 
 ---
 

@@ -14,7 +14,7 @@ trailer: "gallery/turmite/preview/turmite_16b.png"
 </div>
 
 <div class="col-lg-9 about-right">
-<p style="font-size:110%">I'm a computational artist based in Sydney, living on Gadigal land, and making generative art using the R programming language. You can often find me making a nuisance of myself and posting artwork on [twitter](https://twitter.com/djnavarro) and [github](https://github.com/djnavarro). In my other life I am an [academic](https://djnavarro.net/). 
+<p style="font-size:110%">I'm a computational artist based in Sydney, living on Gadigal land, and making generative art using the R programming language. You can often find me making a nuisance of myself and posting artwork on [twitter](https://twitter.com/djnavarro) and [github](https://github.com/djnavarro). In my other life I am an [academic](https://djnavarro.net/).
 
 At present I don't sell my art or make prints, but don't let that stop you if you would like one! Unless stated otherwise all the artwork on the site is released under a Creative Commons licence (specifically, CC-BY-SA 4.0), so you are welcome to reuse the art for most purposes so long as you attribute the original work to me, and any derivative works are also covered by the same licence. 
 
