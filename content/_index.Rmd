@@ -10,7 +10,7 @@ trailer: "gallery/turmite/preview/turmite_16b.png"
 <div class="container">
 <div class="row d-flex align-items-center">
 <div class="col-lg-3 about-left">
-<img class="img-fluid" src="splash/about-img-smol.jpg" alt="">
+<img class="img-fluid" src="splash/profile3b.png" alt="">
 </div>
 
 <div class="col-lg-9 about-right">
