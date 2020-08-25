@@ -3,107 +3,107 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/gallery/</loc>
+    <loc>//localhost:1313/gallery/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/mad-woman/</loc>
+    <loc>//localhost:1313/gallery/mad-woman/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/heartbleed/</loc>
+    <loc>//localhost:1313/gallery/heartbleed/</loc>
     <lastmod>2020-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/lost/</loc>
+    <loc>//localhost:1313/gallery/lost/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/the-heart-speaks/</loc>
+    <loc>//localhost:1313/gallery/the-heart-speaks/</loc>
     <lastmod>2020-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/generalisation/</loc>
+    <loc>//localhost:1313/gallery/generalisation/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/dust/</loc>
+    <loc>//localhost:1313/gallery/dust/</loc>
     <lastmod>2020-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/turmite/</loc>
+    <loc>//localhost:1313/gallery/turmite/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/stonetree/</loc>
+    <loc>//localhost:1313/gallery/stonetree/</loc>
     <lastmod>2020-06-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/stoneskip/</loc>
+    <loc>//localhost:1313/gallery/stoneskip/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/quarantine/</loc>
+    <loc>//localhost:1313/gallery/quarantine/</loc>
     <lastmod>2020-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/voronoise/</loc>
+    <loc>//localhost:1313/gallery/voronoise/</loc>
     <lastmod>2020-05-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/scrawl/</loc>
+    <loc>//localhost:1313/gallery/scrawl/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/scopes/</loc>
+    <loc>//localhost:1313/gallery/scopes/</loc>
     <lastmod>2020-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/popart/</loc>
+    <loc>//localhost:1313/gallery/popart/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/flametree/</loc>
+    <loc>//localhost:1313/gallery/flametree/</loc>
     <lastmod>2020-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/nye2019/</loc>
+    <loc>//localhost:1313/gallery/nye2019/</loc>
     <lastmod>2019-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/gallery/rosemary/</loc>
+    <loc>//localhost:1313/gallery/rosemary/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
   
 </urlset>
