@@ -61,6 +61,23 @@
   <body>
 
     
+    <script>
+      var images = [];
+      function preload() {
+        for (var i = 0; i < arguments.length; i++) {
+          images[i] = new Image();
+          images[i].src = preload.arguments[i];
+        }
+      }
+
+      preload(
+        "splash/image1.png",
+        "splash/image2.jpg",
+        "splash/image3.jpg"
+      )
+    </script>
+
+    
 
 <header class="default-header">
 <div class="container">
