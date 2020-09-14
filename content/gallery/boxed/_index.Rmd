@@ -1,0 +1,13 @@
+---
+output: hugodown::md_document
+title: "Boxed"
+date: 2020-09-15
+summary: ''
+trailer: "gallery/boxed/preview/box_01_20.png"
+---
+
+```{r echo=FALSE, results='asis'}
+source("gallery.R")
+make_gallery()
+```
+
