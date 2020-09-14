@@ -1,0 +1,16 @@
+---
+output: hugodown::md_document
+title: "Bursts"
+date: 2020-09-13
+summary: ''
+trailer: "gallery/bursts/preview/ff_13_19_5_40.png"
+rmd_hash: 98fd3f190347b816
+
+---
+
+<div class="highlight">
+
+<a href="image/ff_13_1_3_6.png"><img src="preview/ff_13_1_3_6.png"></a> <a href="image/ff_13_10_6_35.png"><img src="preview/ff_13_10_6_35.png"></a> <a href="image/ff_13_11_4_35.png"><img src="preview/ff_13_11_4_35.png"></a> <a href="image/ff_13_17_3_36.png"><img src="preview/ff_13_17_3_36.png"></a> <a href="image/ff_13_18_4_3.png"><img src="preview/ff_13_18_4_3.png"></a> <a href="image/ff_13_18_4_37.png"><img src="preview/ff_13_18_4_37.png"></a> <a href="image/ff_13_19_5_40.png"><img src="preview/ff_13_19_5_40.png"></a> <a href="image/ff_13_20_5_41.png"><img src="preview/ff_13_20_5_41.png"></a> <a href="image/ff_13_22_3_41.png"><img src="preview/ff_13_22_3_41.png"></a> <a href="image/ff_13_25_3_43.png"><img src="preview/ff_13_25_3_43.png"></a> <a href="image/ff_13_27_100_44.png"><img src="preview/ff_13_27_100_44.png"></a> <a href="image/ff_13_6_3_32.png"><img src="preview/ff_13_6_3_32.png"></a> <a href="image/ff_13_8_10_33.png"><img src="preview/ff_13_8_10_33.png"></a> <a href="image/ff_13_9_3_34.png"><img src="preview/ff_13_9_3_34.png"></a> <a href="image/ff_13_9_3_38.png"><img src="preview/ff_13_9_3_38.png"></a> <a href="image/ff_13_9_3_39.png"><img src="preview/ff_13_9_3_39.png"></a>
+
+</div>
+

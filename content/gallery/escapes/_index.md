@@ -1,10 +1,10 @@
 ---
 output: hugodown::md_document
 title: "Escapes"
-date: 2020-09-15
+date: 2020-09-12
 summary: ''
 trailer: "gallery/escapes/preview/ff_12_3_4_22.png"
-rmd_hash: 3771dc544771ed5a
+rmd_hash: 4d30d320a5d0ab01
 
 ---
 
