@@ -4,13 +4,18 @@
   
   <url>
     <loc>//localhost:1313/gallery/</loc>
-    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/gallery/escapes/</loc>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
