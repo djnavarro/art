@@ -1,0 +1,13 @@
+---
+output: hugodown::md_document
+title: "Unboxed"
+date: 2020-08-24
+summary: '"What do you sing on your drive home?<br>Do you see my face in the neighbor’s lawn?<br>Does she smile?<br>Or does she mouth "fuck you forever"?"<br> (Taylor Swift) '
+trailer: "gallery/unboxed/preview/ff_05_11_3_10.png"
+---
+
+```{r echo=FALSE, results='asis'}
+source("gallery.R")
+make_gallery()
+```
+
