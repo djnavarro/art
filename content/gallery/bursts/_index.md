@@ -4,9 +4,9 @@ title: "Bursts"
 date: 2020-09-13
 trailer: "gallery/bursts/preview/ff_13_19_5_40.png"
 splash:
-  image: "gallery/bursts/image/ff_13_19_5_40.png"
+  image: "gallery/bursts/extra/ff_13_19_5_40.jpg"
   caption: "Bursts"
-rmd_hash: 7492e67297c729b6
+rmd_hash: 8f0d5e1ab1b31d53
 
 ---
 

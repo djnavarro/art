@@ -4,7 +4,7 @@ title: "Bursts"
 date: 2020-09-13
 trailer: "gallery/bursts/preview/ff_13_19_5_40.png"
 splash:
-  image: "gallery/bursts/image/ff_13_19_5_40.png"
+  image: "gallery/bursts/extra/ff_13_19_5_40.jpg"
   caption: "Bursts"
 ---
 
