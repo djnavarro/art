@@ -4,9 +4,15 @@ title: "Dust"
 date: 2020-06-26
 trailer: "gallery/dust/preview/dust_11.png"
 splash:
-  image: "gallery/dust/image/dust_11.png"
+  image: "gallery/dust/extra/dust_07.jpg"
   caption: "Dust"
 ---
+
+<style>
+.splash-caption-tweak {
+  color: #000
+}
+</style>
 
 ```{r include=FALSE}
 source("../../diziet.R")
