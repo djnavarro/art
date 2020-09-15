@@ -4,9 +4,15 @@ title: "Skipping Stones"
 date: 2020-06-05
 trailer: "gallery/stoneskip/preview/stoneskip_90.png"
 splash:
-  image: "gallery/stoneskip/image/stoneskip_90.png"
+  image: "gallery/stoneskip/extra/stoneskip_90.jpg"
   caption: "Skipping Stones"
 ---
+
+<style>
+.splash-caption-tweak{
+ color: #8B2323
+}
+</style>
 
 ```{r include=FALSE}
 source("../../diziet.R")

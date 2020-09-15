@@ -4,11 +4,20 @@ title: "Skipping Stones"
 date: 2020-06-05
 trailer: "gallery/stoneskip/preview/stoneskip_90.png"
 splash:
-  image: "gallery/stoneskip/image/stoneskip_90.png"
-  caption: "Skipping Stones"
-rmd_hash: cd7c3a878946947f
+  image: "gallery/stoneskip/extra/stoneskip_90.jpg"
+  caption: ".<br>.<br>Skipping<br>Stones<br>.<br>."
+rmd_hash: e2f90cbee4bf9aaa
 
 ---
+
+<style>
+.splash-caption-tweak{
+ color: #461212;
+ font-size: 150%;
+ font-weight: 700;
+ letter-spacing: 10px;
+}
+</style>
 
 "The animated figures stand<br>Adorning every public street<br>And seem to breathe in stone, or<br>move their marble feet."<br>(Pindar)
 
