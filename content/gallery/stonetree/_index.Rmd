@@ -8,6 +8,13 @@ splash:
   caption: "Stonetrees"
 ---
 
+<style>
+.splash-caption-tweak{
+  color: #191900;
+  letter-spacing: 6px;
+}
+</style>
+
 ```{r include=FALSE}
 source("../../diziet.R")
 ```

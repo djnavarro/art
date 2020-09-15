@@ -6,9 +6,16 @@ trailer: "gallery/stonetree/extra/vstone_06_square.png"
 splash:
   image: "gallery/stonetree/image/vstone_06.png"
   caption: "Stonetrees"
-rmd_hash: b1e937d568c96d04
+rmd_hash: bc0518c7cc7faac9
 
 ---
+
+<style>
+.splash-caption-tweak{
+  color: #191900;
+  letter-spacing: 6px;
+}
+</style>
 
 "If I look at my most vulnerable places and acknowledge the pain I have felt, I can remove the source of that pain from my enemies' arsenals. My history cannot be used to feather my enemies' arrows then, and that lessens their power over me. Nothing I accept about myself can be used against me to diminish me. I am who I am, doing what I came to do" (Audre Lorde)
 
