@@ -4,9 +4,9 @@ title: "Heartbleed"
 date: 2020-08-10
 trailer: "gallery/heartbleed/preview/turmite_52.png"
 splash:
-  image: "gallery/heartbleed/image/turmite_52.png"
+  image: "gallery/heartbleed/extra/turmite_52.jpg"
   caption: "Heartbleed"
-rmd_hash: dffe93fb17e9a9bf
+rmd_hash: d69799300f2afb1f
 
 ---
 
