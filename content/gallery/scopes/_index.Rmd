@@ -8,6 +8,14 @@ splash:
   caption: "Scopes"
 ---
 
+<style>
+.splash-caption-tweak{
+ color: #000000;
+ letter-spacing: 6px;
+}
+</style>
+
+
 ```{r include=FALSE}
 source("../../diziet.R")
 ```

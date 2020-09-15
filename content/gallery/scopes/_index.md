@@ -6,9 +6,16 @@ trailer: "gallery/scopes/preview/scope_06_272.png"
 splash:
   image: "gallery/scopes/image/scope_06_272.png"
   caption: "Scopes"
-rmd_hash: de03b0cc63db1991
+rmd_hash: a9eacc33b92c8c28
 
 ---
+
+<style>
+.splash-caption-tweak{
+ color: #000000;
+ letter-spacing: 6px;
+}
+</style>
 
 "I know who I was when I got up this morning,<br>but I think I must have been changed several times since then" (Lewis Carroll)
 
