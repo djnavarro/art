@@ -2,13 +2,17 @@
 output: hugodown::md_document
 title: "Scrawl"
 date: 2020-04-09
-summary: '"I must confess, I’ve made a mess of what should be a small success. But I digress, at least I’ve tried my very best, I guess" (Courtney Barnett)'
 trailer: "gallery/scrawl/preview/004-scrawl_2-10000-200-50-5.png"
+splash:
+  image: "gallery/scrawl/image/004-scrawl_2-10000-200-50-5.png"
+  caption: "Scrawl"
 ---
 
 ```{r include=FALSE}
 source("../../diziet.R")
 ```
+
+"I must confess, I’ve made a mess of what should be a small success. But I digress, at least I’ve tried my very best, I guess" (Courtney Barnett)
 
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery()

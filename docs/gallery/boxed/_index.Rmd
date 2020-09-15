@@ -2,8 +2,10 @@
 output: hugodown::md_document
 title: "Boxed"
 date: 2020-09-15
-summary: ''
 trailer: "gallery/boxed/preview/box_01_20.png"
+splash:
+  image: "gallery/boxed/image/box_01_20.png"
+  caption: "Boxed"
 ---
 
 

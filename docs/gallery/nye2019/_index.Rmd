@@ -2,13 +2,17 @@
 output: hugodown::md_document
 title: "NYE 2019"
 date: 2019-12-31
-summary: '"Just close your eyes, ’cause, baby you never do know<br>And I’ll be on the sidelines with my hands tied,<br>Watching the show" (Aimee Mann)'
 trailer: "gallery/nye2019/preview/art032.png"
+splash:
+  image: "gallery/nye2019/image/art032.png"
+  caption: "New Year's Eve 2019"
 ---
 
 ```{r include=FALSE}
 source("../../diziet.R")
 ```
+
+"Just close your eyes, ’cause, baby you never do know<br>And I’ll be on the sidelines with my hands tied,<br>Watching the show" (Aimee Mann)
 
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery()
