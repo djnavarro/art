@@ -4,9 +4,9 @@ title: "Boxed"
 date: 2020-09-15
 trailer: "gallery/boxed/preview/box_01_20.png"
 splash:
-  image: "gallery/boxed/image/box_01_20.png"
+  image: "gallery/boxed/extra/box_01_20.jpg"
   caption: "Boxed"
-rmd_hash: 41f4c812fc63f994
+rmd_hash: 8fcd70de94939451
 
 ---
 
