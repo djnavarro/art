@@ -5,12 +5,13 @@ date: 2020-06-20
 trailer: "gallery/turmite/preview/turmite_12.png"
 splash:
   image: "gallery/turmite/image/turmite_12.png"
-  caption: "<span class='custom'>Turmites</span>"
+  caption: "Turmites"
 ---
 
 <style>
-.custom{
-  color: #000;
+.splash-caption-tweak{
+  color: #353;
+  letter-spacing: 12px;
 }
 </style>
 

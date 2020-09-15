@@ -5,14 +5,15 @@ date: 2020-06-20
 trailer: "gallery/turmite/preview/turmite_12.png"
 splash:
   image: "gallery/turmite/image/turmite_12.png"
-  caption: "<span class='custom'>Turmites</span>"
-rmd_hash: a1bcc19fc61d5972
+  caption: "Turmites"
+rmd_hash: f0ee6f5c4a5f0f66
 
 ---
 
 <style>
-.custom{
-  color: #000;
+.splash-caption-tweak{
+  color: #353;
+  letter-spacing: 12px;
 }
 </style>
 
