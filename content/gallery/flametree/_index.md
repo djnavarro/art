@@ -4,9 +4,9 @@ title: "Flametree"
 date: 2020-03-15
 trailer: "gallery/flametree/preview/001_flametree_20_13.png"
 splash:
-  image: "gallery/flametree/image/001_flametree_20_13.png"
+  image: "gallery/flametree/extra/001_flametree_20_13.jpg"
   caption: "Flametree"
-rmd_hash: 990903434f6055a1
+rmd_hash: b85130ecc6ab3dd2
 
 ---
 
