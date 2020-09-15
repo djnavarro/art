@@ -4,9 +4,15 @@ title: "Scrawl"
 date: 2020-04-09
 trailer: "gallery/scrawl/preview/004-scrawl_2-10000-200-50-5.png"
 splash:
-  image: "gallery/scrawl/image/004-scrawl_2-10000-200-50-5.png"
+  image: "gallery/scrawl/extra/004-scrawl_2-10000-200-50-5.png"
   caption: "Scrawl"
 ---
+
+<style>
+.splash-caption-tweak{
+ color: #000000;
+}
+</style>
 
 ```{r include=FALSE}
 source("../../diziet.R")

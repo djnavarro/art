@@ -4,11 +4,17 @@ title: "Scrawl"
 date: 2020-04-09
 trailer: "gallery/scrawl/preview/004-scrawl_2-10000-200-50-5.png"
 splash:
-  image: "gallery/scrawl/image/004-scrawl_2-10000-200-50-5.png"
+  image: "gallery/scrawl/extra/004-scrawl_2-10000-200-50-5.png"
   caption: "Scrawl"
-rmd_hash: 4ef168839d6ae866
+rmd_hash: 65ba518f8db9eba8
 
 ---
+
+<style>
+.splash-caption-tweak{
+ color: #000000;
+}
+</style>
 
 "I must confess, I've made a mess of what should be a small success. But I digress, at least I've tried my very best, I guess" (Courtney Barnett)
 
