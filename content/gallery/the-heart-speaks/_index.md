@@ -4,9 +4,9 @@ title: "The Heart Speaks"
 date: 2020-07-27
 trailer: "gallery/the-heart-speaks/preview/turmite_22.png"
 splash:
-  image: "gallery/the-heart-speaks/image/turmite_22.png"
+  image: "gallery/the-heart-speaks/extra/turmite_22.jpg"
   caption: "The Heart Speaks"
-rmd_hash: 1613e7cf1b48ca7c
+rmd_hash: 012efae8295c84c1
 
 ---
 
