@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unboxed on  </title>
-    <link>//localhost:1313/gallery/unboxed/</link>
+    <link>/gallery/unboxed/</link>
     <description>Recent content in Unboxed on  </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//localhost:1313/gallery/unboxed/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/gallery/unboxed/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

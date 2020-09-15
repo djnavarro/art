@@ -2,12 +2,19 @@
 output: hugodown::md_document
 title: "Rosemary"
 date: 2019-12-27
-summary: '"There’s rosemary, that’s for remembrance, pray you love, remember" (William Shakespeare)'
 trailer: "gallery/rosemary/preview/006-stars_and_the_night_sky.png"
+splash:
+  image: "gallery/rosemary/image/006-stars_and_the_night_sky.png"
+  caption: "Rosemary and Jasmine"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
+"There’s rosemary, that’s for remembrance, pray you love, remember" (William Shakespeare)
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 

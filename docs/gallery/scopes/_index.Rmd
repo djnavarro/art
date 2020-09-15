@@ -6,8 +6,11 @@ summary: '"I know who I was when I got up this morning,<br>but I think I must ha
 trailer: "gallery/scopes/preview/scope_06_272.png"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 

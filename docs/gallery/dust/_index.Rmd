@@ -6,8 +6,11 @@ summary: '"Mental states of every kind, – sensations, feelings, ideas, – whi
 trailer: "gallery/dust/preview/dust_11.png"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 

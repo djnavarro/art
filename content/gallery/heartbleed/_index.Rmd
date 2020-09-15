@@ -2,11 +2,18 @@
 output: hugodown::md_document
 title: "Heartbleed"
 date: 2020-08-10
-summary: 'The limits of your language become the limits of my world'
 trailer: "gallery/heartbleed/preview/turmite_52.png"
+splash:
+  image: "gallery/heartbleed/image/turmite_52.png"
+  caption: "Heartbleed"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
+The limits of your language become the limits of my world
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```

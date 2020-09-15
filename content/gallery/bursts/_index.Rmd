@@ -2,12 +2,17 @@
 output: hugodown::md_document
 title: "Bursts"
 date: 2020-09-13
-summary: ''
 trailer: "gallery/bursts/preview/ff_13_19_5_40.png"
+splash:
+  image: "gallery/bursts/image/ff_13_19_5_40.png"
+  caption: "Bursts"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 

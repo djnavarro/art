@@ -5,10 +5,10 @@
 # The URL for your website. It should end with a trailing slash,
 # e.g. "https://example.com/". If you're planning to deploy on
 # GitHub pages the way I've done for the example site at
-# https://djnavarro.github.io/hugo-calade/, then you can do something
+# https://djnavarro.github.io/hugo-diziet/, then you can do something
 # like this:
 #
-#    baseurl = "/hugo-calade/"
+#    baseurl = "/hugo-diziet/"
 #
 baseurl = "/"
 
@@ -22,7 +22,7 @@ publishDir = "docs"
 # These settings specify the title for your site, and the name of
 # the Hugo theme that it uses.
 title = " "
-theme = "calade"
+theme = "diziet"
 
 # What format should the permalinks take?
 [permalinks]

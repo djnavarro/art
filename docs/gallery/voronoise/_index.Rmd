@@ -6,8 +6,11 @@ summary: '"I’ve been a bad bad girl<br>I’ve been careless<br>with a delicate
 trailer: "gallery/voronoise/preview/voronoise_07.png"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 

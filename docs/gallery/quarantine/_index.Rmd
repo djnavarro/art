@@ -6,8 +6,11 @@ summary: '"I’m slow like honey, and heavy with mood" (Fiona Apple)'
 trailer: "gallery/quarantine/preview/layers_03.png"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 

@@ -6,8 +6,11 @@ summary: '"Fractious petals, stop interrupting me with your boring beauty." (Jen
 trailer: "gallery/flametree/preview/001_flametree_20_13.png"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 

@@ -6,8 +6,11 @@ summary: '"There’s rosemary, that’s for remembrance, pray you love, remember
 trailer: "gallery/rosemary/preview/006-stars_and_the_night_sky.png"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 

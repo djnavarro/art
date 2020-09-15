@@ -6,7 +6,10 @@ summary: 'The limits of your language become the limits of my world'
 trailer: "gallery/heartbleed/preview/turmite_52.png"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```

@@ -6,7 +6,10 @@ summary: '"I coupled with dust in the shadow of a stone.<br>My ankles brighten. 
 trailer: "gallery/lost/preview/turmite_41.png"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery() 
+diziet$make_gallery()
 ```

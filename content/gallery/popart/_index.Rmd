@@ -2,12 +2,19 @@
 output: hugodown::md_document
 title: "Pop Art and Fracture"
 date: 2020-03-23
-summary: '"Fifteen minutes is too long" (TISM)'
 trailer: "gallery/popart/preview/valkyrie_pop.png"
+splash:
+  image: "gallery/popart/preview/valkyrie_pop.png"
+  caption: "Pop Art and Fracture"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
+"Fifteen minutes is too long" (TISM)
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 

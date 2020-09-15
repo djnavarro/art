@@ -6,8 +6,11 @@ summary: '"Just close your eyes, ’cause, baby you never do know<br>And I’ll 
 trailer: "gallery/nye2019/preview/art032.png"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 

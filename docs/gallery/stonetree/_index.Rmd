@@ -6,8 +6,11 @@ summary: '"If I look at my most vulnerable places and acknowledge the pain I hav
 trailer: "gallery/stonetree/extra/vstone_06_square.png"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 

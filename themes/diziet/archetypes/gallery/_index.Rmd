@@ -1,0 +1,14 @@
+---
+output: hugodown::md_document
+title: "{{ title }}"
+date: {{ date }}
+summary: ''
+---
+
+```{r include=FALSE}
+source("../../diziet.R") # diziet.R is in the "content" folder
+```
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery()
+```

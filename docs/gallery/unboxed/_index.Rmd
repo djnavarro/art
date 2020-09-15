@@ -6,8 +6,11 @@ summary: '"What do you sing on your drive home?<br>Do you see my face in the nei
 trailer: "gallery/unboxed/preview/ff_05_11_3_10.png"
 ---
 
+```{r include=FALSE}
+source("../../diziet.R")
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 
