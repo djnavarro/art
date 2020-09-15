@@ -4,9 +4,9 @@ title: "Escapes"
 date: 2020-09-12
 trailer: "gallery/escapes/preview/ff_12_3_4_22.png"
 splash:
-  image: "gallery/escapes/image/ff_12_3_4_22.png"
+  image: "gallery/escapes/extra/ff_12_3_4_22.jpg"
   caption: "Escapes"
-rmd_hash: 65fc0dbd893d091d
+rmd_hash: 26e80e3c99945345
 
 ---
 
