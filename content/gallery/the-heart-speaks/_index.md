@@ -5,10 +5,19 @@ date: 2020-07-27
 trailer: "gallery/the-heart-speaks/preview/turmite_22.png"
 splash:
   image: "gallery/the-heart-speaks/extra/turmite_22.jpg"
-  caption: "The Heart Speaks"
-rmd_hash: 012efae8295c84c1
+  caption: "The<br>Heart<br>Speaks<br>Indirectly"
+rmd_hash: d3bf750684519286
 
 ---
+
+<style>
+.splash-caption-tweak{
+  color: #00000060;
+  letter-spacing: 15px;
+  font-size: 200%;
+  font-weight: 700;
+}
+</style>
 
 "You can pretend you don't wanna know<br>But I read the signs from your head to your toes<br>Yeah, you don't need to say a word cause<br>Your body talks"<br>(The Struts, ft. Kesha)
 
