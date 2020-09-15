@@ -4,9 +4,9 @@ title: "Unboxed"
 date: 2020-08-24
 trailer: "gallery/unboxed/preview/ff_05_11_3_10.png"
 splash:
-  image: "gallery/unboxed/image/ff_05_11_3_10.png"
+  image: "gallery/unboxed/extra/ff_05_11_3_10.jpg"
   caption: "Unboxed"
-rmd_hash: 87cb4e3743824bea
+rmd_hash: dada54134f6bc8f1
 
 ---
 

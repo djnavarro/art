@@ -4,7 +4,7 @@ title: "Unboxed"
 date: 2020-08-24
 trailer: "gallery/unboxed/preview/ff_05_11_3_10.png"
 splash:
-  image: "gallery/unboxed/image/ff_05_11_3_10.png"
+  image: "gallery/unboxed/extra/ff_05_11_3_10.jpg"
   caption: "Unboxed"
 ---
 
