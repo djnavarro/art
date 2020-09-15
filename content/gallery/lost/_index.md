@@ -4,9 +4,9 @@ title: "Lost In All This Light"
 date: 2020-08-01
 trailer: "gallery/lost/preview/turmite_41.png"
 splash:
-  image: "gallery/lost/image/turmite_41.png"
+  image: "gallery/lost/extra/turmite_41.jpg"
   caption: "Lost In All This Light"
-rmd_hash: 594b66d0532dff66
+rmd_hash: 2e7d632cb8e15ba1
 
 ---
 
