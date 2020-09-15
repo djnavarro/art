@@ -5,12 +5,15 @@ date: 2020-06-05
 trailer: "gallery/stoneskip/preview/stoneskip_90.png"
 splash:
   image: "gallery/stoneskip/extra/stoneskip_90.jpg"
-  caption: "Skipping Stones"
+  caption: ".<br>.<br>Skipping<br>Stones<br>.<br>."
 ---
 
 <style>
 .splash-caption-tweak{
- color: #8B2323
+ color: #461212;
+ font-size: 150%;
+ font-weight: 700;
+ letter-spacing: 10px;
 }
 </style>
 
