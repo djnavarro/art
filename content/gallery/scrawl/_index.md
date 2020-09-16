@@ -6,7 +6,7 @@ trailer: "gallery/scrawl/preview/004-scrawl_2-10000-200-50-5.png"
 splash:
   image: "gallery/scrawl/extra/004-scrawl_2-10000-200-50-5.png"
   caption: "Scrawl"
-rmd_hash: 65ba518f8db9eba8
+rmd_hash: e0579d322b5b81da
 
 ---
 
@@ -16,7 +16,7 @@ rmd_hash: 65ba518f8db9eba8
 }
 </style>
 
-"I must confess, I've made a mess of what should be a small success. But I digress, at least I've tried my very best, I guess" (Courtney Barnett)
+> "I must confess<br>I've made a mess<br>of what should be a small success.<br>But I digress<br>at least I've tried my very best I guess"<br>(Courtney Barnett)
 
 <div class="highlight">
 

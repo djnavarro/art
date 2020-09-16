@@ -12,7 +12,7 @@ splash:
 source("../../diziet.R")
 ```
 
-The limits of your language become the limits of my world
+> The limits of your language become the limits of my world
 
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery()

@@ -6,11 +6,11 @@ trailer: "gallery/popart/preview/valkyrie.png"
 splash:
   image: "gallery/popart/extra/valkyrie_pop.jpg"
   caption: "Styled<br>Like<br>Pop<br>Art<br>With<br>Fracture<br>Added"
-rmd_hash: 976cd243b64dbf48
+rmd_hash: a3d033a6db09f109
 
 ---
 
-"Fifteen minutes is too long" (TISM)
+> "Fifteen minutes is too long"<br>(TISM)
 
 <div class="highlight">
 

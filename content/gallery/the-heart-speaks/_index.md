@@ -6,7 +6,7 @@ trailer: "gallery/the-heart-speaks/preview/turmite_22.png"
 splash:
   image: "gallery/the-heart-speaks/extra/turmite_22.jpg"
   caption: "The<br>Heart<br>Speaks<br>Indirectly"
-rmd_hash: d3bf750684519286
+rmd_hash: 24fd62902f2e5320
 
 ---
 
@@ -19,7 +19,7 @@ rmd_hash: d3bf750684519286
 }
 </style>
 
-"You can pretend you don't wanna know<br>But I read the signs from your head to your toes<br>Yeah, you don't need to say a word cause<br>Your body talks"<br>(The Struts, ft. Kesha)
+> "You can pretend you don't wanna know<br>But I read the signs from your head to your toes<br>Yeah, you don't need to say a word cause<br>Your body talks"<br>(The Struts, ft. Kesha)
 
 <div class="highlight">
 

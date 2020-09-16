@@ -11,7 +11,8 @@ splash:
 ```{r include=FALSE}
 source("../../diziet.R")
 ```
-"I’m slow like honey, and heavy with mood" (Fiona Apple)
+
+>"I’m slow like honey, and heavy with mood"<br>(Fiona Apple)
 
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery()

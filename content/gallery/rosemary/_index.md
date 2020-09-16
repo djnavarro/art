@@ -6,11 +6,11 @@ trailer: "gallery/rosemary/preview/003-rainbow_prisms.png"
 splash:
   image: "gallery/rosemary/extra/003-rainbow_prisms.jpg"
   caption: "Rosemary and Jasmine"
-rmd_hash: aeae43ad1d43bb30
+rmd_hash: 940b261e5ae5c930
 
 ---
 
-"There's rosemary, that's for remembrance, pray you love, remember" (William Shakespeare)
+> "There's rosemary, that's for remembrance, pray you love, remember"<br>(William Shakespeare)
 
 <div class="highlight">
 

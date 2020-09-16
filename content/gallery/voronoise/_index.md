@@ -6,11 +6,11 @@ trailer: "gallery/voronoise/preview/voronoise_17.png"
 splash:
   image: "gallery/voronoise/image/voronoise_17.png"
   caption: "Voronoise"
-rmd_hash: 790928dbca422d97
+rmd_hash: 64f1963e0995f727
 
 ---
 
-"I've been a bad bad girl<br>I've been careless<br>with a delicate man<br>and it's a sad sad world<br>when a girl will break a boy<br>just because she can"<br>(Fiona Apple)
+> "I've been a bad bad girl<br>I've been careless<br>with a delicate man<br>and it's a sad sad world<br>when a girl will break a boy<br>just because she can"<br>(Fiona Apple)
 
 <div class="highlight">
 

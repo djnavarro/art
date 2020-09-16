@@ -21,7 +21,7 @@ splash:
 source("../../diziet.R")
 ```
 
-"You can pretend you don’t wanna know<br>But I read the signs from your head to your toes<br>Yeah, you don’t need to say a word cause<br>Your body talks"<br>(The Struts, ft. Kesha)
+>"You can pretend you don’t wanna know<br>But I read the signs from your head to your toes<br>Yeah, you don’t need to say a word cause<br>Your body talks"<br>(The Struts, ft. Kesha)
 
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery()

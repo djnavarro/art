@@ -6,11 +6,11 @@ trailer: "gallery/heartbleed/preview/turmite_52.png"
 splash:
   image: "gallery/heartbleed/extra/turmite_52.jpg"
   caption: "Heartbleed"
-rmd_hash: d69799300f2afb1f
+rmd_hash: aa1c0d3c02db5fbd
 
 ---
 
-The limits of your language become the limits of my world
+> The limits of your language become the limits of my world
 
 <div class="highlight">
 

@@ -19,7 +19,7 @@ splash:
 source("../../diziet.R")
 ```
 
-"From little things big things grow" (Paul Kelly, Kev Carmody)
+> "From little things big things grow"<br>(Paul Kelly and Kev Carmody)
 
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery()

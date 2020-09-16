@@ -12,7 +12,7 @@ splash:
 source("../../diziet.R")
 ```
 
-"Fractious petals, stop interrupting me with your boring beauty." (Jennifer Chang)
+>"Fractious petals, stop interrupting me with your boring beauty"<br>(Jennifer Chang)
 
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery()
