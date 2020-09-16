@@ -1,11 +1,11 @@
 ---
 output: hugodown::md_document
-title: "Boxed"
+title: "Boxes"
 date: 2020-09-15
-trailer: "gallery/boxed/preview/box_01_20.png"
+trailer: "gallery/boxes/preview/box_01_20.jpg"
 splash:
-  image: "gallery/boxed/extra/box_01_20.jpg"
-  caption: "Boxed"
+  image: "gallery/boxes/extra/box_01_20.jpg"
+  caption: "Boxes"
 ---
 
 
