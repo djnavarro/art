@@ -6,11 +6,11 @@ trailer: "gallery/generalisation/preview/rectgenerate_1_12.png"
 splash:
   image: "gallery/generalisation/image/rectgenerate_1_12.png"
   caption: "Generalisation"
-rmd_hash: a216654560e850e9
+rmd_hash: 9e5a7a19355f2d5a
 
 ---
 
-> "Possibly, behind the diverse behaviors of humans and animals, as behind the various motions of planets and stars, we may discern the operation of universal laws" (Roger Shepard)
+> Possibly, behind the diverse behaviors of humans and animals, as behind the various motions of planets and stars, we may discern the operation of universal laws (Roger Shepard)
 
 <div class="highlight">
 

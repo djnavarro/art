@@ -6,7 +6,7 @@ trailer: "gallery/stonetree/extra/vstone_06_square.png"
 splash:
   image: "gallery/stonetree/image/vstone_06.png"
   caption: "Stonetrees"
-rmd_hash: d86def0e39019a4e
+rmd_hash: 14ffa131a5a2757e
 
 ---
 
@@ -17,7 +17,7 @@ rmd_hash: d86def0e39019a4e
 }
 </style>
 
-> "If I look at my most vulnerable places and acknowledge the pain I have felt, I can remove the source of that pain from my enemies' arsenals. My history cannot be used to feather my enemies' arrows then, and that lessens their power over me. Nothing I accept about myself can be used against me to diminish me. I am who I am, doing what I came to do" (Audre Lorde)
+> If I look at my most vulnerable places and acknowledge the pain I have felt, I can remove the source of that pain from my enemies' arsenals. My history cannot be used to feather my enemies' arrows then, and that lessens their power over me. Nothing I accept about myself can be used against me to diminish me. I am who I am, doing what I came to do (Audre Lorde)
 
 <div class="highlight">
 

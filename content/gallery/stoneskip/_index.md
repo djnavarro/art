@@ -6,7 +6,7 @@ trailer: "gallery/stoneskip/preview/stoneskip_90.png"
 splash:
   image: "gallery/stoneskip/extra/stoneskip_90.jpg"
   caption: ".<br>.<br>Skipping<br>Stones<br>.<br>."
-rmd_hash: d3fade44dec1cc37
+rmd_hash: b3f038bf466127fa
 
 ---
 
@@ -19,7 +19,7 @@ rmd_hash: d3fade44dec1cc37
 }
 </style>
 
-> "The animated figures stand<br>Adorning every public street<br>And seem to breathe in stone, or<br>move their marble feet."<br>(Pindar)
+> The animated figures stand<br>Adorning every public street<br>And seem to breathe in stone, or<br>move their marble feet.<br>(Pindar)
 
 <div class="highlight">
 

@@ -6,11 +6,11 @@ trailer: "gallery/quarantine/preview/layers_03.png"
 splash:
   image: "gallery/quarantine/image/layers_03.png"
   caption: "Quarantine Moods"
-rmd_hash: dc8979f3c0ee24b5
+rmd_hash: 17dfa62b6ade1e31
 
 ---
 
-> "I'm slow like honey, and heavy with mood"<br>(Fiona Apple)
+> I'm slow like honey, and heavy with mood<br>(Fiona Apple)
 
 <div class="highlight">
 

@@ -6,7 +6,7 @@ trailer: "gallery/turmite/preview/turmite_12.png"
 splash:
   image: "gallery/turmite/extra/turmite_12.jpg"
   caption: "Turmites"
-rmd_hash: a8619d6ab1de72d8
+rmd_hash: fd6c79e3864db857
 
 ---
 
@@ -17,7 +17,7 @@ rmd_hash: a8619d6ab1de72d8
 }
 </style>
 
-> "From little things big things grow"<br>(Paul Kelly and Kev Carmody)
+> From little things big things grow<br>(Paul Kelly and Kev Carmody)
 
 <div class="highlight">
 

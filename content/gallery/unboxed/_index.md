@@ -6,11 +6,11 @@ trailer: "gallery/unboxed/preview/ff_05_11_3_10.png"
 splash:
   image: "gallery/unboxed/extra/ff_05_11_3_10.jpg"
   caption: "Unboxed"
-rmd_hash: 32dd3b0223817e9f
+rmd_hash: 6937600e1edf112c
 
 ---
 
-> "What do you sing on your drive home?<br>Do you see my face in the neighbor's lawn?<br>Does she smile?<br>Or does she mouth"fuck you forever"?"<br>(Taylor Swift)
+> What do you sing on your drive home?<br>Do you see my face in the neighbor's lawn?<br>Does she smile?<br>Or does she mouth "fuck you forever"?<br>(Taylor Swift)
 
 <div class="highlight">
 

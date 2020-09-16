@@ -12,7 +12,7 @@ splash:
 source("../../diziet.R")
 ```
 
->"Just close your eyes, ’cause, baby you never do know<br>And I’ll be on the sidelines with my hands tied,<br>Watching the show"<br>(Aimee Mann)
+> Just close your eyes, 'cause, baby you never do know<br>And I'll be on the sidelines with my hands tied,<br>Watching the show <br>(Aimee Mann)
 
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery()

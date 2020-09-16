@@ -6,11 +6,11 @@ trailer: "gallery/flametree/preview/001_flametree_20_13.png"
 splash:
   image: "gallery/flametree/extra/001_flametree_20_13.jpg"
   caption: "Flametree"
-rmd_hash: 9aaa7d1b83ca890c
+rmd_hash: 1e2266b0bf7c3b95
 
 ---
 
-> "Fractious petals, stop interrupting me with your boring beauty"<br>(Jennifer Chang)
+> Fractious petals, stop interrupting me with your boring beauty<br>(Jennifer Chang)
 
 <div class="highlight">
 

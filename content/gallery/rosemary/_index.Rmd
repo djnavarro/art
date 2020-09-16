@@ -12,7 +12,7 @@ splash:
 source("../../diziet.R")
 ```
 
->"There's rosemary, that's for remembrance, pray you love, remember"<br>(William Shakespeare)
+> There's rosemary, that's for remembrance, pray you love, remember<br>(William Shakespeare)
 
 
 ```{r echo=FALSE, results='asis'}

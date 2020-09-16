@@ -12,7 +12,7 @@ splash:
 source("../../diziet.R")
 ```
 
->"What do you sing on your drive home?<br>Do you see my face in the neighbor’s lawn?<br>Does she smile?<br>Or does she mouth "fuck you forever"?"<br>(Taylor Swift) 
+>What do you sing on your drive home?<br>Do you see my face in the neighbor's lawn?<br>Does she smile?<br>Or does she mouth "fuck you forever"?<br>(Taylor Swift) 
 
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery()

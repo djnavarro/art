@@ -6,7 +6,7 @@ trailer: "gallery/scopes/preview/scope_06_272.png"
 splash:
   image: "gallery/scopes/image/scope_06_272.png"
   caption: "Scopes"
-rmd_hash: d0956e1f19039d43
+rmd_hash: fbda2f390c44c053
 
 ---
 
@@ -17,7 +17,7 @@ rmd_hash: d0956e1f19039d43
 }
 </style>
 
-> "I know who I was when I got up this morning,<br>but I think I must have been changed several times since then"<br>(Lewis Carroll)
+> I know who I was when I got up this morning,<br>but I think I must have been changed several times since then<br>(Lewis Carroll)
 
 <div class="highlight">
 

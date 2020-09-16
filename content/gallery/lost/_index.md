@@ -6,11 +6,11 @@ trailer: "gallery/lost/preview/turmite_41.png"
 splash:
   image: "gallery/lost/extra/turmite_41.jpg"
   caption: "Lost In All This Light"
-rmd_hash: 99cbbe32d7b6edb8
+rmd_hash: 841d5602e4018185
 
 ---
 
-> "I coupled with dust in the shadow of a stone.<br>My ankles brighten. Brightness ascends my thighs.<br>I am lost, I am lost, in the robes of all this light."<br>(Sylvia Plath)
+> I coupled with dust in the shadow of a stone.<br>My ankles brighten. Brightness ascends my thighs.<br>I am lost, I am lost, in the robes of all this light.<br>(Sylvia Plath)
 
 <div class="highlight">
 
