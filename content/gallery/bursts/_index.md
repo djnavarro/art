@@ -6,9 +6,11 @@ trailer: "gallery/bursts/preview/ff_13_19_5_40.png"
 splash:
   image: "gallery/bursts/extra/ff_13_19_5_40.jpg"
   caption: "Bursts"
-rmd_hash: 8f0d5e1ab1b31d53
+rmd_hash: ef0d9db24c02cc12
 
 ---
+
+> "I know my disposition gets confusing<br> My disproportionate reactions fuse with my eager state<br> That's why you wanna come out and play with me"<br> (Banks)
 
 <div class="highlight">
 
