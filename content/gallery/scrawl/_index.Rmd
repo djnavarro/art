@@ -23,3 +23,7 @@ source("../../diziet.R")
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery()
 ```
+
+<br><br>
+
+The scrawl system was something I came up with as a teaching exercise. I was looking for something fun I could get students to play with that would "accidentally" teach programming concepts in the process. I'm not sure why I felt obligated to write the [scrawl package](https://github.com/djnavarro/scrawl) but it does mean that slightly more content available than you'd think from watching the [YouTube video series](https://www.youtube.com/watch?v=ZUyahWLWVzY&list=PLRPB0ZzEYegNYW3ksiK3dvd6S4HMfKj1n) I made explaining how the system works. 
