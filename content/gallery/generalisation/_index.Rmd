@@ -17,3 +17,5 @@ source("../../diziet.R") # diziet.R is in the "content" folder
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery()
 ```
+
+Inspired by Figure 1 of [this paper](https://psyarxiv.com/ygbjp/).

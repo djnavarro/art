@@ -6,7 +6,7 @@ trailer: "gallery/generalisation/preview/rectgenerate_1_12.png"
 splash:
   image: "gallery/generalisation/image/rectgenerate_1_12.png"
   caption: "Generalisation"
-rmd_hash: a0ac8261a759494f
+rmd_hash: a216654560e850e9
 
 ---
 
@@ -21,4 +21,6 @@ rmd_hash: a0ac8261a759494f
 </div>
 
 </div>
+
+Inspired by Figure 1 of [this paper](https://psyarxiv.com/ygbjp/).
 
