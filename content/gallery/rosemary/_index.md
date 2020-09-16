@@ -2,11 +2,11 @@
 output: hugodown::md_document
 title: "Rosemary"
 date: 2019-12-27
-trailer: "gallery/rosemary/preview/006-stars_and_the_night_sky.png"
+trailer: "gallery/rosemary/preview/003-rainbow_prisms.png"
 splash:
-  image: "gallery/rosemary/image/006-stars_and_the_night_sky.png"
+  image: "gallery/rosemary/extra/003-rainbow_prisms.jpg"
   caption: "Rosemary and Jasmine"
-rmd_hash: c7a581764815a644
+rmd_hash: aeae43ad1d43bb30
 
 ---
 
