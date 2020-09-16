@@ -6,7 +6,7 @@ trailer: "gallery/rosemary/preview/003-rainbow_prisms.png"
 splash:
   image: "gallery/rosemary/extra/003-rainbow_prisms.jpg"
   caption: "Rosemary and Jasmine"
-rmd_hash: 940b261e5ae5c930
+rmd_hash: f5a423c7d05c0052
 
 ---
 
@@ -21,4 +21,8 @@ rmd_hash: 940b261e5ae5c930
 </div>
 
 </div>
+
+<br><br>
+
+This series was my first sustained attempt to make generative art using R. The code is distributed over two small R packages: the [jasmines](https://github.com/djnavarro/jasmines) package contains helper functions that I used to create the art, and the [rosemary](https://github.com/djnavarro/rosemary) package that generates specific pieces. I chose the name jasmines for the underlying engine partly because it's one of my favourite flowers, but also because Jasmine is my middle name and I sometimes think of "Jasmine" as the version of me who pursues artistic rather than scientific endeavours. I chose rosemary not just because I love rosemaries, but because I associate rosemary hedges with my mum who taught me to garden, and making generative artwork reminds me a lot of gardening.
 
