@@ -6,7 +6,7 @@ trailer: "gallery/heartbleed/preview/turmite_52.png"
 splash:
   image: "gallery/heartbleed/extra/turmite_52.jpg"
   caption: "Heartbleed"
-rmd_hash: aa1c0d3c02db5fbd
+rmd_hash: cd563e472485b534
 
 ---
 
@@ -21,4 +21,8 @@ rmd_hash: aa1c0d3c02db5fbd
 </div>
 
 </div>
+
+<br><br>
+
+The [turmite59](https://github.com/djnavarro/turmite59) package.
 
