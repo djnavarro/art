@@ -6,7 +6,7 @@ trailer: "gallery/flametree/preview/001_flametree_20_13.png"
 splash:
   image: "gallery/flametree/extra/001_flametree_20_13.jpg"
   caption: "Flametree"
-rmd_hash: d15cd6fd993d7a09
+rmd_hash: 9aaa7d1b83ca890c
 
 ---
 
@@ -21,4 +21,8 @@ rmd_hash: d15cd6fd993d7a09
 </div>
 
 </div>
+
+<br><br>
+
+I have a soft spot for the [flametree](https://github.com/djnavarro/flametree) package and series. The algorithm it uses is a simple [L-system](https://en.wikipedia.org/wiki/L-system), and was easier to implement than I had been expecting. It was rather popular on twitter. Not only did other people use it, Tyler Morgan-Wall made a very cool 3d version called [raybonsai](https://www.tylermw.com/raybonsai-generate-procedural-3d-trees-in-r/). I've even managed to use it in my own teaching. The most bizarre thing, however, is the fact that I wrote the code in April 2020 and although I'm writing this summary a few months later, it feels like a lifetime ago.
 
