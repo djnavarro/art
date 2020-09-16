@@ -27,3 +27,6 @@ source("../../diziet.R")
 diziet$make_gallery()
 ```
 
+<br><br>
+
+Inspired by [watercolors](https://github.com/aschinchon/watercolors) by Antonio Sánchez Chinchón, [stoneskip](https://github.com/djnavarro/stoneskip) was my first attempt to use C++ within R with the help of the Rcpp packge. 

@@ -6,7 +6,7 @@ trailer: "gallery/stoneskip/preview/stoneskip_90.png"
 splash:
   image: "gallery/stoneskip/extra/stoneskip_90.jpg"
   caption: ".<br>.<br>Skipping<br>Stones<br>.<br>."
-rmd_hash: be520e49e2b5966a
+rmd_hash: d3fade44dec1cc37
 
 ---
 
@@ -30,4 +30,8 @@ rmd_hash: be520e49e2b5966a
 </div>
 
 </div>
+
+<br><br>
+
+Inspired by [watercolors](https://github.com/aschinchon/watercolors) by Antonio Sánchez Chinchón, [stoneskip](https://github.com/djnavarro/stoneskip) was my first attempt to use C++ within R with the help of the Rcpp packge.
 
