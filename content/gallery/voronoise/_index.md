@@ -6,7 +6,7 @@ trailer: "gallery/voronoise/preview/voronoise_17.png"
 splash:
   image: "gallery/voronoise/image/voronoise_17.png"
   caption: "Voronoise"
-rmd_hash: 5ba0ade75f1286d1
+rmd_hash: bb493db9c34c2a74
 
 ---
 
@@ -24,5 +24,5 @@ rmd_hash: 5ba0ade75f1286d1
 
 <br><br>
 
-Oh [voronoise](https://github.com/djnavarro/voronoise), what can I say about you? You were my first attempt to understand ggplot2 internals. You gave me the banner image for my [academic website](https://djnavarro.net) and for the [calade blog theme](https://djnavarro.github.io/hugo-calade/), my first foray into building literate programming tools. You made a guest appearance in my first ever [commissioned artwork](https://github.com/djnavarro/rstudiopostcard). I love you dearly, but I suspect voronoise\_08 will make me bitter and frightened until the day I die.
+Oh [voronoise](https://github.com/djnavarro/voronoise), what can I say about you? You were my first attempt to understand ggplot2 internals. You gave me the banner image for my [academic website](https://djnavarro.net) and for the [calade blog theme](https://djnavarro.github.io/hugo-calade/), my first foray into building literate programming tools. You made a guest appearance in my first ever [commissioned artwork](https://github.com/djnavarro/rstudiopostcard). I love you dearly, but the bitterness voronoise\_08 recalls never really diminishes.
 
