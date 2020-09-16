@@ -6,7 +6,7 @@ trailer: "gallery/turmite/preview/turmite_12.png"
 splash:
   image: "gallery/turmite/extra/turmite_12.jpg"
   caption: "Turmites"
-rmd_hash: fd6c79e3864db857
+rmd_hash: c1d3125d2b6ecd8a
 
 ---
 
@@ -28,4 +28,8 @@ rmd_hash: fd6c79e3864db857
 </div>
 
 </div>
+
+<br><br>
+
+Wikipedia page on [turmites](https://en.wikipedia.org/wiki/Turmite)
 

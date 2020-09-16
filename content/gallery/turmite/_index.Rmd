@@ -22,6 +22,10 @@ source("../../diziet.R")
 > From little things big things grow<br>(Paul Kelly and Kev Carmody)
 
 ```{r echo=FALSE, results='asis'}
-diziet$make_gallery()
+diziet$make_gallery(preview_fmt = "png")
 ```
+
+<br><br>
+
+Wikipedia page on [turmites](https://en.wikipedia.org/wiki/Turmite)
 

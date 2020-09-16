@@ -5,8 +5,8 @@ date: 2020-07-27
 trailer: "gallery/the-heart-speaks/preview/turmite_22.png"
 splash:
   image: "gallery/the-heart-speaks/extra/turmite_22.jpg"
-  caption: "The<br>Heart<br>Speaks<br>Indirectly"
-rmd_hash: fab55e9d7d01f9e3
+  caption: "The<br>Heart<br>Speaks"
+rmd_hash: 33b17ce9b425ace6
 
 ---
 
@@ -14,7 +14,7 @@ rmd_hash: fab55e9d7d01f9e3
 .splash-caption-tweak{
   color: #00000060;
   letter-spacing: 15px;
-  font-size: 200%;
+  font-size: 150%;
   font-weight: 700;
 }
 </style>

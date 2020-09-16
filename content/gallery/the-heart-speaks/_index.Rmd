@@ -5,14 +5,14 @@ date: 2020-07-27
 trailer: "gallery/the-heart-speaks/preview/turmite_22.png"
 splash:
   image: "gallery/the-heart-speaks/extra/turmite_22.jpg"
-  caption: "The<br>Heart<br>Speaks<br>Indirectly"
+  caption: "The<br>Heart<br>Speaks"
 ---
 
 <style>
 .splash-caption-tweak{
   color: #00000060;
   letter-spacing: 15px;
-  font-size: 200%;
+  font-size: 150%;
   font-weight: 700;
 }
 </style>
@@ -24,6 +24,6 @@ source("../../diziet.R")
 > You can pretend you don't wanna know<br>But I read the signs from your head to your toes<br>Yeah, you don't need to say a word cause<br>Your body talks<br>(The Struts, ft. Kesha)
 
 ```{r echo=FALSE, results='asis'}
-diziet$make_gallery()
+diziet$make_gallery(preview_fmt = "png")
 ```
 

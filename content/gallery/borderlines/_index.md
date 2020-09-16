@@ -5,8 +5,8 @@ date: 2020-09-12
 trailer: "gallery/borderlines/preview/right_ff_12_1_3_1.jpg"
 splash:
   image: "gallery/borderlines/extra/right_ff_12_1_3_1.jpg"
-  caption: "<span style='color:#ffffff88'>Borderline&nbsp;&nbsp;</span><br><span style='color:#00000088'>Borderline&nbsp;&nbsp;</span>"
-rmd_hash: 2697b960b8cf6f8d
+  caption: "<span style='color:#ffffff88'>border&nbsp;&nbsp;</span><br><span style='color:#00000088'>lines&nbsp;&nbsp;</span>"
+rmd_hash: 510a0b1f21ada731
 
 ---
 
@@ -17,6 +17,8 @@ rmd_hash: 2697b960b8cf6f8d
   font-size: 200%;
 }
 </style>
+
+> I know my disposition gets confusing<br> My disproportionate reactions fuse with my eager state:<br> That's why you wanna come out and play with me<br> (Banks)
 
 <div class="highlight">
 

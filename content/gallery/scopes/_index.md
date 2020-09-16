@@ -6,7 +6,7 @@ trailer: "gallery/scopes/preview/scope_06_272.png"
 splash:
   image: "gallery/scopes/image/scope_06_272.png"
   caption: "Scopes"
-rmd_hash: fbda2f390c44c053
+rmd_hash: b46083fd532abeee
 
 ---
 
@@ -31,5 +31,5 @@ rmd_hash: fbda2f390c44c053
 
 <br><br>
 
-The weird thing about this series is that there is an entire [R package](https://github.com/djnavarro/scopes) for it that I honestly cannot remember writing. According to the commit logs I released the source code sometime in May 2020. Sure, the past is a foreign country, but you can still visit it on github.
+The weird thing about this series is that there is an entire [R package](https://github.com/djnavarro/scopes) for it that I honestly cannot remember writing. According to the commit logs I released the source code sometime in May 2020. Like everything else about this year, the memories of doing this have just vanished into the general maelstrom of "life in 2020".
 

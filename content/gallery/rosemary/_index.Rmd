@@ -16,9 +16,9 @@ source("../../diziet.R")
 
 
 ```{r echo=FALSE, results='asis'}
-diziet$make_gallery()
+diziet$make_gallery(preview_fmt = "png")
 ```
 
 <br><br>
 
-This series was my first sustained attempt to make generative art using R. The code is distributed over two small R packages: the [jasmines](https://github.com/djnavarro/jasmines) package contains helper functions that I used to create the art, and the [rosemary](https://github.com/djnavarro/rosemary) package that generates specific pieces. I chose the name jasmines for the underlying engine partly because it's one of my favourite flowers, but also because Jasmine is my middle name and I sometimes think of "Jasmine" as the version of me who pursues artistic rather than scientific endeavours. I chose rosemary not just because I love rosemaries, but because I associate rosemary hedges with my mum who taught me to garden, and making generative artwork reminds me a lot of gardening.
+This series was my first sustained attempt to make generative art using R. The code is distributed over two small R packages: the [jasmines](https://github.com/djnavarro/jasmines) package contains helper functions that I used to create the art, and the [rosemary](https://github.com/djnavarro/rosemary) package creates specific pieces. I chose the name "jasmines" for the engine because I like jasmine flowers and "Jasmine" is my middle name: I sometimes think of Jasmine as the version of me who pursues artistic rather than scientific endeavours. I chose the name "rosemary" not because I love rosemary bushes and I associate rosemary hedges with my mum who taught me to garden. Making generative artwork reminds me a lot of gardening. Mum died in September 2011, and writing this nine years later I still miss her terribly.

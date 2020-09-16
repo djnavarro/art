@@ -6,7 +6,7 @@ trailer: "gallery/voronoise/preview/voronoise_17.png"
 splash:
   image: "gallery/voronoise/image/voronoise_17.png"
   caption: "Voronoise"
-rmd_hash: 6fbbbc07d834a3c8
+rmd_hash: 254c70ceb44cfd0e
 
 ---
 
@@ -24,5 +24,5 @@ rmd_hash: 6fbbbc07d834a3c8
 
 <br><br>
 
-Oh [voronoise](https://github.com/djnavarro/voronoise), what can I say about you? You were my first attempt to understand ggplot2 internals. You gave me the banner image for my [academic website](https://djnavarro.net) and for the [calade blog theme](https://djnavarro.github.io/hugo-calade/), my first foray into building literate programming tools. You made a guest appearance in my first ever [commissioned artwork](https://github.com/djnavarro/rstudiopostcard). I love you dearly, but the bitterness voronoise\_08 recalls never really diminishes.
+The [voronoise](https://github.com/djnavarro/voronoise) package came into existence as an attempt to understand ggplot2 internals. It generated the banner image for my [academic website](https://djnavarro.net) and for the [calade blog theme](https://djnavarro.github.io/hugo-calade/), has reappeared in later series and even made a guest appearance in my first ever [commissioned artwork](https://github.com/djnavarro/rstudiopostcard). Some of the pieces have a peculiar feel to me because I created them to express emotions about a specific event in my past. I'm never really sure how much of that emotion comes across to other viewers though.
 

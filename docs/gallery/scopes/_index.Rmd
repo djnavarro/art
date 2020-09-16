@@ -23,9 +23,9 @@ source("../../diziet.R")
 > I know who I was when I got up this morning,<br>but I think I must have been changed several times since then<br>(Lewis Carroll)
 
 ```{r echo=FALSE, results='asis'}
-diziet$make_gallery()
+diziet$make_gallery(preview_fmt = "png")
 ```
 
 <br><br>
 
-The weird thing about this series is that there is an entire [R package](https://github.com/djnavarro/scopes) for it that I honestly cannot remember writing. According to the commit logs I released the source code sometime in May 2020. Sure, the past is a foreign country, but you can still visit it on github.
+The weird thing about this series is that there is an entire [R package](https://github.com/djnavarro/scopes) for it that I honestly cannot remember writing. According to the commit logs I released the source code sometime in May 2020. Like everything else about this year, the memories of doing this have just vanished into the general maelstrom of "life in 2020". 

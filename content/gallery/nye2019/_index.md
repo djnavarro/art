@@ -6,11 +6,11 @@ trailer: "gallery/nye2019/preview/art032.png"
 splash:
   image: "gallery/nye2019/extra/art045.jpg"
   caption: "New Year's Eve 2019"
-rmd_hash: 5fd5fe5ad9aa4667
+rmd_hash: 78ebe2920e736bcf
 
 ---
 
-> "Just close your eyes, 'cause, baby you never do know<br>And I'll be on the sidelines with my hands tied,<br>Watching the show"<br>(Aimee Mann)
+> Just close your eyes, 'cause, baby you never do know<br>And I'll be on the sidelines with my hands tied,<br>Watching the show <br>(Aimee Mann)
 
 <div class="highlight">
 

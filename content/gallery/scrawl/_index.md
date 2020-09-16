@@ -6,7 +6,7 @@ trailer: "gallery/scrawl/preview/004-scrawl_2-10000-200-50-5.png"
 splash:
   image: "gallery/scrawl/extra/004-scrawl_2-10000-200-50-5.png"
   caption: "Scrawl"
-rmd_hash: eccbe688cefeab27
+rmd_hash: 9b872e484ba93222
 
 ---
 
@@ -30,5 +30,5 @@ rmd_hash: eccbe688cefeab27
 
 <br><br>
 
-The scrawl system was something I came up with as a teaching exercise. I was looking for something fun I could get students to play with that would "accidentally" teach programming concepts in the process. I'm not sure why I felt obligated to write the [scrawl package](https://github.com/djnavarro/scrawl) but it does mean that slightly more content available than you'd think from watching the [YouTube video series](https://www.youtube.com/watch?v=ZUyahWLWVzY&list=PLRPB0ZzEYegNYW3ksiK3dvd6S4HMfKj1n) I made explaining how the system works.
+I came up with [scrawl](https://github.com/djnavarro/scrawl) as a teaching exercise. I wanted something fun and artistic I could get students to play with that would "accidentally" teach programming concepts in the process. To my eternal shame there is [YouTube video](https://www.youtube.com/watch?v=ZUyahWLWVzY&list=PLRPB0ZzEYegNYW3ksiK3dvd6S4HMfKj1n) of me explaining how the system works.
 

@@ -15,6 +15,6 @@ source("../../diziet.R")
 > I'm slow like honey, and heavy with mood<br>(Fiona Apple)
 
 ```{r echo=FALSE, results='asis'}
-diziet$make_gallery()
+diziet$make_gallery(preview_fmt = "png")
 ```
 
