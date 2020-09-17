@@ -40,20 +40,7 @@
 
 
 
-<script>
-  var images = [];
-  function preload() {
-    for (var i = 0; i < arguments.length; i++) {
-      images[i] = new Image();
-      images[i].src = preload.arguments[i];
-    }
-  }
-
-  
-  preload(
-    "/gallery/expanse/extra/ff_05_11_3_10.jpg"
-  )
-  </script>
+<link rel="preload" href="../../gallery/expanse/extra/ff_05_11_3_10.jpg" as="image">
 
 
 </head>

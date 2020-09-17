@@ -40,20 +40,7 @@
 
 
 
-<script>
-  var images = [];
-  function preload() {
-    for (var i = 0; i < arguments.length; i++) {
-      images[i] = new Image();
-      images[i].src = preload.arguments[i];
-    }
-  }
-
-  
-  preload(
-    "/gallery/dust/extra/dust_07.jpg"
-  )
-  </script>
+<link rel="preload" href="../../gallery/dust/extra/dust_07.jpg" as="image">
 
 
 </head>

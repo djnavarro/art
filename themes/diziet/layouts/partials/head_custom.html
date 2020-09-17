@@ -24,17 +24,4 @@
 
 
 <!-- image preload -->
-<script>
-  var images = [];
-  function preload() {
-    for (var i = 0; i < arguments.length; i++) {
-      images[i] = new Image();
-      images[i].src = preload.arguments[i];
-    }
-  }
-
-  // can take multiple arguments if necessary
-  preload(
-    {{ .Params.Splash.Image | relURL }}
-  )
-  </script>
+<link rel="preload" href="{{ .Params.Splash.Image | relURL }}" as="image">
