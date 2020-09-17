@@ -2,7 +2,7 @@
 output: hugodown::md_document
 title: "Heartbleed"
 date: 2020-08-10
-trailer: "gallery/heartbleed/preview/turmite_52.png"
+trailer: "gallery/heartbleed/preview/turmite_52.jpg"
 splash:
   image: "gallery/heartbleed/extra/turmite_52.jpg"
   caption: "Heartbleed"
@@ -15,7 +15,7 @@ source("../../diziet.R")
 > The limits of your language become the limits of my world
 
 ```{r echo=FALSE, results='asis'}
-diziet$make_gallery()
+diziet$make_gallery() 
 ```
 
 <br><br>
