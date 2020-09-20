@@ -2,11 +2,12 @@
 output: hugodown::md_document
 title: "The Heart Speaks"
 date: 2020-07-27
-trailer: "gallery/the-heart-speaks/preview/turmite_22.png"
+trailer: "gallery/the-heart-speaks/preview/turmite_22.jpg"
 splash:
   image: "gallery/the-heart-speaks/extra/turmite_22.jpg"
   caption: "The<br>Heart<br>Speaks"
 ---
+
 
 <style>
 .splash-caption-tweak{

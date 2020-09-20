@@ -2,11 +2,12 @@
 output: hugodown::md_document
 title: "The Heart Speaks"
 date: 2020-07-27
-trailer: "gallery/the-heart-speaks/preview/turmite_22.png"
+trailer: "gallery/the-heart-speaks/preview/turmite_22.jpg"
 splash:
   image: "gallery/the-heart-speaks/extra/turmite_22.jpg"
   caption: "The<br>Heart<br>Speaks"
 ---
+
 
 <style>
 .splash-caption-tweak{
@@ -24,6 +25,6 @@ source("../../diziet.R")
 > You can pretend you don't wanna know<br>But I read the signs from your head to your toes<br>Yeah, you don't need to say a word cause<br>Your body talks<br>(The Struts, ft. Kesha)
 
 ```{r echo=FALSE, results='asis'}
-diziet$make_gallery(preview_fmt = "png")
+diziet$make_gallery(preview_fmt = "jpg")
 ```
 
