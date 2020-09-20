@@ -2,7 +2,7 @@
 output: hugodown::md_document
 title: "Lost In All This Light"
 date: 2020-08-01
-trailer: "gallery/lost/preview/turmite_41.png"
+trailer: "gallery/lost/preview/turmite_41.jpg"
 splash:
   image: "gallery/lost/extra/turmite_41.jpg"
   caption: "Lost In All This Light"
