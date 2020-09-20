@@ -29,121 +29,121 @@ rmd_hash: b3f038bf466127fa
 
 <div class="row">
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_115.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_14.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_16.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_164.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_168.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_169.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_177.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_179.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_19.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_190.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_2.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_21.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_30.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_49.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_5.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_51.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_52.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_64.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_9.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/stoneskip_90.png"><img width = 100% src="preview/"></a>
 

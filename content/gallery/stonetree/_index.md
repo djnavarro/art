@@ -27,73 +27,73 @@ rmd_hash: 14ffa131a5a2757e
 
 <div class="row">
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_01.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_02.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_03.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_04.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_05.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_06.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_07.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_08.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_09.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_10.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_11.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/vstone_12.png"><img width = 100% src="preview/"></a>
 

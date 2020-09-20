@@ -20,49 +20,49 @@ rmd_hash: 0676cd266523371f
 
 <div class="row">
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/oct_1_1.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/oct_1_3.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/oct_2_1.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/oct_2_2.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/octavia.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/odd_goth_pop.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/valkyrie_pop.png"><img width = 100% src="preview/"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/valkyrie.png"><img width = 100% src="preview/"></a>
 

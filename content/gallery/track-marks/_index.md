@@ -28,109 +28,109 @@ rmd_hash: 59e16a84bc4eac19
 
 <div class="row">
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_01_3.png"><img width = 100% src="preview/new_01_3.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_01_4.png"><img width = 100% src="preview/new_01_4.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_01_6.png"><img width = 100% src="preview/new_01_6.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_01_7.png"><img width = 100% src="preview/new_01_7.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_02_6.png"><img width = 100% src="preview/new_02_6.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_02_7.png"><img width = 100% src="preview/new_02_7.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_02_8.png"><img width = 100% src="preview/new_02_8.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_03_2.png"><img width = 100% src="preview/new_03_2.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_03_3.png"><img width = 100% src="preview/new_03_3.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_03_4.png"><img width = 100% src="preview/new_03_4.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_03_8.png"><img width = 100% src="preview/new_03_8.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_04_1.png"><img width = 100% src="preview/new_04_1.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_04_2.png"><img width = 100% src="preview/new_04_2.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_04_3.png"><img width = 100% src="preview/new_04_3.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_04_5.png"><img width = 100% src="preview/new_04_5.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_04_6.png"><img width = 100% src="preview/new_04_6.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_04_7.png"><img width = 100% src="preview/new_04_7.jpg"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_04_8.png"><img width = 100% src="preview/new_04_8.jpg"></a>
 

@@ -20,49 +20,49 @@ rmd_hash: 254c70ceb44cfd0e
 
 <div class="row">
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/voronoise_03.png"><img width = 100% src="preview/voronoise_03.png"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/voronoise_04.png"><img width = 100% src="preview/voronoise_04.png"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/voronoise_07.png"><img width = 100% src="preview/voronoise_07.png"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/voronoise_08.png"><img width = 100% src="preview/voronoise_08.png"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/voronoise_11.png"><img width = 100% src="preview/voronoise_11.png"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/voronoise_12.png"><img width = 100% src="preview/voronoise_12.png"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/voronoise_17.png"><img width = 100% src="preview/voronoise_17.png"></a>
 
 </div>
 
-<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/voronoise_18.png"><img width = 100% src="preview/voronoise_18.png"></a>
 
