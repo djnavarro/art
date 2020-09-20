@@ -1,0 +1,29 @@
+---
+output: hugodown::md_document
+title: "Track Marks"
+date: 2020-09-20
+trailer: "gallery/track-marks/preview/new_04_7.jpg"
+splash:
+  image: "gallery/track-marks/image/new_04_7.png"
+  caption: "Track&nbsp;&nbsp;Marks"
+---
+
+<style>
+.splash-caption-tweak {
+  color: #802020aa;
+  font-weight: 700;
+  font-size: 80%;
+}
+</style>
+
+> Your arms may be covered with scars, but you hide them. 
+
+
+```{r include=FALSE}
+source("../../diziet.R") # diziet.R is in the "content" folder
+```
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery()
+```
+

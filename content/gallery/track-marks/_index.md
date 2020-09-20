@@ -1,0 +1,32 @@
+---
+output: hugodown::md_document
+title: "Track Marks"
+date: 2020-09-20
+trailer: "gallery/track-marks/preview/new_04_7.jpg"
+splash:
+  image: "gallery/track-marks/image/new_04_7.png"
+  caption: "Track&nbsp;&nbsp;Marks"
+rmd_hash: 59e16a84bc4eac19
+
+---
+
+<style>
+.splash-caption-tweak {
+  color: #802020aa;
+  font-weight: 700;
+  font-size: 80%;
+}
+</style>
+
+> Your arms may be covered with scars, but you hide them.
+
+<div class="highlight">
+
+<div class="gal">
+
+<a href="image/new_01_3.png"><img src="preview/new_01_3.jpg"></a> <a href="image/new_01_4.png"><img src="preview/new_01_4.jpg"></a> <a href="image/new_01_6.png"><img src="preview/new_01_6.jpg"></a> <a href="image/new_01_7.png"><img src="preview/new_01_7.jpg"></a> <a href="image/new_02_6.png"><img src="preview/new_02_6.jpg"></a> <a href="image/new_02_7.png"><img src="preview/new_02_7.jpg"></a> <a href="image/new_02_8.png"><img src="preview/new_02_8.jpg"></a> <a href="image/new_03_2.png"><img src="preview/new_03_2.jpg"></a> <a href="image/new_03_3.png"><img src="preview/new_03_3.jpg"></a> <a href="image/new_03_4.png"><img src="preview/new_03_4.jpg"></a> <a href="image/new_03_8.png"><img src="preview/new_03_8.jpg"></a> <a href="image/new_04_1.png"><img src="preview/new_04_1.jpg"></a> <a href="image/new_04_2.png"><img src="preview/new_04_2.jpg"></a> <a href="image/new_04_3.png"><img src="preview/new_04_3.jpg"></a> <a href="image/new_04_5.png"><img src="preview/new_04_5.jpg"></a> <a href="image/new_04_6.png"><img src="preview/new_04_6.jpg"></a> <a href="image/new_04_7.png"><img src="preview/new_04_7.jpg"></a> <a href="image/new_04_8.png"><img src="preview/new_04_8.jpg"></a>
+
+</div>
+
+</div>
+
