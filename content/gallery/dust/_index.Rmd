@@ -2,7 +2,7 @@
 output: hugodown::md_document
 title: "Dust"
 date: 2020-06-26
-trailer: "gallery/dust/preview/dust_11.png"
+trailer: "gallery/dust/preview/dust_11.jpg"
 splash:
   image: "gallery/dust/extra/dust_07.jpg"
   caption: "Dust"

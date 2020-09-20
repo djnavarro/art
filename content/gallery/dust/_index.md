@@ -2,11 +2,11 @@
 output: hugodown::md_document
 title: "Dust"
 date: 2020-06-26
-trailer: "gallery/dust/preview/dust_11.png"
+trailer: "gallery/dust/preview/dust_11.jpg"
 splash:
   image: "gallery/dust/extra/dust_07.jpg"
   caption: "Dust"
-rmd_hash: 881e5bc8f2a7c12e
+rmd_hash: 1e0dbdcb71d3c1eb
 
 ---
 
@@ -28,49 +28,49 @@ rmd_hash: 881e5bc8f2a7c12e
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/dust_02.png"><img width = 100% src="preview/"></a>
+<a href="image/dust_02.png"><img width = 100% src="preview/dust_02.jpg"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/dust_03.png"><img width = 100% src="preview/"></a>
+<a href="image/dust_03.png"><img width = 100% src="preview/dust_03.jpg"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/dust_04.png"><img width = 100% src="preview/"></a>
+<a href="image/dust_04.png"><img width = 100% src="preview/dust_04.jpg"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/dust_05.png"><img width = 100% src="preview/"></a>
+<a href="image/dust_05.png"><img width = 100% src="preview/dust_05.jpg"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/dust_07.png"><img width = 100% src="preview/"></a>
+<a href="image/dust_07.png"><img width = 100% src="preview/dust_07.jpg"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/dust_08.png"><img width = 100% src="preview/"></a>
+<a href="image/dust_08.png"><img width = 100% src="preview/dust_08.jpg"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/dust_10.png"><img width = 100% src="preview/"></a>
+<a href="image/dust_10.png"><img width = 100% src="preview/dust_10.jpg"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/dust_11.png"><img width = 100% src="preview/"></a>
+<a href="image/dust_11.png"><img width = 100% src="preview/dust_11.jpg"></a>
 
 </div>
 
