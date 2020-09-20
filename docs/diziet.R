@@ -4,12 +4,18 @@ diziet <- list(
     full_images <- list.files(full, pattern = paste0(full_fmt, "$"))
     preview_images <- list.files(preview, pattern = paste0(preview_fmt, "$"))
     links <- paste0(
+      '<div class="col-md-3 col-sm-6 col-xs-12 p-2">',
       '<a href="', full, '/', full_images, '">',
-      '<img src="', preview, '/', preview_images, '">',
-      '</a>'
+      '<img width = 100% src="', preview, '/', preview_images, '">',
+      '</a>',
+      '</div>'
     )
     cat('<div class="gal">')
+    cat('<div class="container-fluid">')
+    cat('  <div class="row">')
     cat(paste(links, collapse="\n"))
+    cat('  </div>\n')
+    cat('</div>\n')
     cat('</div>\n')
   },
 
@@ -35,6 +41,28 @@ diziet <- list(
         Sys.sleep(1.5)
       }
     }
+  },
+
+  rebuild_site = function(clean = FALSE) {
+
+    # removes all .md files from content folder
+    if(clean == TRUE) {
+      content <- here::here("content")
+      md_files <- list.files(
+        path = content,
+        pattern = "\\.md$",
+        recursive = TRUE,
+        full.names = TRUE
+      )
+      lapply(md_files, file.remove)
+    }
+
+    outdated <- hugodown::site_outdated()
+    lapply(outdated, function(x) {
+      cat(x, "\n")
+      rmarkdown::render(x, quiet = TRUE)
+    })
+    return(invisible(NULL))
   }
 
 )

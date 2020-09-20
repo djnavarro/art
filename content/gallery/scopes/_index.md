@@ -23,7 +23,61 @@ rmd_hash: b46083fd532abeee
 
 <div class="gal">
 
-<a href="image/scope_01.png"><img src="preview/scope_01.png"></a> <a href="image/scope_02.png"><img src="preview/scope_02.png"></a> <a href="image/scope_03.png"><img src="preview/scope_03.png"></a> <a href="image/scope_04_1.png"><img src="preview/scope_04_1.png"></a> <a href="image/scope_05_272.png"><img src="preview/scope_05_272.png"></a> <a href="image/scope_06_272.png"><img src="preview/scope_06_272.png"></a> <a href="image/scope_10_272.png"><img src="preview/scope_10_272.png"></a> <a href="image/scope_10_276.png"><img src="preview/scope_10_276.png"></a>
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/scope_01.png"><img width = 100% src="preview/scope_01.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/scope_02.png"><img width = 100% src="preview/scope_02.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/scope_03.png"><img width = 100% src="preview/scope_03.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/scope_04_1.png"><img width = 100% src="preview/scope_04_1.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/scope_05_272.png"><img width = 100% src="preview/scope_05_272.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/scope_06_272.png"><img width = 100% src="preview/scope_06_272.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/scope_10_272.png"><img width = 100% src="preview/scope_10_272.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/scope_10_276.png"><img width = 100% src="preview/scope_10_276.png"></a>
+
+</div>
+
+</div>
+
+</div>
 
 </div>
 

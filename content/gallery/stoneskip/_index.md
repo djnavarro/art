@@ -25,7 +25,133 @@ rmd_hash: b3f038bf466127fa
 
 <div class="gal">
 
-<a href="image/stoneskip_115.png"><img src="preview/stoneskip_115.png"></a> <a href="image/stoneskip_14.png"><img src="preview/stoneskip_14.png"></a> <a href="image/stoneskip_16.png"><img src="preview/stoneskip_16.png"></a> <a href="image/stoneskip_164.png"><img src="preview/stoneskip_164.png"></a> <a href="image/stoneskip_168.png"><img src="preview/stoneskip_168.png"></a> <a href="image/stoneskip_169.png"><img src="preview/stoneskip_169.png"></a> <a href="image/stoneskip_177.png"><img src="preview/stoneskip_177.png"></a> <a href="image/stoneskip_179.png"><img src="preview/stoneskip_179.png"></a> <a href="image/stoneskip_19.png"><img src="preview/stoneskip_19.png"></a> <a href="image/stoneskip_190.png"><img src="preview/stoneskip_190.png"></a> <a href="image/stoneskip_2.png"><img src="preview/stoneskip_2.png"></a> <a href="image/stoneskip_21.png"><img src="preview/stoneskip_21.png"></a> <a href="image/stoneskip_30.png"><img src="preview/stoneskip_30.png"></a> <a href="image/stoneskip_49.png"><img src="preview/stoneskip_49.png"></a> <a href="image/stoneskip_5.png"><img src="preview/stoneskip_5.png"></a> <a href="image/stoneskip_51.png"><img src="preview/stoneskip_51.png"></a> <a href="image/stoneskip_52.png"><img src="preview/stoneskip_52.png"></a> <a href="image/stoneskip_64.png"><img src="preview/stoneskip_64.png"></a> <a href="image/stoneskip_9.png"><img src="preview/stoneskip_9.png"></a> <a href="image/stoneskip_90.png"><img src="preview/stoneskip_90.png"></a>
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_115.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_14.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_16.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_164.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_168.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_169.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_177.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_179.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_19.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_190.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_2.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_21.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_30.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_49.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_5.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_51.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_52.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_64.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_9.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/stoneskip_90.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+</div>
+
+</div>
 
 </div>
 

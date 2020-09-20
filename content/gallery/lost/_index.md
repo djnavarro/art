@@ -16,7 +16,97 @@ rmd_hash: 841d5602e4018185
 
 <div class="gal">
 
-<a href="image/turmite_27.png"><img src="preview/turmite_27.png"></a> <a href="image/turmite_28.png"><img src="preview/turmite_28.png"></a> <a href="image/turmite_29.png"><img src="preview/turmite_29.png"></a> <a href="image/turmite_30.png"><img src="preview/turmite_30.png"></a> <a href="image/turmite_31b.png"><img src="preview/turmite_31b.png"></a> <a href="image/turmite_33.png"><img src="preview/turmite_33.png"></a> <a href="image/turmite_34.png"><img src="preview/turmite_34.png"></a> <a href="image/turmite_35.png"><img src="preview/turmite_35.png"></a> <a href="image/turmite_36.png"><img src="preview/turmite_36.png"></a> <a href="image/turmite_37.png"><img src="preview/turmite_37.png"></a> <a href="image/turmite_38.png"><img src="preview/turmite_38.png"></a> <a href="image/turmite_39.png"><img src="preview/turmite_39.png"></a> <a href="image/turmite_40.png"><img src="preview/turmite_40.png"></a> <a href="image/turmite_41.png"><img src="preview/turmite_41.png"></a>
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_27.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_28.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_29.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_30.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_31b.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_33.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_34.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_35.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_36.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_37.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_38.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_39.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_40.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_41.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+</div>
+
+</div>
 
 </div>
 

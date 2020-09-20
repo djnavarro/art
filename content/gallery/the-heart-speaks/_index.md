@@ -25,7 +25,61 @@ rmd_hash: 33b17ce9b425ace6
 
 <div class="gal">
 
-<a href="image/turmite_17.png"><img src="preview/turmite_17.png"></a> <a href="image/turmite_18.png"><img src="preview/turmite_18.png"></a> <a href="image/turmite_19.png"><img src="preview/turmite_19.png"></a> <a href="image/turmite_20.png"><img src="preview/turmite_20.png"></a> <a href="image/turmite_21.png"><img src="preview/turmite_21.png"></a> <a href="image/turmite_22.png"><img src="preview/turmite_22.png"></a> <a href="image/turmite_23.png"><img src="preview/turmite_23.png"></a> <a href="image/turmite_24.png"><img src="preview/turmite_24.png"></a>
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_17.png"><img width = 100% src="preview/turmite_17.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_18.png"><img width = 100% src="preview/turmite_18.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_19.png"><img width = 100% src="preview/turmite_19.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_20.png"><img width = 100% src="preview/turmite_20.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_21.png"><img width = 100% src="preview/turmite_21.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_22.png"><img width = 100% src="preview/turmite_22.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_23.png"><img width = 100% src="preview/turmite_23.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/turmite_24.png"><img width = 100% src="preview/turmite_24.png"></a>
+
+</div>
+
+</div>
+
+</div>
 
 </div>
 

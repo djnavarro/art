@@ -22,7 +22,61 @@ rmd_hash: 9b872e484ba93222
 
 <div class="gal">
 
-<a href="image/001-scrawl_15-10000-400-100-5.png"><img src="preview/001-scrawl_15-10000-400-100-5.png"></a> <a href="image/002-scrawl_1-10000-500-300-100.png"><img src="preview/002-scrawl_1-10000-500-300-100.png"></a> <a href="image/003-scrawl_282-10000-500-100-10.png"><img src="preview/003-scrawl_282-10000-500-100-10.png"></a> <a href="image/004-scrawl_2-10000-200-50-5.png"><img src="preview/004-scrawl_2-10000-200-50-5.png"></a> <a href="image/005-scrawl_200-1000-500-10-1.png"><img src="preview/005-scrawl_200-1000-500-10-1.png"></a> <a href="image/006-scrawl_200-10000-500-10-1.png"><img src="preview/006-scrawl_200-10000-500-10-1.png"></a> <a href="image/007-scrawl_200-20000-500-10-1.png"><img src="preview/007-scrawl_200-20000-500-10-1.png"></a> <a href="image/008-scrawl_19-100-500-200-100.png"><img src="preview/008-scrawl_19-100-500-200-100.png"></a>
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/001-scrawl_15-10000-400-100-5.png"><img width = 100% src="preview/001-scrawl_15-10000-400-100-5.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/002-scrawl_1-10000-500-300-100.png"><img width = 100% src="preview/002-scrawl_1-10000-500-300-100.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/003-scrawl_282-10000-500-100-10.png"><img width = 100% src="preview/003-scrawl_282-10000-500-100-10.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/004-scrawl_2-10000-200-50-5.png"><img width = 100% src="preview/004-scrawl_2-10000-200-50-5.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/005-scrawl_200-1000-500-10-1.png"><img width = 100% src="preview/005-scrawl_200-1000-500-10-1.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/006-scrawl_200-10000-500-10-1.png"><img width = 100% src="preview/006-scrawl_200-10000-500-10-1.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/007-scrawl_200-20000-500-10-1.png"><img width = 100% src="preview/007-scrawl_200-20000-500-10-1.png"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/008-scrawl_19-100-500-200-100.png"><img width = 100% src="preview/008-scrawl_19-100-500-200-100.png"></a>
+
+</div>
+
+</div>
+
+</div>
 
 </div>
 

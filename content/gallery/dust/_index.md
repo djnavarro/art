@@ -22,7 +22,61 @@ rmd_hash: 881e5bc8f2a7c12e
 
 <div class="gal">
 
-<a href="image/dust_02.png"><img src="preview/dust_02.png"></a> <a href="image/dust_03.png"><img src="preview/dust_03.png"></a> <a href="image/dust_04.png"><img src="preview/dust_04.png"></a> <a href="image/dust_05.png"><img src="preview/dust_05.png"></a> <a href="image/dust_07.png"><img src="preview/dust_07.png"></a> <a href="image/dust_08.png"><img src="preview/dust_08.png"></a> <a href="image/dust_10.png"><img src="preview/dust_10.png"></a> <a href="image/dust_11.png"><img src="preview/dust_11.png"></a>
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/dust_02.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/dust_03.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/dust_04.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/dust_05.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/dust_07.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/dust_08.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/dust_10.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12 p-2">
+
+<a href="image/dust_11.png"><img width = 100% src="preview/"></a>
+
+</div>
+
+</div>
+
+</div>
 
 </div>
 
