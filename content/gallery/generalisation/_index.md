@@ -6,7 +6,7 @@ trailer: "gallery/generalisation/preview/rectgenerate_1_12.png"
 splash:
   image: "gallery/generalisation/image/rectgenerate_1_12.png"
   caption: "Generalisation"
-rmd_hash: 9e5a7a19355f2d5a
+rmd_hash: c0e3e2e92c52d70c
 
 ---
 
@@ -22,73 +22,73 @@ rmd_hash: 9e5a7a19355f2d5a
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_1_12.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_1_12.png"><img width = 100% src="preview/rectgenerate_1_12.png"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_1_13.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_1_13.png"><img width = 100% src="preview/rectgenerate_1_13.png"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_1_14.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_1_14.png"><img width = 100% src="preview/rectgenerate_1_14.png"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_1_24.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_1_24.png"><img width = 100% src="preview/rectgenerate_1_24.png"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_1_3.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_1_3.png"><img width = 100% src="preview/rectgenerate_1_3.png"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_1_31.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_1_31.png"><img width = 100% src="preview/rectgenerate_1_31.png"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_3_12.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_3_12.png"><img width = 100% src="preview/rectgenerate_3_12.png"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_3_28.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_3_28.png"><img width = 100% src="preview/rectgenerate_3_28.png"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_3_35.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_3_35.png"><img width = 100% src="preview/rectgenerate_3_35.png"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_3_39.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_3_39.png"><img width = 100% src="preview/rectgenerate_3_39.png"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_3_43.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_3_43.png"><img width = 100% src="preview/rectgenerate_3_43.png"></a>
 
 </div>
 
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
-<a href="image/rectgenerate_3_47.png"><img width = 100% src="preview/"></a>
+<a href="image/rectgenerate_3_47.png"><img width = 100% src="preview/rectgenerate_3_47.png"></a>
 
 </div>
 
