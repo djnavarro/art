@@ -4,9 +4,9 @@ title: "Expanse"
 date: 2020-08-24
 trailer: "gallery/expanse/preview/set4_ff_05_11_3_10.jpg"
 splash:
-  image: "gallery/expanse/extra/ff_05_11_3_10.jpg"
+  image: "./extra/ff_05_11_3_10.jpg"
   caption: "Expanse"
-rmd_hash: 3dd53783672c807c
+rmd_hash: 90c373bd48b35b8f
 
 ---
 

@@ -4,9 +4,9 @@ title: "Voronoise"
 date: 2020-05-06
 trailer: "gallery/voronoise/preview/voronoise_17.png"
 splash:
-  image: "gallery/voronoise/image/voronoise_17.png"
+  image: "./image/voronoise_17.png"
   caption: "Voronoise"
-rmd_hash: 2be69b955f1a405a
+rmd_hash: 68b56fba4a0807f9
 
 ---
 

@@ -4,9 +4,9 @@ title: "Scopes"
 date: 2020-04-03
 trailer: "gallery/scopes/preview/scope_06_272.png"
 splash:
-  image: "gallery/scopes/image/scope_06_272.png"
+  image: "./image/scope_06_272.png"
   caption: "Scopes"
-rmd_hash: ec4e7937c4ae7ca3
+rmd_hash: e76a258bf989139b
 
 ---
 

@@ -3,11 +3,11 @@ output: hugodown::md_document
 title: "Art by Danielle Navarro"
 summary: "Art by Danielle Navarro"
 splash:
-  image: "splash/image1.png"
+  image: "./splash/image1.png"
   prefix: "art by"
   caption: "Danielle Navarro"
-trailer: "gallery/turmite/preview/turmite_16b.png"
-rmd_hash: 38c09a1cf5fcb54e
+trailer: "./splash/image1_smol.jpg"
+rmd_hash: cfb3dfe0709bbcad
 
 ---
 

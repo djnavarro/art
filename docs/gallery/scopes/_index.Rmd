@@ -4,7 +4,7 @@ title: "Scopes"
 date: 2020-04-03
 trailer: "gallery/scopes/preview/scope_06_272.png"
 splash:
-  image: "gallery/scopes/image/scope_06_272.png"
+  image: "./image/scope_06_272.png"
   caption: "Scopes"
 ---
 

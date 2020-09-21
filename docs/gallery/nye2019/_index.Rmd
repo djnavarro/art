@@ -4,7 +4,7 @@ title: "NYE 2019"
 date: 2019-12-31
 trailer: "gallery/nye2019/preview/art032.png"
 splash:
-  image: "gallery/nye2019/extra/art045.jpg"
+  image: "./extra/art045.jpg"
   caption: "New Year's Eve 2019"
 ---
 

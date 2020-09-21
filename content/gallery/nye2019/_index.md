@@ -4,9 +4,9 @@ title: "NYE 2019"
 date: 2019-12-31
 trailer: "gallery/nye2019/preview/art032.png"
 splash:
-  image: "gallery/nye2019/extra/art045.jpg"
+  image: "./extra/art045.jpg"
   caption: "New Year's Eve 2019"
-rmd_hash: 8415f3bb23a8b664
+rmd_hash: 49ce71dd440d9a48
 
 ---
 

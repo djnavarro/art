@@ -4,9 +4,9 @@ title: "Rosemary"
 date: 2019-12-27
 trailer: "gallery/rosemary/preview/003-rainbow_prisms.png"
 splash:
-  image: "gallery/rosemary/extra/003-rainbow_prisms.jpg"
+  image: "./extra/003-rainbow_prisms.jpg"
   caption: "Rosemary and Jasmine"
-rmd_hash: 8611219639e879f0
+rmd_hash: 0559526a0c3d7464
 
 ---
 

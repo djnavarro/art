@@ -4,9 +4,9 @@ title: "Pop Art and Fracture"
 date: 2020-03-23
 trailer: "gallery/popart/preview/valkyrie.jpg"
 splash:
-  image: "gallery/popart/extra/valkyrie_pop.jpg"
+  image: "./extra/valkyrie_pop.jpg"
   caption: "Styled<br>Like<br>Pop<br>Art<br>With<br>Fracture<br>Added"
-rmd_hash: 641d2a9c820b1936
+rmd_hash: 14c2c7749a523ad2
 
 ---
 

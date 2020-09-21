@@ -4,9 +4,9 @@ title: "Turmites"
 date: 2020-06-20
 trailer: "gallery/turmite/preview/turmite_12.png"
 splash:
-  image: "gallery/turmite/extra/turmite_12.jpg"
+  image: "./extra/turmite_12.jpg"
   caption: "Turmites"
-rmd_hash: d3864535bcc160c5
+rmd_hash: 4c574f9de419624e
 
 ---
 

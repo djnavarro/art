@@ -4,9 +4,9 @@ title: "Quarantine Moods"
 date: 2020-05-28
 trailer: "gallery/quarantine/preview/layers_03.png"
 splash:
-  image: "gallery/quarantine/image/layers_03.png"
+  image: "./image/layers_03.png"
   caption: "Quarantine Moods"
-rmd_hash: 0819e96cd35c3a1d
+rmd_hash: 545b4b7449487b25
 
 ---
 

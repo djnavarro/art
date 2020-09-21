@@ -4,9 +4,9 @@ title: "Generalisation"
 date: 2020-07-01
 trailer: "gallery/generalisation/preview/rectgenerate_1_12.png"
 splash:
-  image: "gallery/generalisation/image/rectgenerate_1_12.png"
+  image: "./image/rectgenerate_1_12.png"
   caption: "Generalisation"
-rmd_hash: 48e731434588b0b4
+rmd_hash: 08a0a9a05bd419a2
 
 ---
 

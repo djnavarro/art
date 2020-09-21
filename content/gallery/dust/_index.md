@@ -4,9 +4,9 @@ title: "Dust"
 date: 2020-06-26
 trailer: "gallery/dust/preview/dust_11.jpg"
 splash:
-  image: "gallery/dust/extra/dust_07.jpg"
+  image: "./extra/dust_07.jpg"
   caption: "Dust"
-rmd_hash: 9de70ab4417dfdbf
+rmd_hash: ac358b0d585e9bdb
 
 ---
 

@@ -4,9 +4,9 @@ title: "Boxes"
 date: 2020-09-15
 trailer: "gallery/boxes/preview/box_01_20.jpg"
 splash:
-  image: "gallery/boxes/extra/box_01_20.jpg"
+  image: "./extra/box_01_20.jpg"
   caption: "Boxes"
-rmd_hash: e208ba748224bdc9
+rmd_hash: be4e6b087b5a69d8
 
 ---
 

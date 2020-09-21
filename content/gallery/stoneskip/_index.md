@@ -4,9 +4,9 @@ title: "Skipping Stones"
 date: 2020-06-05
 trailer: "gallery/stoneskip/preview/stoneskip_90.jpg"
 splash:
-  image: "gallery/stoneskip/extra/stoneskip_90.jpg"
+  image: "./extra/stoneskip_90.jpg"
   caption: ".<br>.<br>Skipping<br>Stones<br>.<br>."
-rmd_hash: 3876ab0e13b760d1
+rmd_hash: 3a6ad3f7eade38cb
 
 ---
 

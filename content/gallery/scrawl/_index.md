@@ -4,9 +4,9 @@ title: "Scrawl"
 date: 2020-04-09
 trailer: "gallery/scrawl/preview/004-scrawl_2-10000-200-50-5.png"
 splash:
-  image: "gallery/scrawl/extra/004-scrawl_2-10000-200-50-5.png"
+  image: "./extra/004-scrawl_2-10000-200-50-5.png"
   caption: "Scrawl"
-rmd_hash: f1818ce6fc744aad
+rmd_hash: d18dcb5c5941321c
 
 ---
 

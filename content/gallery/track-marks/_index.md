@@ -4,9 +4,9 @@ title: "Track Marks"
 date: 2020-09-20
 trailer: "gallery/track-marks/preview/new_04_7.jpg"
 splash:
-  image: "gallery/track-marks/image/new_04_7.png"
+  image: "./image/new_04_7.png"
   caption: "Track&nbsp;&nbsp;Marks"
-rmd_hash: 4960ea8be9ec4539
+rmd_hash: d493836388625a67
 
 ---
 

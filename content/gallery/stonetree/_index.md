@@ -4,9 +4,9 @@ title: "Stonetrees"
 date: 2020-06-13
 trailer: "gallery/stonetree/extra/vstone_06_square.jpg"
 splash:
-  image: "gallery/stonetree/image/vstone_06.png"
+  image: "./image/vstone_06.png"
   caption: "Stonetrees"
-rmd_hash: d3a893ea04fcd75e
+rmd_hash: ace33fc9accf520a
 
 ---
 
