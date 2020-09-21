@@ -6,7 +6,7 @@ trailer: "gallery/popart/preview/valkyrie.jpg"
 splash:
   image: "gallery/popart/extra/valkyrie_pop.jpg"
   caption: "Styled<br>Like<br>Pop<br>Art<br>With<br>Fracture<br>Added"
-rmd_hash: f2cff19db9c126e9
+rmd_hash: 641d2a9c820b1936
 
 ---
 

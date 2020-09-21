@@ -6,7 +6,7 @@ trailer: "gallery/lost/preview/turmite_41.jpg"
 splash:
   image: "gallery/lost/extra/turmite_41.jpg"
   caption: "Lost In All This Light"
-rmd_hash: d8599f23fb7a65f9
+rmd_hash: 47f428b70eb12d53
 
 ---
 

@@ -6,7 +6,7 @@ trailer: "gallery/scopes/preview/scope_06_272.png"
 splash:
   image: "gallery/scopes/image/scope_06_272.png"
   caption: "Scopes"
-rmd_hash: b46083fd532abeee
+rmd_hash: ec4e7937c4ae7ca3
 
 ---
 

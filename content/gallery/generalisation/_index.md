@@ -6,7 +6,7 @@ trailer: "gallery/generalisation/preview/rectgenerate_1_12.png"
 splash:
   image: "gallery/generalisation/image/rectgenerate_1_12.png"
   caption: "Generalisation"
-rmd_hash: c0e3e2e92c52d70c
+rmd_hash: 48e731434588b0b4
 
 ---
 

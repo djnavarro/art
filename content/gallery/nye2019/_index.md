@@ -6,7 +6,7 @@ trailer: "gallery/nye2019/preview/art032.png"
 splash:
   image: "gallery/nye2019/extra/art045.jpg"
   caption: "New Year's Eve 2019"
-rmd_hash: 78ebe2920e736bcf
+rmd_hash: 8415f3bb23a8b664
 
 ---
 

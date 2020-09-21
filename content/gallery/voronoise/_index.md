@@ -6,7 +6,7 @@ trailer: "gallery/voronoise/preview/voronoise_17.png"
 splash:
   image: "gallery/voronoise/image/voronoise_17.png"
   caption: "Voronoise"
-rmd_hash: 254c70ceb44cfd0e
+rmd_hash: 2be69b955f1a405a
 
 ---
 

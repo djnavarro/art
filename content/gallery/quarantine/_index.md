@@ -6,7 +6,7 @@ trailer: "gallery/quarantine/preview/layers_03.png"
 splash:
   image: "gallery/quarantine/image/layers_03.png"
   caption: "Quarantine Moods"
-rmd_hash: 224c2f33aa3f19dc
+rmd_hash: 0819e96cd35c3a1d
 
 ---
 

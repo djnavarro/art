@@ -7,7 +7,7 @@ splash:
   prefix: "art by"
   caption: "Danielle Navarro"
 trailer: "gallery/turmite/preview/turmite_16b.png"
-rmd_hash: d5072996e8ab7b84
+rmd_hash: 38c09a1cf5fcb54e
 
 ---
 

@@ -6,7 +6,7 @@ trailer: "gallery/heartbleed/preview/turmite_52.jpg"
 splash:
   image: "gallery/heartbleed/extra/turmite_52.jpg"
   caption: "Heartbleed"
-rmd_hash: 390d97f0874ec30b
+rmd_hash: cfee54268d00e2ad
 
 ---
 

@@ -6,7 +6,7 @@ trailer: "gallery/stoneskip/preview/stoneskip_90.jpg"
 splash:
   image: "gallery/stoneskip/extra/stoneskip_90.jpg"
   caption: ".<br>.<br>Skipping<br>Stones<br>.<br>."
-rmd_hash: cafabb04e8325b78
+rmd_hash: 3876ab0e13b760d1
 
 ---
 

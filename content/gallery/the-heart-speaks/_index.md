@@ -6,7 +6,7 @@ trailer: "gallery/the-heart-speaks/preview/turmite_22.jpg"
 splash:
   image: "gallery/the-heart-speaks/extra/turmite_22.jpg"
   caption: "The<br>Heart<br>Speaks"
-rmd_hash: 6057fd05443bb666
+rmd_hash: 9a2f31fba3fdb5ff
 
 ---
 

@@ -6,7 +6,7 @@ trailer: "gallery/boxes/preview/box_01_20.jpg"
 splash:
   image: "gallery/boxes/extra/box_01_20.jpg"
   caption: "Boxes"
-rmd_hash: c445f5a6bd62a5c1
+rmd_hash: e208ba748224bdc9
 
 ---
 
