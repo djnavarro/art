@@ -6,12 +6,18 @@ summary: ''
 trailer: "gallery/thorns/preview/thorn_144.jpg"
 splash:
   image: "./image/thorn_144.png"
-  caption: "He sends me thorns"
-rmd_hash: 4841b474aeab19dd
+  caption: "he sends me<br>thorns"
+rmd_hash: fd6c035c4026c71c
 
 ---
 
-> I've been dancin' on top of cars and stumblin' out of bars <br> I follow you through the dark, can't get enough <br> You're the medicine and the pain, the tattoo inside my brain <br> And, baby, you know it's obvious <br> (Jonas Brothers)
+<style>
+.splash-caption-tweak{
+  float: left;
+}
+</style>
+
+> You're the medicine and the pain, the tattoo inside my brain <br> And, baby, you know it's obvious <br> (Jonas Brothers)
 
 <div class="highlight">
 
