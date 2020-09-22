@@ -6,7 +6,7 @@ trailer: "gallery/track-marks/preview/new_04_7.jpg"
 splash:
   image: "./image/new_04_7.png"
   caption: "Track&nbsp;&nbsp;Marks"
-rmd_hash: d493836388625a67
+rmd_hash: 1d568c9b3fb081ca
 
 ---
 
@@ -133,6 +133,12 @@ rmd_hash: d493836388625a67
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/new_04_8.png"><img width = 100% src="preview/new_04_8.jpg"></a>
+
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
+
+<a href="image/new_04_9.png"><img width = 100% src="preview/new_04_9.jpg"></a>
 
 </div>
 
