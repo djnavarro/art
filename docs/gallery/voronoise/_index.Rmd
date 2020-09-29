@@ -4,14 +4,14 @@ title: "Voronoise"
 date: 2020-05-06
 trailer: "gallery/voronoise/preview/voronoise_17.png"
 splash:
-  image: "gallery/voronoise/image/voronoise_17.png"
+  image: "./image/voronoise_17.png"
   caption: "Voronoise"
 ---
 
 ```{r include=FALSE}
-source("../../diziet.R")
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
 ```
-
 
 > I've been a bad bad girl<br>I've been careless<br>with a delicate man<br>and it's a sad sad world<br>when a girl will break a boy<br>just because she can<br>(Fiona Apple)
 
