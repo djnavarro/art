@@ -26,3 +26,5 @@ source(file.path(root, "themes", "diziet", "R", "diziet.R"))
 diziet$make_gallery()
 ```
 
+<br><br>
+&nbsp; Source code on [github](https://github.com/djnavarro/votives).

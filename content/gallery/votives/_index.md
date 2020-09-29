@@ -8,7 +8,7 @@ splash:
   image: "./image/votive_01_44.png"
   caption: "Votives"
 
-rmd_hash: fb1d9ab648c53634
+rmd_hash: 26602c933507c8a3
 
 ---
 
@@ -173,4 +173,6 @@ rmd_hash: fb1d9ab648c53634
 </div>
 
 </div>
+
+<br><br>   Source code on [github](https://github.com/djnavarro/votives).
 
