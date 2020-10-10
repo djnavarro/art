@@ -7,13 +7,13 @@ splash:
   prefix: "art by"
   caption: "Danielle Navarro"
 trailer: "./splash/image1_smol.jpg"
-rmd_hash: 0f1b2de4b79ddc11
+rmd_hash: 0a2c586e0177006e
 
 ---
 
 I'm a computational artist based in Sydney, living on Gadigal land, and making generative art using the R programming language. I post artwork on [twitter](https://twitter.com/djnavarro), [instagram](https://www.instagram.com/daniellenavarro77/) and [github](https://github.com/djnavarro) and in my other life I am an [academic](https://djnavarro.net/) at the University of New South Wales. This site is written with R, using the [diziet](https://github.com/djnavarro/hugo-diziet) theme for [hugodown](https://github.com/r-lib/hugodown).
 
-At the moment I don't sell prints, but don't let that stop you if you would like one! Unless stated otherwise, the art on this site is released under a Creative Commons [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence. You are welcome to reuse the art for most purposes so long as you attribute the original work to me and derivative works are covered by the same licence.
+At the moment I don't sell prints - I intend to do so in the future - but don't let that stop you if you would like one! Unless stated otherwise, the art on this site is released under a Creative Commons [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence. You are welcome to reuse the art for most purposes so long as you attribute the original work to me and derivative works are covered by the same licence.
 
-Although I don't ask for money myself, if you like my art and would like to show your support, please consider donating to charity rather than to me. Three worthy organisations I sometimes suggest are the Sydney [Inner City Legal Centre](https://www.iclc.org.au/) (donation page [here](https://www.iclc.org.au/donate-now/)), the NSW [Sex Worker Outreach Project](https://swop.org.au/) (donation page [here](https://swop.org.au/get-involved/donate)) and [Black Rainbow](http://www.blackrainbow.org.au/) (donation page [here](http://www.blackrainbow.org.au/donate/)).
+If you like my art and would like to show your support, you can do so by sending money to [daniellenavarro77](https://www.paypal.me/daniellenavarro77) on PayPal. Until recently I didn't ask for money at all but my financial situation has changed of late! That said, if you prefer to donate to charity, I often suggest donating to the Sydney [Inner City Legal Centre](https://www.iclc.org.au/) (donation page [here](https://www.iclc.org.au/donate-now/)), the NSW [Sex Worker Outreach Project](https://swop.org.au/) (donation page [here](https://swop.org.au/get-involved/donate)) and [Black Rainbow](http://www.blackrainbow.org.au/) (donation page [here](http://www.blackrainbow.org.au/donate/)).
 
