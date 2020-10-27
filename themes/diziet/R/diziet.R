@@ -49,7 +49,7 @@ diziet <- list(
 
     img <- dir(
       path = file.path(path, "image"),
-      pattern = "png$",
+      pattern = "[png$|jpg$]",
       recursive = TRUE
     )
 
@@ -62,7 +62,8 @@ diziet <- list(
         im <- magick::image_read(input)
         im <- magick::image_resize(im, geometry = "800x")
         magick::image_write(im, output, format = fmt)
-        Sys.sleep(1.5)
+        #magick::image_destroy(im)
+        gc() # <- there has got to be a better way than this
       }
     }
   },
