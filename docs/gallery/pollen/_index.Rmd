@@ -22,6 +22,6 @@ source(file.path(root, "themes", "diziet", "R", "diziet.R"))
 ```
 
 ```{r echo=FALSE, results='asis'}
-diziet$make_gallery()
+diziet$make_gallery(preview_fmt = "jpg", full_fmt = "jpg")
 ```
 
