@@ -7,11 +7,21 @@ trailer: "gallery/windswept/preview/windswept_06_174.jpg"
 splash:
   image: "./image/windswept_06_174.jpg"
   caption: "Windswept"
-rmd_hash: 312bb06faebbb2a9
+rmd_hash: 153580b02920a2f9
 
 ---
 
-> There's a lover in the story<br> But the story's still the same<br> There's a lullaby for suffering<br> And a paradox to blame<br> But it's written in the scriptures<br> And it's not some idol claim<br> You want it darker?<br> We killed the flame<br> (Leonard Cohen)
+<!--
+> There's a lover in the story<br>
+But the story's still the same<br>
+There's a lullaby for suffering<br>
+And a paradox to blame<br>
+But it's written in the scriptures<br>
+And it's not some idol claim<br>
+You want it darker?<br>
+We killed the flame<br>
+(Leonard Cohen)
+-->
 
 <div class="highlight">
 

@@ -9,12 +9,14 @@ splash:
   caption: "Crosshairs"
 ---
 
+<!--
 > Emma's in a part of town<br>
 Where she doesn't recognize the streets<br>
 Named for famous native sons<br>
 And out of every crevice comes creeping<br>
 A threat in her direction<br>
 (Cowboy Junkies)
+-->
 
 
 ```{r include=FALSE}

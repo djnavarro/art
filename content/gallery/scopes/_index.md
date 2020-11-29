@@ -6,7 +6,7 @@ trailer: "gallery/scopes/preview/scope_06_272.png"
 splash:
   image: "./image/scope_06_272.png"
   caption: "Scopes"
-rmd_hash: e76a258bf989139b
+rmd_hash: c6142ebf7ec974e4
 
 ---
 
@@ -16,8 +16,9 @@ rmd_hash: e76a258bf989139b
  letter-spacing: 6px;
 }
 </style>
-
+<!--
 > I know who I was when I got up this morning,<br>but I think I must have been changed several times since then<br>(Lewis Carroll)
+-->
 
 <div class="highlight">
 

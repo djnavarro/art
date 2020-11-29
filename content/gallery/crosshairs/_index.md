@@ -7,11 +7,18 @@ trailer: "gallery/crosshairs/preview/crosshairs_01_027.jpg"
 splash:
   image: "./image/crosshairs_01_027.png"
   caption: "Crosshairs"
-rmd_hash: 1d69d34bf8651f0b
+rmd_hash: 886a6cb4aecb7054
 
 ---
 
-> Emma's in a part of town<br> Where she doesn't recognize the streets<br> Named for famous native sons<br> And out of every crevice comes creeping<br> A threat in her direction<br> (Cowboy Junkies)
+<!--
+> Emma's in a part of town<br>
+Where she doesn't recognize the streets<br>
+Named for famous native sons<br>
+And out of every crevice comes creeping<br>
+A threat in her direction<br>
+(Cowboy Junkies)
+-->
 
 <div class="highlight">
 

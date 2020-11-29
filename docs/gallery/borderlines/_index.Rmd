@@ -17,12 +17,12 @@ splash:
 </style>
 
 
-
+<!--
 > I know my disposition gets confusing<br>
 My disproportionate reactions fuse with my eager state:<br>
 That's why you wanna come out and play with me<br>
 (Banks)
-
+-->
 
 ```{r include=FALSE}
 root <- rprojroot::find_root("_hugodown.yaml")

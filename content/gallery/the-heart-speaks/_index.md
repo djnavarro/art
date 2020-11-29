@@ -6,7 +6,7 @@ trailer: "gallery/the-heart-speaks/preview/turmite_22.jpg"
 splash:
   image: "./extra/turmite_22.jpg"
   caption: "The<br>Heart<br>Speaks"
-rmd_hash: 538859c104df380f
+rmd_hash: 2dc09712377b9904
 
 ---
 
@@ -18,8 +18,9 @@ rmd_hash: 538859c104df380f
   font-weight: 700;
 }
 </style>
-
+<!--
 > You can pretend you don't wanna know<br>But I read the signs from your head to your toes<br>Yeah, you don't need to say a word cause<br>Your body talks<br>(The Struts, ft. Kesha)
+-->
 
 <div class="highlight">
 

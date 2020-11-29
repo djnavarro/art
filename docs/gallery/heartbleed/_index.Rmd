@@ -8,12 +8,24 @@ splash:
   caption: "Heartbleed"
 ---
 
+<style>
+.splash-caption-tweak{
+  color:#80000080;
+  font-size: 120%;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+</style>
+
+
 ```{r include=FALSE}
 root <- rprojroot::find_root("_hugodown.yaml")
 source(file.path(root, "themes", "diziet", "R", "diziet.R"))
 ```
 
+<!--
 > The limits of your language become the limits of my world
+-->
 
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery() 

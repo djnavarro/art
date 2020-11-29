@@ -6,7 +6,7 @@ trailer: "gallery/borderlines/preview/right_ff_12_1_3_1.jpg"
 splash:
   image: "./extra/right_ff_12_1_3_1.jpg"
   caption: "<span style='color:#ffffff88'>border&nbsp;&nbsp;</span><br><span style='color:#00000088'>lines&nbsp;&nbsp;</span>"
-rmd_hash: f4adf270108f08ee
+rmd_hash: e888641ee19ff077
 
 ---
 
@@ -17,8 +17,12 @@ rmd_hash: f4adf270108f08ee
   font-size: 200%;
 }
 </style>
-
-> I know my disposition gets confusing<br> My disproportionate reactions fuse with my eager state:<br> That's why you wanna come out and play with me<br> (Banks)
+<!--
+> I know my disposition gets confusing<br>
+My disproportionate reactions fuse with my eager state:<br>
+That's why you wanna come out and play with me<br>
+(Banks)
+-->
 
 <div class="highlight">
 

@@ -6,11 +6,21 @@ trailer: "gallery/heartbleed/preview/turmite_52.jpg"
 splash:
   image: "./extra/turmite_52.jpg"
   caption: "Heartbleed"
-rmd_hash: a69f5ea63b2a66d7
+rmd_hash: 425c81c044e49e5e
 
 ---
 
+<style>
+.splash-caption-tweak{
+  color:#80000080;
+  font-size: 120%;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+</style>
+<!--
 > The limits of your language become the limits of my world
+-->
 
 <div class="highlight">
 

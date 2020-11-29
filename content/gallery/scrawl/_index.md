@@ -6,7 +6,7 @@ trailer: "gallery/scrawl/preview/004-scrawl_2-10000-200-50-5.png"
 splash:
   image: "./extra/004-scrawl_2-10000-200-50-5.png"
   caption: "Scrawl"
-rmd_hash: d18dcb5c5941321c
+rmd_hash: f1072a7d9843aac1
 
 ---
 
@@ -15,8 +15,9 @@ rmd_hash: d18dcb5c5941321c
  color: #000000;
 }
 </style>
-
-> I must confess<br>I've made a mess<br>of what should be a small success.<br>But I digress<br>at least I've tried my very best I guess<br>(Courtney Barnett)
+<!--
+> I must confess<br>I’ve made a mess<br>of what should be a small success.<br>But I digress<br>at least I’ve tried my very best I guess<br>(Courtney Barnett)
+-->
 
 <div class="highlight">
 

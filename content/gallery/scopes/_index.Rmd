@@ -21,7 +21,9 @@ root <- rprojroot::find_root("_hugodown.yaml")
 source(file.path(root, "themes", "diziet", "R", "diziet.R"))
 ```
 
+<!--
 > I know who I was when I got up this morning,<br>but I think I must have been changed several times since then<br>(Lewis Carroll)
+-->
 
 ```{r echo=FALSE, results='asis'}
 diziet$make_gallery(preview_fmt = "png")

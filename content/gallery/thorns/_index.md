@@ -7,7 +7,7 @@ trailer: "gallery/thorns/preview/thorn_144.jpg"
 splash:
   image: "./image/thorn_144.png"
   caption: "he sends me<br>thorns"
-rmd_hash: fd6c035c4026c71c
+rmd_hash: 07bd74146df5d6ea
 
 ---
 
@@ -16,8 +16,11 @@ rmd_hash: fd6c035c4026c71c
   float: left;
 }
 </style>
-
-> You're the medicine and the pain, the tattoo inside my brain <br> And, baby, you know it's obvious <br> (Jonas Brothers)
+<!--
+> You're the medicine and the pain, the tattoo inside my brain <br>
+And, baby, you know it's obvious <br>
+(Jonas Brothers)
+-->
 
 <div class="highlight">
 

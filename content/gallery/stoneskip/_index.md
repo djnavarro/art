@@ -6,7 +6,7 @@ trailer: "gallery/stoneskip/preview/stoneskip_90.jpg"
 splash:
   image: "./extra/stoneskip_90.jpg"
   caption: ".<br>.<br>Skipping<br>Stones<br>.<br>."
-rmd_hash: 3a6ad3f7eade38cb
+rmd_hash: f8d13c036a4c8414
 
 ---
 
@@ -18,8 +18,9 @@ rmd_hash: 3a6ad3f7eade38cb
  letter-spacing: 10px;
 }
 </style>
-
+<!--
 > The animated figures stand<br>Adorning every public street<br>And seem to breathe in stone, or<br>move their marble feet.<br>(Pindar)
+-->
 
 <div class="highlight">
 
