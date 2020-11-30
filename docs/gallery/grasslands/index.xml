@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grasslands on  </title>
-    <link>//localhost:1313/gallery/grasslands/</link>
+    <link>/gallery/grasslands/</link>
     <description>Recent content in Grasslands on  </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//localhost:1313/gallery/grasslands/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/gallery/grasslands/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
