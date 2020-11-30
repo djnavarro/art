@@ -27,6 +27,6 @@ We killed the flame<br>
 -->
 
 ```{r echo=FALSE, results='asis'}
-diziet$make_gallery()
+diziet$make_gallery(full_fmt = "jpg")
 ```
 
