@@ -3,11 +3,11 @@ output: hugodown::md_document
 title: "Tangle"
 date: 2020-12-29
 summary: ''
-trailer: "gallery/tangle/preview/tangle20_20_178.jpg"
+trailer: "gallery/tangle/preview/tangle15_a.jpg"
 splash:
-  image: "./image/tangle20_20_178.png"
+  image: "./image/tangle15_a.png"
   caption: "Tangle"
-rmd_hash: d9fff02b2d3c032c
+rmd_hash: 906c7e3c14baa55d
 
 ---
 
