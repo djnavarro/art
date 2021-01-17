@@ -14,14 +14,13 @@ splash:
   bottom: 5%;
 }
 .splash-caption-tweak {
-  letter-spacing: 20px;
+  letter-spacing: 15px;
   font-weight: 100;
-  font-size: 150%;
-  text-align: left;
-  color: #ffffff88;
+  font-size: 100%;
+  text-align: center;
+  color: #ffffffcc;
 }
 </style>
-
 
 ```{r include=FALSE}
 root <- rprojroot::find_root("_hugodown.yaml")
