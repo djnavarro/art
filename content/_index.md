@@ -7,7 +7,7 @@ splash:
   prefix: "art by"
   caption: "Danielle Navarro"
 trailer: "./splash/image1_smol.jpg"
-rmd_hash: dbf111907a7c7180
+rmd_hash: 0550c7c7dccbc6e4
 
 ---
 

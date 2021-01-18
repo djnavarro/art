@@ -1,0 +1,21 @@
+---
+output: hugodown::md_document
+title: "Ice Floes"
+date: 2021-01-19
+summary: ''
+trailer: "gallery/ice-floes/preview/crystalline_05_108.jpg"
+splash:
+  image: "./image/crystalline_05_108.png"
+  caption: "Ice Floes"
+---
+
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(preview_fmt = "jpg",full_fmt = "png")
+```
+
