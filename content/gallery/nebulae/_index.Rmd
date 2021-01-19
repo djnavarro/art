@@ -1,0 +1,26 @@
+---
+output: hugodown::md_document
+title: "Nebulae"
+date: 2021-01-19
+summary: ''
+trailer: "gallery/nebulae/preview/nebula_04_151_5000.jpg"
+splash:
+  image: "./image/nebula_04_151_5000.jpg"
+  caption: "Nebulae"
+---
+
+<style>
+.splash-caption-tweak {
+  text-align: left;
+}
+</style>
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(preview_fmt = "jpg", full_fmt = "jpg")
+```
+
