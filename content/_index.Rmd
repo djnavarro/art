@@ -3,10 +3,10 @@ output: hugodown::md_document
 title: "Art by Danielle Navarro"
 summary: "Art by Danielle Navarro"
 splash:
-  image: "./splash/image1.png"
+  image: "./splash/image4.jpg"
   prefix: "art by"
   caption: "Danielle Navarro"
-trailer: "./splash/image1_smol.jpg"
+trailer: "./splash/image4_smol.jpg"
 ---
 
 I'm a computational artist based in Sydney, living on Gadigal land, and making generative art using the R programming language. I post artwork on [twitter](https://twitter.com/djnavarro), [instagram](https://www.instagram.com/daniellenavarro77/) and  [github](https://github.com/djnavarro) and in my other life I am an [academic](https://djnavarro.net/) at the University of New South Wales. This site is written with R, using the [diziet](https://github.com/djnavarro/hugo-diziet) theme for [hugodown](https://github.com/r-lib/hugodown). 
