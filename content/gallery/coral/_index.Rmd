@@ -1,0 +1,25 @@
+---
+output: hugodown::md_document
+title: "coral"
+date: 2021-02-10
+summary: ''
+---
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+
+> The exploration process
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(
+  preview = "preview_01", 
+  preview_fmt = "jpg",
+  full = "image_01", 
+  full_fmt = "png"
+)
+```
+
+
