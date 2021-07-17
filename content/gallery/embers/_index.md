@@ -7,7 +7,7 @@ trailer: "gallery/embers/preview/burst_15_241.jpg"
 splash:
   image: "./image/burst_15_241.jpg"
   caption: "Embers<br>Sparks<br>and<br>Miscellanea"
-rmd_hash: 5199e3b72736fa55
+rmd_hash: 40ec100b2ee19399
 
 ---
 
@@ -292,6 +292,28 @@ rmd_hash: 5199e3b72736fa55
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
 
 <a href="image/burst_15_263.jpg"><img width = 100% src="preview/burst_15_263.jpg"></a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="highlight">
+
+<div class="gal">
+
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
+
+<a href="gif/"><img width = 100% src="gif/"></a>
 
 </div>
 
