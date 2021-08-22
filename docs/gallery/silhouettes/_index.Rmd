@@ -1,0 +1,70 @@
+---
+output: hugodown::md_document
+title: "Silhouettes"
+date: 2021-01-24
+summary: ''
+trailer: "gallery/silhouettes/preview_04/night_tree_04_468.jpg"
+splash:
+  image: "./image_04/night_tree_04_468.jpg"
+  caption: "Silhouettes"
+---
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+> Variation 1
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(
+  preview = "preview_02", 
+  preview_fmt = "jpg",
+  full = "image_02", 
+  full_fmt = "jpg"
+)
+```
+
+<br><br>
+
+> Variation 2
+
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(
+  preview = "preview_04", 
+  preview_fmt = "jpg",
+  full = "image_04", 
+  full_fmt = "jpg"
+)
+```
+
+<br><br>
+
+> Variation 3
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(
+  preview = "preview_05a", 
+  preview_fmt = "jpg",
+  full = "image_05a", 
+  full_fmt = "jpg"
+)
+```
+
+
+<br><br>
+
+> Variation 4
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(
+  preview = "preview_05b", 
+  preview_fmt = "jpg",
+  full = "image_05b", 
+  full_fmt = "jpg"
+)
+```
+
+
+

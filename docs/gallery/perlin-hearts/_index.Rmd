@@ -1,0 +1,50 @@
+---
+output: hugodown::md_document
+title: "Perlin Hearts"
+date: 2021-07-16
+summary: ''
+trailer: "gallery/perlin-hearts/preview/perlin-heart_10_180.jpg"
+splash:
+  image: "./gif/perlin-heart_08_154.gif"
+  caption: "Perlin<br>Hearts"
+---
+
+<style>
+.splash-caption-tweak {
+color: #ffffffff;
+letter-spacing: 10px;
+font-weight: 700;
+font-size: 400%;
+}
+</style>
+
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+
+> Single Frames
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery()
+```
+
+<br><br>
+
+> Animations
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(
+  full = "gif",
+  preview = "gif",
+  preview_fmt = "gif", 
+  full_fmt = "gif"
+)
+```
+
+
+
+
+

@@ -1,0 +1,28 @@
+---
+output: hugodown::md_document
+title: "Stonetrees"
+date: 2020-06-13
+trailer: "gallery/stonetree/extra/vstone_06_square.jpg"
+splash:
+  image: "./image/vstone_06.png"
+  caption: "Stonetrees"
+---
+
+<style>
+.splash-caption-tweak{
+  color: #191900;
+  letter-spacing: 6px;
+}
+</style>
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+> If I look at my most vulnerable places and acknowledge the pain I have felt, I can remove the source of that pain from my enemies' arsenals. My history cannot be used to feather my enemies' arrows then, and that lessens their power over me. Nothing I accept about myself can be used against me to diminish me. I am who I am, doing what I came to do (Audre Lorde)
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery()
+```
+

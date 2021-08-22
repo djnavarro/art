@@ -1,0 +1,36 @@
+---
+output: hugodown::md_document
+title: "Heartbleed"
+date: 2020-08-10
+trailer: "gallery/heartbleed/preview/turmite_52.jpg"
+splash:
+  image: "./extra/turmite_52.jpg"
+  caption: "Heartbleed"
+---
+
+<style>
+.splash-caption-tweak{
+  color:#80000080;
+  font-size: 120%;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+</style>
+
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+<!--
+> The limits of your language become the limits of my world
+-->
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery() 
+```
+
+<br><br>
+
+The [turmite59](https://github.com/djnavarro/turmite59) package.

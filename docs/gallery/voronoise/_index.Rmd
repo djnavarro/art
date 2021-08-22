@@ -1,0 +1,24 @@
+---
+output: hugodown::md_document
+title: "Voronoise"
+date: 2020-05-06
+trailer: "gallery/voronoise/preview/voronoise_17.png"
+splash:
+  image: "./image/voronoise_17.png"
+  caption: "Voronoise"
+---
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+> I've been a bad bad girl<br>I've been careless<br>with a delicate man<br>and it's a sad sad world<br>when a girl will break a boy<br>just because she can<br>(Fiona Apple)
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(preview_fmt = "png")
+```
+
+<br><br>
+
+The [voronoise](https://github.com/djnavarro/voronoise) package came into existence as an attempt to understand ggplot2 internals. It generated the banner image for my [academic website](https://djnavarro.net) and for the [calade blog theme](https://djnavarro.github.io/hugo-calade/), has reappeared in later series and even made a guest appearance in my first ever [commissioned artwork](https://github.com/djnavarro/rstudiopostcard). Some of the pieces have a peculiar feel to me because I created them to express emotions about a specific event in my past. I'm never really sure how much of that emotion comes across to other viewers though.

@@ -1,0 +1,32 @@
+---
+output: hugodown::md_document
+title: "Windswept"
+date: 2020-11-28
+summary: ''
+trailer: "gallery/windswept/preview/windswept_06_174.jpg"
+splash:
+  image: "./image/windswept_06_174.jpg"
+  caption: "Windswept"
+---
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+<!--
+> There's a lover in the story<br>
+But the story's still the same<br>
+There's a lullaby for suffering<br>
+And a paradox to blame<br>
+But it's written in the scriptures<br>
+And it's not some idol claim<br>
+You want it darker?<br>
+We killed the flame<br>
+(Leonard Cohen)
+-->
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(full_fmt = "jpg")
+```
+

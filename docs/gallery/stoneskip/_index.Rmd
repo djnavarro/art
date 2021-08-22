@@ -1,0 +1,35 @@
+---
+output: hugodown::md_document
+title: "Skipping Stones"
+date: 2020-06-05
+trailer: "gallery/stoneskip/preview/stoneskip_90.jpg"
+splash:
+  image: "./extra/stoneskip_90.jpg"
+  caption: ".<br>.<br>Skipping<br>Stones<br>.<br>."
+---
+
+<style>
+.splash-caption-tweak{
+ color: #461212;
+ font-size: 150%;
+ font-weight: 700;
+ letter-spacing: 10px;
+}
+</style>
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+<!--
+> The animated figures stand<br>Adorning every public street<br>And seem to breathe in stone, or<br>move their marble feet.<br>(Pindar)
+-->
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(preview_fmt = "jpg")
+```
+
+<br><br>
+
+Inspired by [watercolors](https://github.com/aschinchon/watercolors) by Antonio Sánchez Chinchón, [stoneskip](https://github.com/djnavarro/stoneskip) was my first attempt to use C++ within R with the help of the Rcpp packge. 

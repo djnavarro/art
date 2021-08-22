@@ -1,0 +1,22 @@
+---
+output: hugodown::md_document
+title: "Lost In All This Light"
+date: 2020-08-01
+trailer: "gallery/lost/preview/turmite_41.jpg"
+splash:
+  image: "./extra/turmite_41.jpg"
+  caption: "Lost In All This Light"
+---
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+<!--
+> I coupled with dust in the shadow of a stone.<br>My ankles brighten. Brightness ascends my thighs.<br>I am lost, I am lost, in the robes of all this light.<br>(Sylvia Plath) 
+-->
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery()
+```
