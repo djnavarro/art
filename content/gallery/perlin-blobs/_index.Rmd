@@ -1,0 +1,20 @@
+---
+output: hugodown::md_document
+title: "Perlin Blobs"
+date: 2021-02-18
+summary: ''
+trailer: "gallery/perlin-blobs/preview/perlincircle_04_011.jpg"
+splash:
+  image: "./image/perlincircle_04_011.png"
+  caption: "Perlin Blobs"
+---
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery()
+```
+

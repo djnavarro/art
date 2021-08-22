@@ -1,0 +1,21 @@
+---
+output: hugodown::md_document
+title: "Quarantine Moods"
+date: 2020-05-28
+trailer: "gallery/quarantine/preview/layers_03.png"
+splash:
+  image: "./image/layers_03.png"
+  caption: "Quarantine Moods"
+---
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+> I'm slow like honey, and heavy with mood<br>(Fiona Apple)
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(preview_fmt = "png")
+```
+

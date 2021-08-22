@@ -1,0 +1,39 @@
+---
+output: hugodown::md_document
+title: "Native Flora"
+date: 2021-02-10
+summary: ''
+trailer: "gallery/native-flora/preview_02/poa_11_199.jpg"
+splash:
+  image: "./image_02/poa_11_199.png"
+  caption: "Native Flora"
+---
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+
+> The exploration and design process
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(
+  preview = "preview_01", 
+  preview_fmt = "jpg",
+  full = "image_01", 
+  full_fmt = "png"
+)
+```
+
+> 100 consecutive draws from the final system
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(
+  preview = "preview_02", 
+  preview_fmt = "jpg",
+  full = "image_02", 
+  full_fmt = "png"
+)
+```
+

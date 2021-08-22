@@ -1,0 +1,20 @@
+---
+output: hugodown::md_document
+title: "Embers"
+date: 2021-06-05
+summary: ''
+trailer: "gallery/embers/preview/burst_15_241.jpg"
+splash:
+  image: "./image/burst_15_241.jpg"
+  caption: "Embers<br>Sparks<br>and<br>Miscellanea"
+---
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(preview_fmt = "jpg", full_fmt = "jpg")
+```
+

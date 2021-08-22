@@ -1,0 +1,33 @@
+---
+output: hugodown::md_document
+title: "Wisptrees"
+date: 2021-01-16
+summary: ''
+trailer: "gallery/wisptrees/preview/wisptree_08_391.jpg"
+splash:
+  image: "./image/wisptree_08_391.jpg"
+  caption: "<br><br>wisptrees"
+---
+
+<style>
+.splash-caption-container{
+  bottom: 5%;
+}
+.splash-caption-tweak {
+  letter-spacing: 15px;
+  font-weight: 100;
+  font-size: 100%;
+  text-align: center;
+  color: #ffffffcc;
+}
+</style>
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(full_fmt = "jpg", preview_fmt = "jpg")
+```
+

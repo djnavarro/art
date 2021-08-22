@@ -1,0 +1,32 @@
+---
+output: hugodown::md_document
+title: "Scrawl"
+date: 2020-04-09
+trailer: "gallery/scrawl/preview/004-scrawl_2-10000-200-50-5.png"
+splash:
+  image: "./extra/004-scrawl_2-10000-200-50-5.png"
+  caption: "Scrawl"
+---
+
+<style>
+.splash-caption-tweak{
+ color: #000000;
+}
+</style>
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+<!--
+> I must confess<br>I’ve made a mess<br>of what should be a small success.<br>But I digress<br>at least I’ve tried my very best I guess<br>(Courtney Barnett)
+-->
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(preview_fmt = "png")
+```
+
+<br><br>
+
+I came up with [scrawl](https://github.com/djnavarro/scrawl) as a teaching exercise. I wanted something fun and artistic I could get students to play with that would "accidentally" teach programming concepts in the process. To my eternal shame there is [YouTube video](https://www.youtube.com/watch?v=ZUyahWLWVzY&list=PLRPB0ZzEYegNYW3ksiK3dvd6S4HMfKj1n) of me explaining how the system works.

@@ -1,0 +1,19 @@
+---
+output: hugodown::md_document
+title: "Expanse"
+date: 2020-08-24
+trailer: "gallery/expanse/preview/set4_ff_05_11_3_10.jpg"
+splash:
+  image: "./extra/ff_05_11_3_10.jpg"
+  caption: "Expanse"
+---
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery()
+```
+

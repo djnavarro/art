@@ -1,0 +1,34 @@
+---
+output: hugodown::md_document
+title: "Scopes"
+date: 2020-04-03
+trailer: "gallery/scopes/preview/scope_06_272.png"
+splash:
+  image: "./image/scope_06_272.png"
+  caption: "Scopes"
+---
+
+<style>
+.splash-caption-tweak{
+ color: #000000;
+ letter-spacing: 6px;
+}
+</style>
+
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+<!--
+> I know who I was when I got up this morning,<br>but I think I must have been changed several times since then<br>(Lewis Carroll)
+-->
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(preview_fmt = "png")
+```
+
+<br><br>
+
+The weird thing about this series is that there is an entire [R package](https://github.com/djnavarro/scopes) for it that I honestly cannot remember writing. According to the commit logs I released the source code sometime in May 2020. Like everything else about this year, the memories of doing this have just vanished into the general maelstrom of "life in 2020". 

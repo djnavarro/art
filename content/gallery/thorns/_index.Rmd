@@ -1,0 +1,33 @@
+---
+output: hugodown::md_document
+title: "Thorns"
+date: 2020-09-22
+summary: ''
+trailer: "gallery/thorns/preview/thorn_144.jpg"
+splash:
+  image: "./image/thorn_144.png"
+  caption: "he sends me<br>thorns"
+---
+
+<style>
+.splash-caption-tweak{
+  float: left;
+}
+</style>
+
+<!--
+> You're the medicine and the pain, the tattoo inside my brain <br>
+And, baby, you know it's obvious <br>
+(Jonas Brothers)
+-->
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery()
+```
+
+52 consecutive draws from [thorn02](https://github.com/djnavarro/thorn02)
