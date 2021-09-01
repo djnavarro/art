@@ -6,7 +6,7 @@ trailer: "gallery/scrawl/preview/004-scrawl_2-10000-200-50-5.png"
 splash:
   image: "./extra/004-scrawl_2-10000-200-50-5.png"
   caption: "Scrawl"
-rmd_hash: f1072a7d9843aac1
+rmd_hash: 9d64ae215edaa73e
 
 ---
 
@@ -86,4 +86,6 @@ rmd_hash: f1072a7d9843aac1
 <br><br>
 
 I came up with [scrawl](https://github.com/djnavarro/scrawl) as a teaching exercise. I wanted something fun and artistic I could get students to play with that would "accidentally" teach programming concepts in the process. To my eternal shame there is [YouTube video](https://www.youtube.com/watch?v=ZUyahWLWVzY&list=PLRPB0ZzEYegNYW3ksiK3dvd6S4HMfKj1n) of me explaining how the system works.
+
+Although most of my work is released under the [CC-BY-SA 4.0 licence](https://creativecommons.org/licenses/by-sa/4.0/) that places some restrictions on how the work can be used, the pieces contained in the "Scrawl" series are released under a very permissive [CC0 public domain](https://creativecommons.org/publicdomain/zero/1.0/) licence: *You can copy, modify, and distribute the work, even for commercial purposes, all without asking permission.* This is reflected in the [github repository](https://github.com/djnavarro/series-scrawl) associated with this series.
 

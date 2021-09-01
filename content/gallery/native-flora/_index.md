@@ -7,7 +7,7 @@ trailer: "gallery/native-flora/preview_02/poa_11_199.jpg"
 splash:
   image: "./image_02/poa_11_199.png"
   caption: "Native Flora"
-rmd_hash: b373d7dda1ce341f
+rmd_hash: 734c3f2226e88215
 
 ---
 
@@ -718,4 +718,8 @@ rmd_hash: b373d7dda1ce341f
 </div>
 
 </div>
+
+<br><br>
+
+Although most of my work is released under the [CC-BY-SA 4.0 licence](https://creativecommons.org/licenses/by-sa/4.0/) that places some restrictions on how the work can be used, the pieces contained in the "Native Flora" series are released under a very permissive [CC0 public domain](https://creativecommons.org/publicdomain/zero/1.0/) licence: *You can copy, modify, and distribute the work, even for commercial purposes, all without asking permission.* This is reflected in the [github repository](https://github.com/djnavarro/series-native-flora) associated with this series.
 
