@@ -7,7 +7,7 @@ trailer: "gallery/silhouettes/preview_04/night_tree_04_468.jpg"
 splash:
   image: "./image_04/night_tree_04_468.jpg"
   caption: "Silhouettes"
-rmd_hash: 7fe6d5607f925bca
+rmd_hash: 51843f224fd7a5d1
 
 ---
 
@@ -466,4 +466,8 @@ rmd_hash: 7fe6d5607f925bca
 </div>
 
 </div>
+
+<br><br>
+
+Although most of my work is released under the [CC-BY-SA 4.0 licence](https://creativecommons.org/licenses/by-sa/4.0/) that places some restrictions on how the work can be used, the pieces contained in the "Silhouettes" series are released under a very permissive [CC0 public domain](https://creativecommons.org/publicdomain/zero/1.0/) licence: *You can copy, modify, and distribute the work, even for commercial purposes, all without asking permission.* This is reflected in the [github repository](https://github.com/djnavarro/series-silhouettes) associated with this series.
 
