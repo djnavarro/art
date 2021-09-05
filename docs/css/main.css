@@ -21,6 +21,10 @@ ol, ul {
   list-style: none;
 }
 
+a {
+  color: #f3c693;
+  
+}
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
