@@ -7,7 +7,6 @@ trailer: "gallery/water-colours/watercolour_preview.jpg"
 splash:
   image: "./watercolour_splash.jpg"
   caption: "Water Colours"
-
 ---
 
 <style> 
