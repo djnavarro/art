@@ -7,13 +7,18 @@ splash:
   prefix: "art by"
   caption: "Danielle Navarro"
 trailer: "./splash/image4_smol.jpg"
-rmd_hash: c1045ccbd9ee582f
+rmd_hash: 0fdb6e11d1cba57c
+html_dependencies:
+- <link href="font-awesome-5.15.3/css/all.min.css" rel="stylesheet" />
+- <link href="font-awesome-5.15.3/css/v4-shims.min.css" rel="stylesheet" />
 
 ---
 
-I'm a computational artist based in Sydney, living on Gadigal land, and making generative art using the R programming language. I post artwork on [twitter](https://twitter.com/djnavarro), [instagram](https://www.instagram.com/daniellenavarro77/) and [github](https://github.com/djnavarro) and in my other life I am an [academic](https://djnavarro.net/) at the University of New South Wales. This site is written with R, using the [diziet](https://github.com/djnavarro/hugo-diziet) theme for [hugodown](https://github.com/r-lib/hugodown).
+I'm a computational artist based in Sydney, living on Gadigal land, making generative art using the R programming language, and in my other life I am an [academic <i class="fa fa-graduation-cap" role="presentation" aria-label="graduation-cap icon"></i>](https://djnavarro.net/). You'll usually find me posting art on [twitter <i class="fab fa-twitter" role="presentation" aria-label="twitter icon"></i>](https://twitter.com/djnavarro) and [instagram <i class="fab fa-instagram" role="presentation" aria-label="instagram icon"></i>](https://www.instagram.com/daniellenavarro77/). If you like my art you could support me by:
 
-At the moment I don't sell prints directly: I hope to do so in the future. I do have a [society6 page](https://society6.com/djnavarro), however, so if you'd like to purchase my art as a print, yoga mat, coffee mug, shower curtain or as a variety of other objects, take a look! Unless stated otherwise, the art on this site is released under a Creative Commons [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence, so you are free to reuse the work as long as you attribute the original to me, and any derivative works are covered by the same licence. Some pieces are released under a more permissive licence, as noted on the gallery pages.
+    subscribing to my [patreon <i class="fab fa-patreon" role="presentation" aria-label="patreon icon"></i>](https://www.patreon.com/djnavarro) <br>     donating to my [paypal <i class="fab fa-paypal" role="presentation" aria-label="paypal icon"></i>](https://www.paypal.me/daniellenavarro77) <br>     buying eco-friendly NFTs on [hic et nunc <i class="fa fa-palette" role="presentation" aria-label="palette icon"></i>](https://www.hicetnunc.xyz/djnavarro/) <br>     buying prints and more from [society6 <i class="fa fa-shopping-cart" role="presentation" aria-label="shopping-cart icon"></i>](https://society6.com/djnavarro) <br>
 
-If you like my art, you can donate to my [PayPal](https://www.paypal.me/daniellenavarro77), but my day job already pays the bills, and a better use for the money would be to donate to a suitably worthy organisation. Some causes that matter to me personally include the Sydney [Inner City Legal Centre](https://www.iclc.org.au/), the NSW [Sex Worker Outreach Project](https://swop.org.au/), [Black Rainbow](http://www.blackrainbow.org.au/), and [Lou's Place](https://www.lousplace.com.au/).
+Unless stated otherwise, the art on this site is released under a CC-BY-SA licence [<i class="fab fa-creative-commons" role="presentation" aria-label="creative-commons icon"></i> <i class="fab fa-creative-commons-by" role="presentation" aria-label="creative-commons-by icon"></i> <i class="fab fa-creative-commons-sa" role="presentation" aria-label="creative-commons-sa icon"></i>](https://creativecommons.org/licenses/by-sa/4.0/): you are free to reuse the work as long as you attribute the original to me, and derivative works must use the same licence.
+
+I believe that art can serve the public good: I often use the proceeds of art sales to support charities, and sometimes run fundraisers (e.g., [here](https://www.gofundme.com/f/data-science-art-to-support-a-womens-refuge)) to support worthy causes. Some organisations that matter to me personally include the Sydney [Inner City Legal Centre](https://www.iclc.org.au/), the NSW [Sex Worker Outreach Project](https://swop.org.au/), [Black Rainbow](http://www.blackrainbow.org.au/), and [Lou's Place](https://www.lousplace.com.au/).
 
