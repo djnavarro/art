@@ -6,7 +6,7 @@ summary: ''
 trailer: "gallery/hush/preview.jpg"
 splash:
   image: "./splash.png"
-  caption: "...hush"
+  caption: "hush"
 ---
 
 <style>

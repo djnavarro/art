@@ -6,8 +6,8 @@ summary: ''
 trailer: "gallery/hush/preview.jpg"
 splash:
   image: "./splash.png"
-  caption: "...hush"
-rmd_hash: 372a4ac8438b9d75
+  caption: "hush"
+rmd_hash: 07fdf82f09c0b661
 
 ---
 
