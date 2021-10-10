@@ -7,15 +7,15 @@ trailer: "gallery/hush/preview.jpg"
 splash:
   image: "./splash.png"
   caption: "hush"
-rmd_hash: 07fdf82f09c0b661
+rmd_hash: eb833a22ffae23fc
 
 ---
 
 <style>
 .splash-caption-tweak{
-  color: #00000080;
+  color: #00000090;
   letter-spacing: 5px;
-  font-size: 400%;
+  font-size: 200%;
   font-weight: 700;
 }
 </style>
