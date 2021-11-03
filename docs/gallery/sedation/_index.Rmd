@@ -1,0 +1,57 @@
+---
+output: hugodown::md_document
+title: "Sedation"
+date: 2021-11-03
+summary: ''
+trailer: "gallery/sedation/preview.jpg"
+splash:
+  image: "./splash.jpg"
+  caption: "Sedation"
+---
+
+<style>
+.splash-caption-tweak{
+  color: #00000090;
+  font-size: 200%;
+  font-weight: 700;
+}
+</style>
+
+
+
+```{r read-manifest, echo=FALSE, message=FALSE}
+library(magrittr)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(bs4cards)
+
+url <- "https://djnavarro.net/series-sedation/"
+
+images <- paste0(url, "manifest.csv") %>% 
+  read_csv() %>% 
+  filter(
+    resolution %in% c(800, 2500), 
+    format == "jpg"
+  ) %>% 
+  mutate(path = paste0(url, path)) %>% 
+  pivot_wider(
+    names_from = resolution, 
+    names_prefix = "path_", 
+    values_from = path
+  ) 
+```
+
+```{r gallery, echo=FALSE, message=FALSE}
+images %>%
+  slice_sample(prop = 1) %>% 
+  cards(
+    image = path_800,
+    link = path_2500,
+    layout = "image-only", 
+    border_radius = 0,
+    border_width = 0, 
+    width = 2,
+    spacing = 3
+  )  
+```
