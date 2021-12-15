@@ -7,14 +7,14 @@ splash:
   prefix: "art by"
   caption: "Danielle Navarro"
 trailer: "./splash/image4_smol.jpg"
-rmd_hash: fbb3d8b6bbfadf6c
+rmd_hash: 07118a1e20b9538d
 html_dependencies:
 - <link href="font-awesome-5.15.3/css/all.min.css" rel="stylesheet" />
 - <link href="font-awesome-5.15.3/css/v4-shims.min.css" rel="stylesheet" />
 
 ---
 
-I'm a computational artist based in Sydney, living on Gadigal land, making generative art using the R programming language, and in my other life I am an [academic <i class="fa fa-graduation-cap" role="presentation" aria-label="graduation-cap icon"></i>](https://djnavarro.net/). You'll usually find me posting art on [twitter <i class="fab fa-twitter" role="presentation" aria-label="twitter icon"></i>](https://twitter.com/djnavarro) and [instagram <i class="fab fa-instagram" role="presentation" aria-label="instagram icon"></i>](https://www.instagram.com/daniellenavarro77/). If you like my art you could support me by:
+I'm a computational artist based in Sydney, living on Gadigal land, making generative art using the R programming language, and in my [professional life](https://djnavarro.net) I am a recovering academic now working in data science. You'll usually find me posting art on [twitter <i class="fab fa-twitter" role="presentation" aria-label="twitter icon"></i>](https://twitter.com/djnavarro) and [instagram <i class="fab fa-instagram" role="presentation" aria-label="instagram icon"></i>](https://www.instagram.com/daniellenavarro77/). If you like my art you could support me by:
 
     subscribing to my [patreon <i class="fab fa-patreon" role="presentation" aria-label="patreon icon"></i>](https://www.patreon.com/djnavarro) <br>     donating to my [paypal <i class="fab fa-paypal" role="presentation" aria-label="paypal icon"></i>](https://www.paypal.me/daniellenavarro77) <br>     buying eco-friendly NFTs on [objkt.com <i class="fa fa-palette" role="presentation" aria-label="palette icon"></i>](https://objkt.djnavarro.net/collections) <br>     buying prints and more from [society6 <i class="fa fa-shopping-cart" role="presentation" aria-label="shopping-cart icon"></i>](https://society6.com/djnavarro) <br>
 

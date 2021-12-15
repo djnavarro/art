@@ -9,7 +9,7 @@ splash:
 trailer: "./splash/image4_smol.jpg"
 ---
 
-I'm a computational artist based in Sydney, living on Gadigal land, making generative art using the R programming language, and in my other life I am an [academic `r fontawesome::fa_i("graduation-cap", verify_fa = FALSE)`](https://djnavarro.net/). You'll usually find me posting art on [twitter `r fontawesome::fa_i("twitter", verify_fa = FALSE)`](https://twitter.com/djnavarro) and [instagram `r fontawesome::fa_i("instagram", verify_fa = FALSE)`](https://www.instagram.com/daniellenavarro77/). If you like my art you could support me by:
+I'm a computational artist based in Sydney, living on Gadigal land, making generative art using the R programming language, and in my [professional life](https://djnavarro.net) I am a recovering academic now working in data science. You'll usually find me posting art on [twitter `r fontawesome::fa_i("twitter", verify_fa = FALSE)`](https://twitter.com/djnavarro) and [instagram `r fontawesome::fa_i("instagram", verify_fa = FALSE)`](https://www.instagram.com/daniellenavarro77/). If you like my art you could support me by:
 
 &nbsp; &nbsp; subscribing to my [patreon `r fontawesome::fa_i("patreon", verify_fa = FALSE)`](https://www.patreon.com/djnavarro) <br>
 &nbsp; &nbsp; donating to my [paypal `r fontawesome::fa_i("paypal", verify_fa = FALSE)`](https://www.paypal.me/daniellenavarro77) <br>
