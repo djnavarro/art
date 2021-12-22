@@ -1,0 +1,47 @@
+---
+output: hugodown::md_document
+title: "Disassembly"
+date: 2021-12-23
+summary: ''
+trailer: "gallery/disassembly/preview.png"
+splash:
+  image: "./splash.png"
+  caption: "Disassembly"
+---
+
+
+```{r read-manifest, echo=FALSE, message=FALSE}
+library(magrittr)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(bs4cards)
+
+url <- "https://djnavarro.net/series-disassembly/"
+
+images <- paste0(url, "manifest.csv") %>% 
+  read_csv() %>% 
+  filter(
+    resolution %in% c(800, 4000), 
+    format == "png"
+  ) %>% 
+  mutate(path = paste0(url, path)) %>% 
+  pivot_wider(
+    names_from = resolution, 
+    names_prefix = "path_", 
+    values_from = path
+  ) 
+```
+
+```{r gallery, echo=FALSE, message=FALSE}
+images %>%
+  cards(
+    image = path_800,
+    link = path_4000,
+    layout = "image-only", 
+    border_radius = 0,
+    border_width = 0, 
+    width = 2,
+    spacing = 3
+  )  
+```
