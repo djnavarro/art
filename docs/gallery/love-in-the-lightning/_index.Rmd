@@ -9,6 +9,17 @@ splash:
   caption: "Love in the Lightning"
 ---
 
+<style> 
+.splash-caption-tweak{
+  color: #00000090;
+}
+
+a > h5 { 
+  color: #ddd; 
+  font-weight: normal;
+} 
+</style> 
+
 
 ```{r read-manifest, echo=FALSE, message=FALSE}
 library(magrittr)
@@ -40,9 +51,11 @@ images %>%
     link = path_5000,
     title = title,
     layout = "inset-bottom", 
+    breakpoint = 1,
     border_radius = 0,
     border_width = 0, 
     width = 2,
-    spacing = 3
+    spacing = 3,
+    label_colour = "#22222280"
   )  
 ```
