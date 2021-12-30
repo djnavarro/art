@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Galleries on  </title>
-    <link>/gallery/</link>
-    <description>Recent content in Galleries on  </description>
+    <title>Love in the Lightning on  </title>
+    <link>/gallery/love-in-the-lightning/</link>
+    <description>Recent content in Love in the Lightning on  </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 30 Dec 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/gallery/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/gallery/love-in-the-lightning/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

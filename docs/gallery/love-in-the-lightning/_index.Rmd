@@ -1,0 +1,48 @@
+---
+output: hugodown::md_document
+title: "Love in the Lightning"
+date: 2021-12-30
+summary: ''
+trailer: "gallery/love-in-the-lightning/preview.jpg"
+splash:
+  image: "./splash.jpg"
+  caption: "Love in the Lightning"
+---
+
+
+```{r read-manifest, echo=FALSE, message=FALSE}
+library(magrittr)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(bs4cards)
+
+url <- "https://djnavarro.net/series-love-in-the-lightning/"
+
+images <- paste0(url, "manifest.csv") %>% 
+  read_csv() %>% 
+  filter(
+    resolution %in% c(800, 5000), 
+    format == "jpg"
+  ) %>% 
+  mutate(path = paste0(url, path)) %>% 
+  pivot_wider(
+    names_from = resolution, 
+    names_prefix = "path_", 
+    values_from = path
+  ) 
+```
+
+```{r gallery, echo=FALSE, message=FALSE}
+images %>%
+  cards(
+    image = path_800,
+    link = path_5000,
+    title = title,
+    layout = "inset-bottom", 
+    border_radius = 0,
+    border_width = 0, 
+    width = 2,
+    spacing = 3
+  )  
+```

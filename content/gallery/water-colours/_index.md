@@ -7,8 +7,7 @@ trailer: "gallery/water-colours/watercolour_preview.jpg"
 splash:
   image: "./watercolour_splash.jpg"
   caption: "Water Colours"
-
-rmd_hash: 6f752459ac66603f
+rmd_hash: 42a1b7fff09849f3
 
 ---
 
@@ -23,12 +22,12 @@ a > h5 {
 
 <div>
 <div class="row p-0 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" style="margin-left: -.4rem; margin-right: -.4rem; margin-top: 1rem; margin-bottom: 1rem; ">
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img34_teacup-ocean.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img34_teacup-ocean.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img34_teacup-ocean.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img34_teacup-ocean.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img34_teacup-ocean.jpg">
@@ -39,12 +38,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img31_incursions.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img31_incursions.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img31_incursions.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img31_incursions.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img31_incursions.jpg">
@@ -55,12 +54,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img32_percolate.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img32_percolate.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img32_percolate.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img32_percolate.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img32_percolate.jpg">
@@ -71,12 +70,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img37_gentle-descent.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img37_gentle-descent.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img37_gentle-descent.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img37_gentle-descent.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img37_gentle-descent.jpg">
@@ -87,12 +86,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img41_stormy-seas.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img41_stormy-seas.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img41_stormy-seas.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img41_stormy-seas.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img41_stormy-seas.jpg">
@@ -103,12 +102,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img42_turmeric.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img42_turmeric.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img42_turmeric.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img42_turmeric.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img42_turmeric.jpg">
@@ -119,12 +118,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img43_torn-and-frayed.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img43_torn-and-frayed.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img43_torn-and-frayed.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img43_torn-and-frayed.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img43_torn-and-frayed.jpg">
@@ -135,12 +134,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img47_inferno.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img47_inferno.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img47_inferno.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img47_inferno.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img47_inferno.jpg">
@@ -151,12 +150,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img48_storm-cell.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img48_storm-cell.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img48_storm-cell.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img48_storm-cell.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img48_storm-cell.jpg">
@@ -167,12 +166,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img49_tonal-earth.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img49_tonal-earth.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img49_tonal-earth.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img49_tonal-earth.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img49_tonal-earth.jpg">
@@ -183,12 +182,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img50_cold-front.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img50_cold-front.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img50_cold-front.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img50_cold-front.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img50_cold-front.jpg">
@@ -199,12 +198,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img51_kintsugi-dreams.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img51_kintsugi-dreams.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img51_kintsugi-dreams.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img51_kintsugi-dreams.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img51_kintsugi-dreams.jpg">
@@ -215,12 +214,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img53_departure.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img53_departure.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img53_departure.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img53_departure.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img53_departure.jpg">
@@ -231,12 +230,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img54_echo.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img54_echo.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img54_echo.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img54_echo.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img54_echo.jpg">
@@ -247,12 +246,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img57_portal.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img57_portal.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img57_portal.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img57_portal.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img57_portal.jpg">
@@ -263,12 +262,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img60_salt-stone-storm.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img60_salt-stone-storm.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img60_salt-stone-storm.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img60_salt-stone-storm.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img60_salt-stone-storm.jpg">
@@ -279,12 +278,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img61_amanecer-de-invierno.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img61_amanecer-de-invierno.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img61_amanecer-de-invierno.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img61_amanecer-de-invierno.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img61_amanecer-de-invierno.jpg">
@@ -295,12 +294,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img65_plume.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img65_plume.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img65_plume.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img65_plume.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img65_plume.jpg">
@@ -311,12 +310,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img67_woodland-spirits.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img67_woodland-spirits.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img67_woodland-spirits.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img67_woodland-spirits.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img67_woodland-spirits.jpg">
@@ -327,12 +326,12 @@ a > h5 {
 </div>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <div style="position: relative; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img68_below-the-horizon.jpg">
-<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img68_below-the-horizon.jpg" class="card-img" style="border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img68_below-the-horizon.jpg" style="color: inherit;">
+<img src="https://djnavarro.net/series-water-colours/500/watercolour_sys02_img68_below-the-horizon.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:#808080FF; border-width:0; border-radius: 0 0 0 0 ;">
+<div class="card-img-overlay p-0 m-0" style="overflow: hidden;background-color: #22222280;height: 25%;position: absolute;top: 75%;border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;">
 <div class="d-flex flex-column h-100">
 <div class="mb-auto">
 <a href="https://djnavarro.net/series-water-colours/2000/watercolour_sys02_img68_below-the-horizon.jpg">
