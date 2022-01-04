@@ -1,0 +1,53 @@
+---
+output: hugodown::md_document
+title: "Damage"
+date: 2022-01-04
+summary: ''
+trailer: "gallery/damage/preview.png"
+splash:
+  image: "./splash.png"
+  caption: "Damage"
+---
+<style>
+.splash-caption-tweak{
+  color: #000000;
+  font-size: 150%;
+}
+</style>
+
+
+```{r read-manifest, echo=FALSE, message=FALSE}
+library(magrittr)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(bs4cards)
+
+url <- "https://djnavarro.net/series-damage/"
+
+images <- paste0(url, "manifest.csv") %>% 
+  read_csv() %>% 
+  filter(
+    resolution %in% c(800, 3000), 
+    format == "png"
+  ) %>% 
+  mutate(path = paste0(url, path)) %>% 
+  pivot_wider(
+    names_from = resolution, 
+    names_prefix = "path_", 
+    values_from = path
+  ) 
+```
+
+```{r gallery, echo=FALSE, message=FALSE}
+images %>%
+  cards(
+    image = path_800,
+    link = path_3000,
+    layout = "image-only", 
+    border_radius = 0,
+    border_width = 0, 
+    width = 2,
+    spacing = 3
+  )  
+```
