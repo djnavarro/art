@@ -15,6 +15,10 @@ splash:
 }
 </style>
 
+This series was an experiment to see how close I could get to developing a complete generative art system in a day, while juggling kids, groceries, cleaning, and dentist appointments at the same time. I started the day with a half formed idea and one very poorly structured script I'd written the night before as a proof of concept. The goal was to create a system that has a distinctive look and generates mostly pleasant pieces. Additionally my aims were to [release the source code](https://github.com/djnavarro/damage) as an R package, create [basic documentation](https://damage.dnavarro.net) using pkgdown, generate 100 pieces from the art and [release them under a CC-BY licence](https://github.com/djnavarro/series-damage) and post the series here. 
+
+The results are... okay, I suppose? I didn't have as much time to work on it as I'd have liked to, and the system needs quite a bit of polishing, but it was interesting to see how much I could get done. 
+
 
 ```{r read-manifest, echo=FALSE, message=FALSE}
 library(magrittr)
@@ -36,7 +40,9 @@ images <- paste0(url, "manifest.csv") %>%
     names_from = resolution, 
     names_prefix = "path_", 
     values_from = path
-  ) 
+  ) %>% 
+  mutate(img_id = as.numeric(img_id)) %>% 
+  arrange(img_id)
 ```
 
 ```{r gallery, echo=FALSE, message=FALSE}

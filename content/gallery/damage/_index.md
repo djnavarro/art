@@ -7,7 +7,7 @@ trailer: "gallery/damage/preview.png"
 splash:
   image: "./splash.png"
   caption: "Damage<br><br><br><br><br>"
-rmd_hash: 36ad6295c2feeaf1
+rmd_hash: fd5804c5499a7a5e
 
 ---
 
@@ -17,6 +17,10 @@ rmd_hash: 36ad6295c2feeaf1
   font-size: 150%;
 }
 </style>
+
+This series was an experiment to see how close I could get to developing a complete generative art system in a day, while juggling kids, groceries, cleaning, and dentist appointments at the same time. I started the day with a half formed idea and one very poorly structured script I'd written the night before as a proof of concept. The goal was to create a system that has a distinctive look and generates mostly pleasant pieces. Additionally my aims were to [release the source code](https://github.com/djnavarro/damage) as an R package, create [basic documentation](https://damage.dnavarro.net) using pkgdown, generate 100 pieces from the art and [release them under a CC-BY licence](https://github.com/djnavarro/series-damage) and post the series here.
+
+The results are... okay, I suppose? I didn't have as much time to work on it as I'd have liked to, and the system needs quite a bit of polishing, but it was interesting to see how much I could get done.
 
 <div class="highlight">
 
@@ -32,13 +36,43 @@ rmd_hash: 36ad6295c2feeaf1
 </a>
 </div>
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-damage/3000/damage_10.png" style="color: inherit;">
-<img src="https://djnavarro.net/series-damage/800/damage_10.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-damage/3000/damage_3.png" style="color: inherit;">
+<img src="https://djnavarro.net/series-damage/800/damage_3.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
 </div>
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-damage/3000/damage_100.png" style="color: inherit;">
-<img src="https://djnavarro.net/series-damage/800/damage_100.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
+<a href="https://djnavarro.net/series-damage/3000/damage_4.png" style="color: inherit;">
+<img src="https://djnavarro.net/series-damage/800/damage_4.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
+</a>
+</div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<a href="https://djnavarro.net/series-damage/3000/damage_5.png" style="color: inherit;">
+<img src="https://djnavarro.net/series-damage/800/damage_5.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
+</a>
+</div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<a href="https://djnavarro.net/series-damage/3000/damage_6.png" style="color: inherit;">
+<img src="https://djnavarro.net/series-damage/800/damage_6.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
+</a>
+</div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<a href="https://djnavarro.net/series-damage/3000/damage_7.png" style="color: inherit;">
+<img src="https://djnavarro.net/series-damage/800/damage_7.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
+</a>
+</div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<a href="https://djnavarro.net/series-damage/3000/damage_8.png" style="color: inherit;">
+<img src="https://djnavarro.net/series-damage/800/damage_8.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
+</a>
+</div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<a href="https://djnavarro.net/series-damage/3000/damage_9.png" style="color: inherit;">
+<img src="https://djnavarro.net/series-damage/800/damage_9.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
+</a>
+</div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<a href="https://djnavarro.net/series-damage/3000/damage_10.png" style="color: inherit;">
+<img src="https://djnavarro.net/series-damage/800/damage_10.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
 </div>
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
@@ -137,11 +171,6 @@ rmd_hash: 36ad6295c2feeaf1
 </a>
 </div>
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-damage/3000/damage_3.png" style="color: inherit;">
-<img src="https://djnavarro.net/series-damage/800/damage_3.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
-</a>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <a href="https://djnavarro.net/series-damage/3000/damage_30.png" style="color: inherit;">
 <img src="https://djnavarro.net/series-damage/800/damage_30.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
@@ -189,11 +218,6 @@ rmd_hash: 36ad6295c2feeaf1
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <a href="https://djnavarro.net/series-damage/3000/damage_39.png" style="color: inherit;">
 <img src="https://djnavarro.net/series-damage/800/damage_39.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
-</a>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-damage/3000/damage_4.png" style="color: inherit;">
-<img src="https://djnavarro.net/series-damage/800/damage_4.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
 </div>
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
@@ -247,11 +271,6 @@ rmd_hash: 36ad6295c2feeaf1
 </a>
 </div>
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-damage/3000/damage_5.png" style="color: inherit;">
-<img src="https://djnavarro.net/series-damage/800/damage_5.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
-</a>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <a href="https://djnavarro.net/series-damage/3000/damage_50.png" style="color: inherit;">
 <img src="https://djnavarro.net/series-damage/800/damage_50.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
@@ -299,11 +318,6 @@ rmd_hash: 36ad6295c2feeaf1
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <a href="https://djnavarro.net/series-damage/3000/damage_59.png" style="color: inherit;">
 <img src="https://djnavarro.net/series-damage/800/damage_59.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
-</a>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-damage/3000/damage_6.png" style="color: inherit;">
-<img src="https://djnavarro.net/series-damage/800/damage_6.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
 </div>
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
@@ -357,11 +371,6 @@ rmd_hash: 36ad6295c2feeaf1
 </a>
 </div>
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-damage/3000/damage_7.png" style="color: inherit;">
-<img src="https://djnavarro.net/series-damage/800/damage_7.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
-</a>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <a href="https://djnavarro.net/series-damage/3000/damage_70.png" style="color: inherit;">
 <img src="https://djnavarro.net/series-damage/800/damage_70.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
@@ -409,11 +418,6 @@ rmd_hash: 36ad6295c2feeaf1
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <a href="https://djnavarro.net/series-damage/3000/damage_79.png" style="color: inherit;">
 <img src="https://djnavarro.net/series-damage/800/damage_79.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
-</a>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-damage/3000/damage_8.png" style="color: inherit;">
-<img src="https://djnavarro.net/series-damage/800/damage_8.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
 </div>
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
@@ -467,11 +471,6 @@ rmd_hash: 36ad6295c2feeaf1
 </a>
 </div>
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
-<a href="https://djnavarro.net/series-damage/3000/damage_9.png" style="color: inherit;">
-<img src="https://djnavarro.net/series-damage/800/damage_9.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
-</a>
-</div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <a href="https://djnavarro.net/series-damage/3000/damage_90.png" style="color: inherit;">
 <img src="https://djnavarro.net/series-damage/800/damage_90.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
@@ -519,6 +518,11 @@ rmd_hash: 36ad6295c2feeaf1
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <a href="https://djnavarro.net/series-damage/3000/damage_99.png" style="color: inherit;">
 <img src="https://djnavarro.net/series-damage/800/damage_99.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
+</a>
+</div>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
+<a href="https://djnavarro.net/series-damage/3000/damage_100.png" style="color: inherit;">
+<img src="https://djnavarro.net/series-damage/800/damage_100.png" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
 </div>
 </div>
