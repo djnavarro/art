@@ -1,17 +1,17 @@
 ---
 output: hugodown::md_document
-title: "Cards"
-date: 2022-02-15
+title: "Dancers"
+date: 2022-02-09
 summary: ''
-trailer: "gallery/cards/preview.jpg"
+trailer: "gallery/dancers/preview.jpg"
 splash:
   image: "./splash.jpg"
-  caption: "cards"
+  caption: "dancers"
 ---
 
 <style>
 .splash-caption-tweak{
-  color: #52341599;
+  color: #000000;
   font-size: 120%;
   text-align: center;
   letter-spacing: 20px;
@@ -26,7 +26,7 @@ library(dplyr)
 library(tidyr)
 library(bs4cards)
 
-url <- "https://djnavarro.net/series-cards/"
+url <- "https://djnavarro.net/series-dancers/"
 
 images <- paste0(url, "manifest.csv") %>% 
   read_csv() %>% 
