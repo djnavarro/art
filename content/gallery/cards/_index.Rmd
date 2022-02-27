@@ -42,8 +42,12 @@ images <- paste0(url, "manifest.csv") %>%
   ) 
 ```
 
-```{r gallery, echo=FALSE, message=FALSE}
+
+## <span style="color:#ccc">Series A</span>
+
+```{r gallery-a, echo=FALSE, message=FALSE}
 images %>%
+  filter(sys_id == "30") %>% 
   cards(
     image = path_800,
     link = path_3000,
@@ -54,5 +58,24 @@ images %>%
     spacing = 3
   )  
 ```
+
+<p><br><br><br></p>
+
+## <span style="color:#ccc">Series B</span>
+
+```{r gallery-b, echo=FALSE, message=FALSE}
+images %>%
+  filter(sys_id == "31") %>% 
+  cards(
+    image = path_800,
+    link = path_3000,
+    layout = "image-only", 
+    border_radius = 0,
+    border_width = 0, 
+    width = 2,
+    spacing = 3
+  )  
+```
+
 
 
