@@ -7,7 +7,7 @@ splash:
   prefix: "art by"
   caption: "Danielle Navarro"
 trailer: "./splash/image4_smol.jpg"
-rmd_hash: 07118a1e20b9538d
+rmd_hash: 1165e30233dc83e8
 html_dependencies:
 - <link href="font-awesome-5.15.3/css/all.min.css" rel="stylesheet" />
 - <link href="font-awesome-5.15.3/css/v4-shims.min.css" rel="stylesheet" />
@@ -20,5 +20,5 @@ I'm a computational artist based in Sydney, living on Gadigal land, making gener
 
 Unless stated otherwise, the art on this site is released under a CC-BY-SA licence [<i class="fab fa-creative-commons" role="presentation" aria-label="creative-commons icon"></i> <i class="fab fa-creative-commons-by" role="presentation" aria-label="creative-commons-by icon"></i> <i class="fab fa-creative-commons-sa" role="presentation" aria-label="creative-commons-sa icon"></i>](https://creativecommons.org/licenses/by-sa/4.0/): you are free to reuse the work as long as you attribute the original to me, and derivative works must use the same licence.
 
-I believe that art can serve the public good: I often use the proceeds of art sales to support charities, and sometimes run fundraisers (e.g., [here](https://www.gofundme.com/f/data-science-art-to-support-a-womens-refuge)) to support worthy causes. Some organisations that matter to me personally include the Sydney [Inner City Legal Centre](https://www.iclc.org.au/), the NSW [Sex Worker Outreach Project](https://swop.org.au/), [Black Rainbow](http://www.blackrainbow.org.au/), and [Lou's Place](https://www.lousplace.com.au/).
+I believe that art can serve the public good: I often use the proceeds of art sales to support charities, and sometimes run fundraisers (e.g., [here](https://www.gofundme.com/f/data-science-art-to-support-a-womens-refuge), [here](https://www.gofundme.com/f/please-support-organizacion-latina-trans-en-texas)) to support worthy causes. Some organisations that matter to me personally include the Sydney [Inner City Legal Centre](https://www.iclc.org.au/), the NSW [Sex Worker Outreach Project](https://swop.org.au/), [Black Rainbow](http://www.blackrainbow.org.au/), and [Lou's Place](https://www.lousplace.com.au/).
 
