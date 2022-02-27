@@ -7,7 +7,7 @@ trailer: "gallery/dancers/preview.jpg"
 splash:
   image: "./splash.jpg"
   caption: "dancers"
-rmd_hash: e0d36b63c05ebbe0
+rmd_hash: 1372fba4ee4e3555
 
 ---
 
@@ -23,6 +23,8 @@ rmd_hash: e0d36b63c05ebbe0
 <div class="highlight">
 
 </div>
+
+## <span style="color:#ccc">Series A</span>
 
 <div class="highlight">
 
@@ -528,6 +530,21 @@ rmd_hash: e0d36b63c05ebbe0
 <img src="https://djnavarro.net/series-dancers/800/pollen_19_1999.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
 </div>
+</div>
+</div>
+
+</div>
+
+<p>
+<br><br><br>
+</p>
+
+## <span style="color:#ccc">Series B</span>
+
+<div class="highlight">
+
+<div>
+<div class="row p-0 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" style="margin-left: -.4rem; margin-right: -.4rem; margin-top: 1rem; margin-bottom: 1rem; ">
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <a href="https://djnavarro.net/series-dancers/3000/pollen_20_2000.jpg" style="color: inherit;">
 <img src="https://djnavarro.net/series-dancers/800/pollen_20_2000.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
@@ -1028,6 +1045,21 @@ rmd_hash: e0d36b63c05ebbe0
 <img src="https://djnavarro.net/series-dancers/800/pollen_20_2099.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
 </div>
+</div>
+</div>
+
+</div>
+
+<p>
+<br><br><br>
+</p>
+
+## <span style="color:#ccc">Series C</span>
+
+<div class="highlight">
+
+<div>
+<div class="row p-0 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" style="margin-left: -.4rem; margin-right: -.4rem; margin-top: 1rem; margin-bottom: 1rem; ">
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <a href="https://djnavarro.net/series-dancers/3000/pollen_21_2100.jpg" style="color: inherit;">
 <img src="https://djnavarro.net/series-dancers/800/pollen_21_2100.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
@@ -1528,6 +1560,21 @@ rmd_hash: e0d36b63c05ebbe0
 <img src="https://djnavarro.net/series-dancers/800/pollen_21_2199.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>
 </a>
 </div>
+</div>
+</div>
+
+</div>
+
+<p>
+<br><br><br>
+</p>
+
+## <span style="color:#ccc">Series D</span>
+
+<div class="highlight">
+
+<div>
+<div class="row p-0 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" style="margin-left: -.4rem; margin-right: -.4rem; margin-top: 1rem; margin-bottom: 1rem; ">
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .4rem ; border-width: 0; border-radius: 0 0 0 0 ;">
 <a href="https://djnavarro.net/series-dancers/3000/pollen_24_2400.jpg" style="color: inherit;">
 <img src="https://djnavarro.net/series-dancers/800/pollen_24_2400.jpg" class="card-img" style="border-style:solid; border-color:inherits; border-width:0; border-radius: 0 0 0 0 ;"/>

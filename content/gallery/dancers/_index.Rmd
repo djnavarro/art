@@ -42,8 +42,68 @@ images <- paste0(url, "manifest.csv") %>%
   ) 
 ```
 
-```{r gallery, echo=FALSE, message=FALSE}
+
+## <span style="color:#ccc">Series A</span>
+
+```{r gallery-a, echo=FALSE, message=FALSE}
 images %>%
+  filter(sys_id == "19") %>% 
+  cards(
+    image = path_800,
+    link = path_3000,
+    layout = "image-only", 
+    border_radius = 0,
+    border_width = 0, 
+    width = 2,
+    spacing = 3
+  )  
+```
+
+<p><br><br><br></p>
+
+## <span style="color:#ccc">Series B</span>
+
+```{r gallery-b, echo=FALSE, message=FALSE}
+images %>%
+  filter(sys_id == "20") %>% 
+  cards(
+    image = path_800,
+    link = path_3000,
+    layout = "image-only", 
+    border_radius = 0,
+    border_width = 0, 
+    width = 2,
+    spacing = 3
+  )  
+```
+
+
+<p><br><br><br></p>
+
+## <span style="color:#ccc">Series C</span>
+
+```{r gallery-c, echo=FALSE, message=FALSE}
+images %>%
+  filter(sys_id == "21") %>% 
+  cards(
+    image = path_800,
+    link = path_3000,
+    layout = "image-only", 
+    border_radius = 0,
+    border_width = 0, 
+    width = 2,
+    spacing = 3
+  )  
+```
+
+
+<p><br><br><br></p>
+
+## <span style="color:#ccc">Series D</span>
+
+```{r gallery-d, echo=FALSE, message=FALSE}
+images %>%
+  filter(sys_id == "24") %>% 
   cards(
     image = path_800,
     link = path_3000,
