@@ -1,0 +1,61 @@
+---
+output: hugodown::md_document
+title: "Broken Lands"
+date: 2023-03-01
+summary: ''
+trailer: "gallery/broken-lands/preview.png"
+splash:
+  image: "./splash.png"
+  caption: "Broken<br>Lands"
+---
+
+
+<style>
+.splash-caption-tweak{
+  color: #362419;
+  font-size: 120%;
+  text-align: center;
+  padding-bottom: 100px;
+  letter-spacing: 15px;
+}
+</style>
+
+
+
+```{r read-manifest, echo=FALSE, message=FALSE}
+library(magrittr)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(bs4cards)
+
+url <- "https://djnavarro.net/series-broken-lands/"
+
+images <- paste0(url, "manifest.csv") %>% 
+  read_csv() %>% 
+  filter(
+    resolution %in% c(800, 3000), 
+    format == "png"
+  ) %>% 
+  mutate(path = paste0(url, path)) %>% 
+  pivot_wider(
+    names_from = resolution, 
+    names_prefix = "path_", 
+    values_from = path
+  ) 
+```
+
+
+```{r gallery-a, echo=FALSE, message=FALSE}
+images %>%
+  cards(
+    image = path_800,
+    link = path_3000,
+    layout = "image-only", 
+    border_radius = 0,
+    border_width = 0, 
+    width = 2,
+    spacing = 3
+  )  
+```
+
