@@ -1,0 +1,5 @@
+---
+title: "Art by Danielle Navarro"
+---
+
+I'm in the process of porting my art website to quarto. Please bear with me!

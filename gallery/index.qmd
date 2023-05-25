@@ -1,0 +1,12 @@
+---
+title: "Galleries"
+listing:
+  feed: true
+  contents: .
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  image-height: 250px
+  page-size: 100
+  categories: true
+---

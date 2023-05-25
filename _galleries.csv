@@ -1,0 +1,67 @@
+series,name,preview_size,image_size,format,date,manifest
+rosemary,Rosemary,800,3000,png,2019-12-27,
+nye2019,NYE 2019,800,3000,png,2019-12-31,
+flametree,Flametree,800,3000,png,2020-03-15,
+popart,Pop Art And Fracture,800,3000,png,2020-03-23,
+scopes,Scopes,800,3000,png,2020-04-03,
+scrawl,Scrawl,800,3000,png,2020-04-09,
+voronoise,Voronoise,800,3000,png,2020-05-06,
+quarantine,Quarantine Moods,800,3000,png,2020-05-28,
+stoneskip,Stoneskip,800,3000,png,2020-06-05,
+stonetree,Stonetree,800,3000,png,2020-06-13,
+turmite,Turmite,800,3000,png,2020-06-20,
+dust,Dust,800,3000,png,2020-06-26,
+generalisation,Generalisation,800,3000,png,2020-07-01,
+the-heart-speaks,The Heart Speaks,800,3000,png,2020-07-27,
+lost,Lost In All This Light,800,3000,png,2020-08-01,
+heartbleed,Heartbleed,800,3000,png,2020-08-10,
+expanse,Expanse,800,3000,png,2020-08-24,
+borderlines,Borderlines,800,3000,png,2020-09-12,
+bursts,Bursts,800,3000,png,2020-09-13,
+boxes,Boxes,800,3000,png,2020-09-15,
+track-marks,Track Marks,800,3000,png,2020-09-20,
+thorns,Thorns,800,3000,png,2020-09-22,
+votives,Votives,800,3000,png,2020-09-29,
+heart-samples,"Hearts, Sampled Unwisely",800,3000,png,2020-10-09,
+crosshairs,Crosshairs,800,3000,png,2020-10-11,
+pollen,Pollen,800,3000,png,2020-10-27,
+night-skies,"Bright Seas, Night Skies",800,3000,png,2020-11-27,
+windswept,Windswept,800,3000,png,2020-11-28,
+grasslands,Grasslands,800,3000,png,2020-11-29,
+tangle,Tangle,800,3000,png,2020-12-29,
+crescent,Crescent,800,3000,png,2021-01-07,
+ghosts,Ghosts On Marble Paper,800,3000,png,2021-01-09,
+wisptrees,Wisptrees,800,3000,png,2021-01-16,
+ice-floes,Ice Floes,800,3000,png,2021-01-19,
+nebulae,Nebulae,800,3000,png,2021-01-19,
+silhouettes,Silhouettes,800,3000,png,2021-01-24,
+native-flora,Native Flora,800,5000,png,2021-02-10,manifest.csv
+perlin-blobs,Perlin Blobs,800,3000,png,2021-02-18,manifest.csv
+viewports,Viewports,800,5000,png,2021-02-28,manifest.csv
+embers,Embers,800,4000,jpg,2021-06-05,manifest.csv
+perlin-hearts,Perlin Hearts,800,3000,png,2021-07-16,manifest.csv
+ash,Ash Cloud And Blood,800,3000,png,2021-07-17,manifest.csv
+water-colours,Water Colours,500,2000,jpg,2021-09-05,manifest.csv
+grid-graphics,Grid Graphics,800,4000,png,2021-09-19,manifest.csv
+sadists-kiss,Sadists Kiss,800,5000,png,2021-10-04,manifest.csv
+fallow-flow,Fallow Flow,800,4000,png,2021-10-05,manifest.csv
+melancholia,Melancholia,1000,4000,png,2021-10-06,manifest.csv
+hush,Hush,800,2500,png,2021-10-10,manifest.csv
+sedation,Sedation,800,2500,jpg,2021-11-03,manifest.csv
+dreamlike,Dreamlike,800,3000,jpg,2021-12-09,manifest.csv
+unboxing,Unboxing,800,2000,png,2021-12-13,manifest.csv
+disassembly,Disassembly,800,4000,png,2021-12-23,manifest.csv
+puffs,Puffs,800,3000,jpg,2021-12-23,manifest.csv
+love-in-the-lightning,Love In The Lightning,800,5000,jpg,2021-12-30,manifest.csv
+stalk-and-feather,Stalk And Feather,800,3000,jpg,2022-01-31,manifest.csv
+dancers,Dancers,800,3000,jpg,2022-02-09,manifest.csv
+cherish,Cherish,800,3000,jpg,2022-02-12,manifest.csv
+sheets,Sheets,800,3000,jpg,2022-02-12,manifest.csv
+cards,Cards,800,3000,jpg,2022-02-15,manifest.csv
+glitchy,Glitchy,800,3000,jpg,2022-02-24,manifest.csv
+moths-and-moonlets,Moths And Moonlets,800,3000,jpg,2022-03-13,manifest.csv
+broken-symmetry,Broken Symmetry,800,3000,jpg,2022-04-30,manifest.csv
+interacting-paths,Interacting Paths,800,3000,jpg,2022-05-02,manifest.csv
+hexagonal,Hexagonal,800,4000,png,2022-11-06,manifest.csv
+subdivision,Subdivision,800,2000,png,2023-02-17,manifest.csv
+broken-lands,Broken Lands,800,3000,png,2023-03-01,manifest.csv

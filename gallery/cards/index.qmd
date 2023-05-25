@@ -1,0 +1,14 @@
+---
+title: "Cards"
+date: 2022-02-15
+---
+  
+```{r}
+#| echo: false
+#| message: false
+#| layout-ncol: 4
+#| column: page
+#| results: asis
+source(here::here("_common.R"))
+build_series("cards")
+```
