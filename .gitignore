@@ -1,7 +1,6 @@
 .Rproj.user
 .Rhistory
-.Rdata
-resources
-public
-.httr-oauth
-.DS_Store
+.RData
+.Ruserdata
+/.quarto/
+.~lock._galleries.csv#

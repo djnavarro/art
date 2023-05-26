@@ -1,0 +1,14 @@
+---
+title: "Silhouettes"
+date: 2021-01-24
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| layout-ncol: 4
+#| column: page
+#| results: asis
+source(here::here("_common.R"))
+build_series("silhouettes")
+```

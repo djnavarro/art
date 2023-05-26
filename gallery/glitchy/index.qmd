@@ -1,0 +1,14 @@
+---
+title: "Glitchy"
+date: 2022-02-24
+---
+  
+```{r}
+#| echo: false
+#| message: false
+#| layout-ncol: 4
+#| column: page
+#| results: asis
+source(here::here("_common.R"))
+build_series("glitchy")
+```

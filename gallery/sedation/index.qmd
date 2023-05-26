@@ -1,0 +1,14 @@
+---
+title: "Sedation"
+date: 2021-11-03
+---
+  
+```{r}
+#| echo: false
+#| message: false
+#| layout-ncol: 4
+#| column: page
+#| results: asis
+source(here::here("_common.R"))
+build_series("sedation")
+```

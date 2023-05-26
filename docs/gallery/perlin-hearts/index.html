@@ -1,937 +1,836 @@
 <!DOCTYPE html>
-<html lang="">
-
-  <head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Perlin Hearts</title>
+<meta name="generator" content="quarto-1.3.340">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700">
-<link rel="stylesheet" href="../../css/bootstrap.css">
-<link rel="stylesheet" href="../../css/main.css">
-<link rel="stylesheet" href="../../css/highlight.css" title='hl'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2021-07-16">
 
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-<meta charset="UTF-8">
-
-
-<meta name="twitter:card" content="summary_large_image">
-
-
-<meta name="twitter:title" content="Perlin Hearts"/>
-<meta name="og:title" content="Perlin Hearts"/>
-
-
-<meta name="twitter:image:src" content="https://art.djnavarro.net/gallery/perlin-hearts/preview/perlin-heart_10_180.jpg"/>
-<meta name="og:image" content="https://art.djnavarro.net/gallery/perlin-hearts/preview/perlin-heart_10_180.jpg"/>
-
-
-<meta name="og:url" content="https://art.djnavarro.net"/>
-<meta name="twitter:url" content="https://art.djnavarro.net"/>
-
-
-
-
-
-<script async defer data-domain="art.djnavarro.net" src="https://plausible.io/js/plausible.js"></script>
-
-
-<script src="https://kit.fontawesome.com/913d8a29e8.js" crossorigin="anonymous"></script>
-
-
-<a rel="me" href="https://fosstodon.org/@djnavarro"></a>
-<a rel="me" href="https://genart.social/@djnavarro"></a>
-
-
-</head>
-
-
-  <body>
-
-    <div class="logo"><a href="../../"><img src="../../splash/logo.png"></a></div>
-
-    
-
-<section>
-  <div class="splash-container">
-    <div class="splash-image" style='background-image: url("./gif/perlin-heart_08_154.gif");'></div>
-    <div class="splash-caption-container">
-
-        
-
-        
-          <div class="splash-caption-main">
-            <div class="splash-caption-tweak">
-              Perlin<br>Hearts
-            </div>
-          </div>
-        
-
-        
-    </div>
-  </div>
-</section>
-
-
-
-
-    <div class="container">
-      <div class="row d-flex align-items-center">
-        <style>
-.splash-caption-tweak {
-color: #ffffffff;
-letter-spacing: 10px;
-font-weight: 700;
-font-size: 400%;
+<title>Art by Danielle Navarro - Perlin Hearts</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
 }
 </style>
-<blockquote>
-<p>Single Frames</p>
-</blockquote>
-<div class="highlight">
-<div class="gal">
-<div class="container-fluid">
-<div class="row">
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_001.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_001.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_002.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_002.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_003.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_003.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_004.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_004.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_005.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_005.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_006.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_006.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_007.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_007.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_008.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_008.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_009.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_009.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_010.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_010.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_011.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_011.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_012.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_012.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_013.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_013.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_014.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_014.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_015.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_015.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_016.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_016.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_017.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_017.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_018.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_018.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_019.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_019.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_020.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_020.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_021.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_021.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_022.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_022.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_023.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_023.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_024.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_024.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_025.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_025.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_026.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_026.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_027.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_027.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_028.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_028.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_029.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_029.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_01_030.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_01_030.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_031.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_031.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_032.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_032.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_033.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_033.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_034.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_034.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_035.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_035.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_036.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_036.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_037.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_037.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_038.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_038.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_039.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_039.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_040.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_040.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_041.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_041.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_042.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_042.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_043.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_043.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_044.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_044.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_045.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_045.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_046.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_046.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_047.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_047.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_048.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_048.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_049.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_049.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_050.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_050.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_051.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_051.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_052.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_052.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_053.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_053.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_054.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_054.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_055.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_055.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_056.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_056.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_057.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_057.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_058.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_058.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_059.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_059.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_060.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_060.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_02_061.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_02_061.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_04_121.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_04_121.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_04_122.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_04_122.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_04_123.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_04_123.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_04_124.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_04_124.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_04_125.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_04_125.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_04_126.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_04_126.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_04_127.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_04_127.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_04_128.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_04_128.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_04_129.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_04_129.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_04_130.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_04_130.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_05_131.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_05_131.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_05_132.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_05_132.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_05_133.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_05_133.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_05_134.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_05_134.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_05_135.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_05_135.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_05_136.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_05_136.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_170.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_170.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_171.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_171.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_172.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_172.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_173.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_173.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_174.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_174.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_175.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_175.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_176.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_176.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_177.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_177.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_178.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_178.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_179.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_179.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_180.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_180.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_181.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_181.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_182.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_182.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_183.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_183.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_184.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_184.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_185.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_185.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_186.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_186.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_187.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_187.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_188.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_188.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_189.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_189.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_190.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_190.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_191.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_191.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_192.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_192.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_193.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_193.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_194.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_194.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_195.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_195.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_196.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_196.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_197.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_197.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_198.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_198.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_199.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_199.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_200.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_200.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_201.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_201.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_202.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_202.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_203.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_203.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_204.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_204.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_205.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_205.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_206.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_206.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_207.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_207.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_208.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_208.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_209.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_209.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_210.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_210.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_211.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_211.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_212.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_212.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_213.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_213.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_214.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_214.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_215.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_215.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_216.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_216.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_217.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_217.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_218.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_218.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_219.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_219.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/image/perlin-heart_10_220.png"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/preview/perlin-heart_10_220.jpg"></a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<p><br><br></p>
-<blockquote>
-<p>Animations</p>
-</blockquote>
-<div class="highlight">
-<div class="gal">
-<div class="container-fluid">
-<div class="row">
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_100.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_100.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_101.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_101.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_102.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_102.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_103.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_103.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_104.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_104.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_105.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_105.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_106.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_106.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_107.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_107.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_108.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_108.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_109.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_109.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_110.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_110.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_111.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_111.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_112.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_112.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_113.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_113.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_114.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_114.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_115.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_115.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_116.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_116.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_117.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_117.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_118.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_118.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_119.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_119.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_120.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_03_120.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_06_140.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_06_140.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_141.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_141.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_142.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_142.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_143.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_143.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_144.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_144.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_145.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_145.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_148.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_07_148.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_149.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_149.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_150.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_150.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_151.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_151.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_152.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_152.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_153.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_153.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_154.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_154.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_155.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_155.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_156.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_156.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_157.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_157.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_158.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_158.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_159.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_08_159.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_09_160.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_09_160.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_09_163.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_09_163.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_09_164.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_09_164.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_09_165.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_09_165.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_231.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_231.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_232.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_232.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_233.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_233.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_234.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_234.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_235.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_235.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_236.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_236.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_237.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_237.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_238.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_238.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_239.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_239.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_240.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_240.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_241.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_241.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_242.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_242.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_243.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_243.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_244.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_244.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_245.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_245.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_246.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_246.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_247.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_247.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_248.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_248.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_249.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_249.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_250.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_11_250.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_251.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_251.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_252.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_252.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_253.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_253.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_254.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_254.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_255.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_255.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_256.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_256.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_257.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_257.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_258.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_258.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_259.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_12_259.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_260.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_260.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_261.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_261.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_262.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_262.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_263.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_263.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_264.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_264.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_265.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_265.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_266.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_266.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_267.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_267.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_268.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_268.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_269.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_269.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_270.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_270.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_271.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_271.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_272.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_272.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_273.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_273.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_274.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_274.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_275.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_275.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_276.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_276.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_277.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_277.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_278.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_278.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_279.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_13_279.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_280.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_280.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_281.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_281.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_282.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_282.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_283.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_283.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_284.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_284.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_285.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_285.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_286.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_286.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_287.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_287.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_288.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_288.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_289.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_14_289.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_290.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_290.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_291.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_291.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_292.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_292.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_293.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_293.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_294.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_294.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_295.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_15_295.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_19_308.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_19_308.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_19_309.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_19_309.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_19_310.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_19_310.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_19_311.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_19_311.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_19_312.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_19_312.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_20_313.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_20_313.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_20_314.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_20_314.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_314.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_314.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_315.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_315.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_316.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_316.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_317.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_317.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_318.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_318.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_319.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_319.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_320.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_21_320.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_22_321.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_22_321.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_23_322.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_23_322.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_323.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_323.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_324.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_324.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_325.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_325.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_326.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_326.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_327.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_327.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_328.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_328.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_329.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_329.gif"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_330.gif"><img width = 100% src="https://djnavarro.net/series-perlin-hearts/gif/perlin-heart_24_330.gif"></a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<p><br><br></p>
-<p>Although most of my work is released under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0 licence</a> that places some restrictions on how the work can be used, the pieces contained in the &ldquo;Perlin Hearts&rdquo; series are released under a very permissive <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 public domain</a> licence: <em>You can copy, modify, and distribute the work, even for commercial purposes, all without asking permission.</em> This is reflected in the <a href="https://github.com/djnavarro/series-perlin-hearts">github repository</a> associated with this series.</p>
-<br>
 
-      </div>
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Art by Danielle Navarro - Perlin Hearts">
+<meta property="og:image" content="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_001.png">
+<meta property="og:site-name" content="Art by Danielle Navarro">
+<meta name="twitter:title" content="Art by Danielle Navarro - Perlin Hearts">
+<meta name="twitter:image" content="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_001.png">
+<meta name="twitter:creator" content="@djnavarro">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Art by Danielle Navarro</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../gallery/index.html" rel="" target="">
+ <span class="menu-text">Galleries</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
     </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
 
-    <footer class="footer-area">
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
-
-<script>
-hljs.configure({languages: []});
-hljs.initHighlightingOnLoad();
-</script>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Perlin Hearts</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-
-
-  <div class="container">
-    <div class="footer-bottom">
-      ~ <a href="https://art.djnavarro.net/">art.djnavarro.net</a> ~
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 16, 2021</p>
     </div>
   </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="cell column-page quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_001.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_001.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_002.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_002.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_003.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_003.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_004.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_004.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_005.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_005.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_006.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_006.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_007.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_007.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_008.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_008.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_009.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_009.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_010.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_010.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_011.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_011.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_012.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_012.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_013.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_013.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_014.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_014.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_015.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_015.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_016.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_016.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_017.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_017.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_018.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_018.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_019.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_019.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_020.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_020.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_021.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_021.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_022.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_022.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_023.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_023.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_024.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_024.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_025.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_025.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_026.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_026.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_027.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_027.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_028.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_028.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_029.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_029.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_01_030.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_01_030.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_031.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_031.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_032.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_032.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_033.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_033.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_034.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_034.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_035.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_035.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_036.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_036.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_037.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_037.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_038.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_038.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_039.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_039.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_040.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_040.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_041.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_041.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_042.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_042.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_043.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_043.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_044.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_044.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_045.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_045.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_046.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_046.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_047.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_047.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_048.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_048.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_049.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_049.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_050.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_050.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_051.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_051.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_052.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_052.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_053.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_053.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_054.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_054.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_055.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_055.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_056.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_056.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_057.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_057.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_058.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_058.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_059.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_059.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_060.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_060.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_02_061.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_02_061.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_04_121.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_04_121.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_04_122.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_04_122.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_04_123.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_04_123.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_04_124.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_04_124.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_04_125.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_04_125.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_04_126.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_04_126.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_04_127.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_04_127.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_04_128.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_04_128.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_04_129.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_04_129.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_04_130.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_04_130.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_05_131.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_05_131.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_05_132.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_05_132.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_05_133.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_05_133.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_05_134.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_05_134.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_05_135.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_05_135.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_05_136.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_05_136.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_170.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_170.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_171.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_171.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_172.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_172.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_173.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_173.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_174.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_174.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_175.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_175.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_176.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_176.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_177.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_177.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_178.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_178.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_179.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_179.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_180.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_180.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_181.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_181.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_182.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_182.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_183.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_183.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_184.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_184.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_185.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_185.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_186.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_186.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_187.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_187.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_188.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_188.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_189.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_189.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_190.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_190.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_191.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_191.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_192.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_192.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_193.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_193.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_194.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_194.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_195.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_195.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_196.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_196.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_197.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_197.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_198.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_198.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_199.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_199.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_200.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_200.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_201.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_201.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_202.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_202.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_203.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_203.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_204.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_204.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_205.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_205.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_206.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_206.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_207.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_207.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_208.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_208.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_209.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_209.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_210.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_210.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_211.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_211.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_212.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_212.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_213.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_213.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_214.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_214.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_215.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_215.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_216.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_216.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_217.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_217.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_218.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_218.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_219.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_219.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-hearts/3000/perlin-heart_10_220.png"><img src="https://djnavarro.net/series-perlin-hearts/800/perlin-heart_10_220.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a></div><a>
 
 
 
+</a></main><a> <!-- /main -->
+<!-- plausible -->
+<script async="" defer="" data-domain="art.djnavarro.net" src="https://plausible.io/js/plausible.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</a></div><a> <!-- /content -->
 
-<script type="text/javascript" src="../../js/jquery-2.2.4.min.js" /></script>
-<script type="text/javascript" src="../../js/popper.min.js" /></script>
-<script type="text/javascript" src="../../js/bootstrap.min.js" /></script>
-
-</footer>
 
 
-  </body>
-</html>
+</a></body></html>

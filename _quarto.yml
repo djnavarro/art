@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Art by Danielle Navarro"
+  site-url: https://art.djnavarro.net
+  repo-url: https://github.com/djnavarro/art
+  open-graph: true
+  twitter-card:
+    creator: "@djnavarro"
+    card-style: summary_large_image
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: ./gallery/index.qmd
+        text: Galleries
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    include-after-body: plausible.html
+

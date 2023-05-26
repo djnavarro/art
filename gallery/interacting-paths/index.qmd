@@ -1,0 +1,14 @@
+---
+title: "Interacting Paths"
+date: 2022-05-02
+---
+  
+```{r}
+#| echo: false
+#| message: false
+#| layout-ncol: 4
+#| column: page
+#| results: asis
+source(here::here("_common.R"))
+build_series("interacting-paths")
+```

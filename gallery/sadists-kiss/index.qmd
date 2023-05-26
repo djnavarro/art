@@ -1,0 +1,14 @@
+---
+title: "Sadists Kiss"
+date: 2021-10-04
+---
+  
+```{r}
+#| echo: false
+#| message: false
+#| layout-ncol: 4
+#| column: page
+#| results: asis
+source(here::here("_common.R"))
+build_series("sadists-kiss")
+```

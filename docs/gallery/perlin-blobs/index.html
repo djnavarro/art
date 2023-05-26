@@ -1,371 +1,668 @@
 <!DOCTYPE html>
-<html lang="">
-
-  <head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Perlin Blobs</title>
+<meta name="generator" content="quarto-1.3.340">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700">
-<link rel="stylesheet" href="../../css/bootstrap.css">
-<link rel="stylesheet" href="../../css/main.css">
-<link rel="stylesheet" href="../../css/highlight.css" title='hl'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2021-02-18">
+
+<title>Art by Danielle Navarro - Perlin Blobs</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
 
 
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-<meta charset="UTF-8">
-
-
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Art by Danielle Navarro - Perlin Blobs">
+<meta property="og:image" content="https://djnavarro.net/series-perlin-blobs/800/perlincircle_03_004.png">
+<meta property="og:site-name" content="Art by Danielle Navarro">
+<meta name="twitter:title" content="Art by Danielle Navarro - Perlin Blobs">
+<meta name="twitter:image" content="https://djnavarro.net/series-perlin-blobs/800/perlincircle_03_004.png">
+<meta name="twitter:creator" content="@djnavarro">
 <meta name="twitter:card" content="summary_large_image">
-
-
-<meta name="twitter:title" content="Perlin Blobs"/>
-<meta name="og:title" content="Perlin Blobs"/>
-
-
-<meta name="twitter:image:src" content="https://art.djnavarro.net/gallery/perlin-blobs/preview/perlincircle_04_011.jpg"/>
-<meta name="og:image" content="https://art.djnavarro.net/gallery/perlin-blobs/preview/perlincircle_04_011.jpg"/>
-
-
-<meta name="og:url" content="https://art.djnavarro.net"/>
-<meta name="twitter:url" content="https://art.djnavarro.net"/>
-
-
-
-
-
-<script async defer data-domain="art.djnavarro.net" src="https://plausible.io/js/plausible.js"></script>
-
-
-<script src="https://kit.fontawesome.com/913d8a29e8.js" crossorigin="anonymous"></script>
-
-
-<a rel="me" href="https://fosstodon.org/@djnavarro"></a>
-<a rel="me" href="https://genart.social/@djnavarro"></a>
-
-
 </head>
 
+<body class="nav-fixed">
 
-  <body>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Art by Danielle Navarro</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../gallery/index.html" rel="" target="">
+ <span class="menu-text">Galleries</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
 
-    <div class="logo"><a href="../../"><img src="../../splash/logo.png"></a></div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Perlin Blobs</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
 
     
-
-<section>
-  <div class="splash-container">
-    <div class="splash-image" style='background-image: url("./image/perlincircle_04_011.png");'></div>
-    <div class="splash-caption-container">
-
-        
-
-        
-          <div class="splash-caption-main">
-            <div class="splash-caption-tweak">
-              Perlin Blobs
-            </div>
-          </div>
-        
-
-        
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 18, 2021</p>
     </div>
   </div>
-</section>
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="cell column-page quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_03_004.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_03_004.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_04_011.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_04_011.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_05_101.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_05_101.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_05_102.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_05_102.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_05_103.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_05_103.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_05_104.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_05_104.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_05_106.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_05_106.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_05_107.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_05_107.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_05_108.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_05_108.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_05_110.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_05_110.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_05_111.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_05_111.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_05_112.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_05_112.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_06_200.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_06_200.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_06_201.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_06_201.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_06_205.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_06_205.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_06_207.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_06_207.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_06_208.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_06_208.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_07_301.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_07_301.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_07_302.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_07_302.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_07_303.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_07_303.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_07_304.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_07_304.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_07_305.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_07_305.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_07_308.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_07_308.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_08_401.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_08_401.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_08_402.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_08_402.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_08_405.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_08_405.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_08_409.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_08_409.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_09_441.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_09_441.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_09_444.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_09_444.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_09_445.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_09_445.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_09_449.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_09_449.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_10_500.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_10_500.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_10_501.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_10_501.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_10_502.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_10_502.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_10_503.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_10_503.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_11_520.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_11_520.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_11_523.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_11_523.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_11_524.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_11_524.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_11_525.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_11_525.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_540.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_540.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_542.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_542.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_543.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_543.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_551.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_551.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_552.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_552.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_553.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_553.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_554.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_554.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_557.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_557.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_558.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_558.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_559.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_559.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_561.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_561.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_562.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_562.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_563.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_563.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_566.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_566.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_12_567.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_12_567.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_13_600.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_13_600.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_13_609.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_13_609.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_13_610.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_13_610.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_13_628.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_13_628.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_14_654.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_14_654.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_14_655.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_14_655.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_14_659.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_14_659.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_14_661.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_14_661.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_14_662.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_14_662.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_14_663.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_14_663.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_14_670.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_14_670.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_15_702.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_15_702.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_15_705.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_15_705.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_15_707.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_15_707.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_16_720.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_16_720.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_16_722.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_16_722.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_16_723.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_16_723.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_16_724.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_16_724.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_16_727.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_16_727.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_16_728.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_16_728.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_17_741.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_17_741.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_17_742.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_17_742.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a><div class="quarto-layout-row quarto-layout-valign-top"><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_17_744.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_17_744.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_17_747.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_17_747.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_17_750.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_17_750.png"></a><a></a></p><a>
+</a></div><a>
+</a><div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;"><a>
+</a><p><a></a><a href="https://djnavarro.net/series-perlin-blobs/3000/perlincircle_17_768.png"><img src="https://djnavarro.net/series-perlin-blobs/800/perlincircle_17_768.png"></a><a></a></p><a>
+</a></div><a>
+</a></div><a>
+</a></div><a>
 
 
 
-
-    <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="highlight">
-<div class="gal">
-<div class="container-fluid">
-<div class="row">
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_03_004.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_03_004.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_04_011.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_04_011.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_05_101.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_05_101.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_05_102.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_05_102.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_05_103.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_05_103.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_05_104.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_05_104.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_05_106.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_05_106.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_05_107.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_05_107.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_05_108.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_05_108.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_05_110.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_05_110.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_05_111.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_05_111.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_05_112.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_05_112.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_06_200.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_06_200.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_06_201.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_06_201.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_06_205.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_06_205.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_06_207.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_06_207.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_06_208.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_06_208.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_07_301.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_07_301.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_07_302.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_07_302.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_07_303.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_07_303.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_07_304.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_07_304.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_07_305.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_07_305.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_07_308.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_07_308.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_08_401.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_08_401.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_08_402.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_08_402.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_08_405.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_08_405.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_08_409.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_08_409.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_09_441.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_09_441.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_09_444.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_09_444.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_09_445.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_09_445.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_09_449.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_09_449.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_10_500.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_10_500.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_10_501.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_10_501.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_10_502.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_10_502.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_10_503.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_10_503.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_11_520.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_11_520.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_11_523.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_11_523.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_11_524.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_11_524.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_11_525.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_11_525.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_540.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_540.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_542.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_542.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_543.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_543.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_551.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_551.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_552.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_552.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_553.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_553.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_554.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_554.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_557.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_557.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_558.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_558.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_559.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_559.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_561.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_561.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_562.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_562.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_563.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_563.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_566.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_566.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_12_567.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_12_567.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_13_600.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_13_600.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_13_609.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_13_609.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_13_610.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_13_610.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_13_628.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_13_628.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_14_654.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_14_654.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_14_655.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_14_655.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_14_659.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_14_659.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_14_661.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_14_661.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_14_662.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_14_662.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_14_663.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_14_663.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_14_670.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_14_670.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_15_702.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_15_702.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_15_705.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_15_705.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_15_707.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_15_707.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_16_720.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_16_720.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_16_722.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_16_722.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_16_723.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_16_723.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_16_724.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_16_724.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_16_727.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_16_727.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_16_728.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_16_728.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_17_741.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_17_741.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_17_742.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_17_742.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_17_744.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_17_744.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_17_747.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_17_747.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_17_750.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_17_750.jpg"></a></p>
-</div>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
-<p><a href="https://djnavarro.net/series-perlin-blobs/image/perlincircle_17_768.png"><img width = 100% src="https://djnavarro.net/series-perlin-blobs/preview/perlincircle_17_768.jpg"></a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-      </div>
-    </div>
-
-    <footer class="footer-area">
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
-
-<script>
-hljs.configure({languages: []});
-hljs.initHighlightingOnLoad();
+</a></main><a> <!-- /main -->
+<!-- plausible -->
+<script async="" defer="" data-domain="art.djnavarro.net" src="https://plausible.io/js/plausible.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
 </script>
+</a></div><a> <!-- /content -->
 
 
 
-
-
-
-  <div class="container">
-    <div class="footer-bottom">
-      ~ <a href="https://art.djnavarro.net/">art.djnavarro.net</a> ~
-    </div>
-  </div>
-
-
-
-
-<script type="text/javascript" src="../../js/jquery-2.2.4.min.js" /></script>
-<script type="text/javascript" src="../../js/popper.min.js" /></script>
-<script type="text/javascript" src="../../js/bootstrap.min.js" /></script>
-
-</footer>
-
-
-  </body>
-</html>
+</a></body></html>

@@ -1,353 +1,163 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/</loc>
-    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/about.html</loc>
+    <lastmod>2023-05-26T01:09:54.285Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/broken-lands/</loc>
-    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/index.html</loc>
+    <lastmod>2023-05-26T01:09:54.457Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/</loc>
-    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/perlin-hearts/index.html</loc>
+    <lastmod>2023-05-26T01:09:55.837Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/subdivision/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/sedation/index.html</loc>
+    <lastmod>2023-05-26T01:09:57.125Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/hexagonal/</loc>
-    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/nebulae/index.html</loc>
+    <lastmod>2023-05-26T01:09:58.245Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/interacting-paths/</loc>
-    <lastmod>2022-05-02T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/broken-symmetry/index.html</loc>
+    <lastmod>2023-05-26T01:09:59.477Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/broken-symmetry/</loc>
-    <lastmod>2022-04-30T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/grid-graphics/index.html</loc>
+    <lastmod>2023-05-26T01:10:00.613Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/moths-and-moonlets/</loc>
-    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/disassembly/index.html</loc>
+    <lastmod>2023-05-26T01:10:01.689Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/glitchy/</loc>
-    <lastmod>2022-02-24T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/dancers/index.html</loc>
+    <lastmod>2023-05-26T01:10:03.337Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/cards/</loc>
-    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/glitchy/index.html</loc>
+    <lastmod>2023-05-26T01:10:04.517Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/cherish/</loc>
-    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/stalk-and-feather/index.html</loc>
+    <lastmod>2023-05-26T01:10:06.890Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/sheets/</loc>
-    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/love-in-the-lightning/index.html</loc>
+    <lastmod>2023-05-26T01:10:08.002Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/dancers/</loc>
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/index.html</loc>
+    <lastmod>2023-05-26T01:10:09.362Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/stalk-and-feather/</loc>
-    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/cards/index.html</loc>
+    <lastmod>2023-05-26T01:10:10.722Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/love-in-the-lightning/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/ghosts/index.html</loc>
+    <lastmod>2023-05-26T01:10:12.134Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/disassembly/</loc>
-    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/tangle/index.html</loc>
+    <lastmod>2023-05-26T01:10:13.570Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/puffs/</loc>
-    <lastmod>2021-12-23T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/unboxing/index.html</loc>
+    <lastmod>2023-05-26T01:10:15.154Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/unboxing/</loc>
-    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/hush/index.html</loc>
+    <lastmod>2023-05-26T01:10:16.766Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/dreamlike/</loc>
-    <lastmod>2021-12-09T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/cherish/index.html</loc>
+    <lastmod>2023-05-26T01:10:18.346Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/sedation/</loc>
-    <lastmod>2021-11-03T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/puffs/index.html</loc>
+    <lastmod>2023-05-26T01:10:19.898Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/hush/</loc>
-    <lastmod>2021-10-10T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/sadists-kiss/index.html</loc>
+    <lastmod>2023-05-26T01:10:21.378Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/melancholia/</loc>
-    <lastmod>2021-10-06T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/ash/index.html</loc>
+    <lastmod>2023-05-26T01:10:22.986Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/fallow-flow/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/embers/index.html</loc>
+    <lastmod>2023-05-26T01:10:24.418Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/sadists-kiss/</loc>
-    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/native-flora/index.html</loc>
+    <lastmod>2023-05-26T01:10:26.022Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/grid-graphics/</loc>
-    <lastmod>2021-09-19T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/crescent/index.html</loc>
+    <lastmod>2023-05-26T01:10:27.474Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/water-colours/</loc>
-    <lastmod>2021-09-05T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/water-colours/index.html</loc>
+    <lastmod>2023-05-26T01:10:28.873Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/ash/</loc>
-    <lastmod>2021-07-17T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/melancholia/index.html</loc>
+    <lastmod>2023-05-26T01:10:30.769Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/perlin-hearts/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/broken-lands/index.html</loc>
+    <lastmod>2023-05-26T01:10:33.205Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/embers/</loc>
-    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/subdivision/index.html</loc>
+    <lastmod>2023-05-26T01:10:34.949Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/viewports/</loc>
-    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/moths-and-moonlets/index.html</loc>
+    <lastmod>2023-05-26T01:10:37.409Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/perlin-blobs/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/wisptrees/index.html</loc>
+    <lastmod>2023-05-26T01:10:38.717Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/native-flora/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/perlin-blobs/index.html</loc>
+    <lastmod>2023-05-26T01:10:40.241Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/silhouettes/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/viewports/index.html</loc>
+    <lastmod>2023-05-26T01:10:41.669Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/ice-floes/</loc>
-    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/silhouettes/index.html</loc>
+    <lastmod>2023-05-26T01:10:43.137Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/nebulae/</loc>
-    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/hexagonal/index.html</loc>
+    <lastmod>2023-05-26T01:10:44.629Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/wisptrees/</loc>
-    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/dreamlike/index.html</loc>
+    <lastmod>2023-05-26T01:10:46.009Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/ghosts/</loc>
-    <lastmod>2021-01-09T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/sheets/index.html</loc>
+    <lastmod>2023-05-26T01:10:48.032Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/crescent/</loc>
-    <lastmod>2021-01-07T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/ice-floes/index.html</loc>
+    <lastmod>2023-05-26T01:10:49.396Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/tangle/</loc>
-    <lastmod>2020-12-29T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/fallow-flow/index.html</loc>
+    <lastmod>2023-05-26T01:10:50.836Z</lastmod>
   </url>
-  
   <url>
-    <loc>/gallery/grasslands/</loc>
-    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
+    <loc>https://art.djnavarro.net/gallery/interacting-paths/index.html</loc>
+    <lastmod>2023-05-26T01:10:52.272Z</lastmod>
   </url>
-  
-  <url>
-    <loc>/gallery/windswept/</loc>
-    <lastmod>2020-11-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/night-skies/</loc>
-    <lastmod>2020-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/pollen/</loc>
-    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/crosshairs/</loc>
-    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/heart-samples/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/votives/</loc>
-    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/thorns/</loc>
-    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/track-marks/</loc>
-    <lastmod>2020-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/boxes/</loc>
-    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/bursts/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/borderlines/</loc>
-    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/expanse/</loc>
-    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/heartbleed/</loc>
-    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/lost/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/the-heart-speaks/</loc>
-    <lastmod>2020-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/generalisation/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/dust/</loc>
-    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/turmite/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/stonetree/</loc>
-    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/stoneskip/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/quarantine/</loc>
-    <lastmod>2020-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/voronoise/</loc>
-    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/scrawl/</loc>
-    <lastmod>2020-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/scopes/</loc>
-    <lastmod>2020-04-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/popart/</loc>
-    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/flametree/</loc>
-    <lastmod>2020-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/nye2019/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gallery/rosemary/</loc>
-    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-  </url>
-  
 </urlset>
