@@ -7,7 +7,7 @@ date: 2023-02-17
 #| echo: false
 #| message: false
 #| layout-ncol: 4
-#| column: page
+#| column: screen-inset
 #| results: asis
 source(here::here("_common.R"))
 build_series("subdivision")

@@ -2,12 +2,12 @@
 title: "Viewports"
 date: 2021-02-28
 ---
-
+  
 ```{r}
 #| echo: false
 #| message: false
 #| layout-ncol: 4
-#| column: page
+#| column: screen-inset
 #| results: asis
 source(here::here("_common.R"))
 build_series("viewports")

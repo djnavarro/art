@@ -68,7 +68,7 @@ make_gallery <- function(series) {
       '#| echo: false',
       '#| message: false',
       '#| layout-ncol: 4',
-      '#| column: page',
+      '#| column: screen-inset',
       '#| results: asis',
       'source(here::here("_common.R"))',
       paste0('build_series("', galleries$series[ind], '")'),

@@ -2,12 +2,12 @@
 title: "Perlin Hearts"
 date: 2021-07-16
 ---
-
+  
 ```{r}
 #| echo: false
 #| message: false
 #| layout-ncol: 4
-#| column: page
+#| column: screen-inset
 #| results: asis
 source(here::here("_common.R"))
 build_series("perlin-hearts")
