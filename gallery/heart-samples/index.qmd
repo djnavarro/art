@@ -1,0 +1,14 @@
+---
+title: "Hearts, Sampled Unwisely"
+date: 2020-10-09
+---
+  
+```{r}
+#| echo: false
+#| message: false
+#| layout-ncol: 4
+#| column: page
+#| results: asis
+source(here::here("_common.R"))
+build_series("heart-samples")
+```
