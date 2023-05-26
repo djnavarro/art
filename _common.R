@@ -53,7 +53,7 @@ build_series <- function(series) {
     add_image_html()
 }
 
-make_post <- function(series) {
+make_gallery <- function(series) {
 
   ind <- which(galleries$series == series)
   if(!is.na(galleries$manifest[ind])) {
@@ -84,9 +84,9 @@ make_post <- function(series) {
   }
 }
 
-make_all_posts <- function() {
+make_all_galleries <- function() {
   for(series in galleries$series) {
-    make_post(series)
+    make_gallery(series)
   }
 }
 
