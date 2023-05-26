@@ -53,7 +53,7 @@ build_series <- function(series) {
     add_image_html()
 }
 
-make_gallery <- function(series) {
+make_gallery <- function(series, force = FALSE) {
 
   ind <- which(galleries$series == series)
   if(!is.na(galleries$manifest[ind])) {
@@ -67,8 +67,7 @@ make_gallery <- function(series) {
       '```{r}',
       '#| echo: false',
       '#| message: false',
-      '#| layout-ncol: 4',
-      '#| column: screen-inset',
+      '#| layout-ncol: 3',
       '#| results: asis',
       'source(here::here("_common.R"))',
       paste0('build_series("', galleries$series[ind], '")'),
@@ -76,17 +75,26 @@ make_gallery <- function(series) {
     )
 
     gallery_dir <- here::here("gallery", galleries$series[ind])
-    if(!dir.exists(gallery_dir)) {
-      dir.create(gallery_dir)
-      brio::write_lines(lines, file.path(gallery_dir, "index.qmd"))
-    }
+    gallery_qmd <- file.path(gallery_dir, "index.qmd")
 
+    if (force) {
+      if (file.exists(gallery_qmd)) {
+        file.remove(gallery_qmd)
+      }
+    }
+    if (!dir.exists(gallery_dir)) {
+      dir.create(gallery_dir)
+    }
+    if (!file.exists(gallery_qmd)) {
+      brio::write_lines(lines, gallery_qmd)
+      cli::cli_alert_success(paste("gallery created:", series))
+    }
   }
 }
 
-make_all_galleries <- function() {
+make_all_galleries <- function(force = FALSE) {
   for(series in galleries$series) {
-    make_gallery(series)
+    make_gallery(series, force = force)
   }
 }
 
