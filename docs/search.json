@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I’m a computational artist based in Sydney, living on Gadigal land, making generative art using the R programming language, and in my professional life I am a recovering academic now working in data science. I sometimes post art on mastodon. Unless stated otherwise, the art on this site is released under a CC-BY-SA licence: you are free to reuse the work as long as you attribute the original to me, and derivative works must use the same licence.\nI believe that art can serve the public good, and tend to use the proceeds of art sales to support charities and other worthy causes. Some organisations that matter to me personally include the Sydney Inner City Legal Centre, the NSW Sex Worker Outreach Project, Black Rainbow, and Lou’s Place. If you’ve used my art and would like to donate to support me, please consider contributing to those organisations instead!"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Art by Danielle Navarro",
     "section": "",
     "text": "I’m in the process of porting my art website to quarto. Please bear with me!"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m a computational artist based in Sydney, living on Gadigal land, making generative art using the R programming language, and in my professional life I am a recovering academic now working in data science. I sometimes post art on mastodon. Unless stated otherwise, the art on this site is released under a CC-BY-SA licence: you are free to reuse the work as long as you attribute the original to me, and derivative works must use the same licence.\nI believe that art can serve the public good, and tend to use the proceeds of art sales to support charities and other worthy causes. Some organisations that matter to me personally include the Sydney Inner City Legal Centre, the NSW Sex Worker Outreach Project, Black Rainbow, and Lou’s Place. If you’ve used my art and would like to donate to support me, please consider contributing to those organisations instead!"
   },
   {
     "objectID": "gallery/index.html",
