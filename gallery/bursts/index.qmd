@@ -1,0 +1,14 @@
+---
+title: "Bursts"
+date: 2020-09-13
+---
+  
+```{r}
+#| echo: false
+#| message: false
+#| layout-ncol: 4
+#| column: page
+#| results: asis
+source(here::here("_common.R"))
+build_series("bursts")
+```

@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://art.djnavarro.net/gallery/index.html</loc>
-    <lastmod>2023-05-26T04:36:42.243Z</lastmod>
+    <lastmod>2023-05-26T04:43:31.159Z</lastmod>
   </url>
   <url>
     <loc>https://art.djnavarro.net/gallery/cards/index.html</loc>
@@ -199,5 +199,9 @@
   <url>
     <loc>https://art.djnavarro.net/gallery/boxes/index.html</loc>
     <lastmod>2023-05-26T04:36:36.475Z</lastmod>
+  </url>
+  <url>
+    <loc>https://art.djnavarro.net/gallery/bursts/index.html</loc>
+    <lastmod>2023-05-26T04:43:24.631Z</lastmod>
   </url>
 </urlset>
