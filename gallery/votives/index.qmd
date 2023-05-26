@@ -6,8 +6,7 @@ date: 2020-09-29
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 4
-#| column: screen-inset
+#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("votives")

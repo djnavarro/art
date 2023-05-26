@@ -11,10 +11,3 @@ listing:
   page-size: 100
   categories: false
 ---
-
-::: {.column-page}
-
-::: {#gallery-listing}
-:::
-
-:::
