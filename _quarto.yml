@@ -1,8 +1,15 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "art-quarto"
+  title: "Art by Danielle Navarro"
+  site-url: https://art.djnavarro.net
+  repo-url: https://github.com/djnavarro/art
+  open-graph: true
+  twitter-card:
+    creator: "@djnavarro"
+    card-style: summary_large_image
   navbar:
     left:
       - href: index.qmd
@@ -16,6 +23,5 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-editor: visual
+    include-after-body: plausible.html
 

@@ -28,13 +28,13 @@ pollen,Pollen,800,3000,png,2020-10-27,
 night-skies,"Bright Seas, Night Skies",800,3000,png,2020-11-27,
 windswept,Windswept,800,3000,png,2020-11-28,
 grasslands,Grasslands,800,3000,png,2020-11-29,
-tangle,Tangle,800,3000,png,2020-12-29,
-crescent,Crescent,800,3000,png,2021-01-07,
-ghosts,Ghosts On Marble Paper,800,3000,png,2021-01-09,
-wisptrees,Wisptrees,800,3000,png,2021-01-16,
-ice-floes,Ice Floes,800,3000,png,2021-01-19,
-nebulae,Nebulae,800,3000,png,2021-01-19,
-silhouettes,Silhouettes,800,3000,png,2021-01-24,
+tangle,Tangle,800,3000,png,2020-12-29,manifest.csv
+crescent,Crescent,800,3000,jpg,2021-01-07,manifest.csv
+ghosts,Ghosts On Marble Paper,800,2000,png,2021-01-09,manifest.csv
+wisptrees,Wisptrees,800,5000,jpg,2021-01-16,manifest.csv
+ice-floes,Ice Floes,800,5000,png,2021-01-19,manifest.csv
+nebulae,Nebulae,800,5000,jpg,2021-01-19,manifest.csv
+silhouettes,Silhouettes,800,3000,png,2021-01-24,manifest.csv
 native-flora,Native Flora,800,5000,png,2021-02-10,manifest.csv
 perlin-blobs,Perlin Blobs,800,3000,png,2021-02-18,manifest.csv
 viewports,Viewports,800,5000,png,2021-02-28,manifest.csv
