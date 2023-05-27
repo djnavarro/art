@@ -19,7 +19,7 @@ website:
         text: About
       - href: ./gallery/index.qmd
         text: Galleries
-    right:
+    tools:
       - icon: mastodon
         aria-label: mastodon
         href: https://genart.social/@djnavarro
