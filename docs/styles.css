@@ -1,7 +1,11 @@
 /* css styles */
 
 .quarto-title-meta-heading {
-  color: #888;
+  color: #666;
   font-variant: small-caps;
   padding-top: 10px;
+}
+
+body {
+  background-color: #eee;
 }
