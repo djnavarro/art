@@ -40,7 +40,7 @@ format:
   html:
     template-partials: title-block.html
     page-layout: full
-    theme: simplex
+    theme: ember.scss
     css: styles.css
     toc: true
     include-after-body: plausible.html
