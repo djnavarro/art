@@ -11,6 +11,11 @@ website:
   twitter-card:
     creator: "@djnavarro"
     card-style: summary_large_image
+  page-footer:
+    background: "#eee"
+    center:
+      - href: https://blog.djnavarro.net
+        text: blog.djnavarro.net
   navbar:
     left:
       - href: index.qmd
@@ -19,19 +24,6 @@ website:
         text: About
       - href: ./gallery/index.qmd
         text: Galleries
-    tools:
-      - icon: mastodon
-        aria-label: mastodon
-        href: https://genart.social/@djnavarro
-      - icon: github
-        aria-label: github
-        href: https://github.com/djnavarro
-      - icon: person-circle
-        aria-label: website
-        href: https://djnavarro.net
-      - icon: journal-text
-        aria-label: blog
-        href: https://blog.djnavarro.net
 
 # execute:
 #  freeze: true
