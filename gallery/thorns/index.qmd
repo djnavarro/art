@@ -1,6 +1,7 @@
 ---
 title: "Thorns"
 date: 2020-09-22
+repo: djnavarro/series-thorns
 ---
   
 ```{r}

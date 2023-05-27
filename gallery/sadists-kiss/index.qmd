@@ -1,6 +1,7 @@
 ---
 title: "Sadists Kiss"
 date: 2021-10-04
+repo: djnavarro/series-sadists-kiss
 ---
   
 ```{r}

@@ -58,10 +58,13 @@ make_gallery <- function(series, force = FALSE) {
   ind <- which(galleries$series == series)
   if(!is.na(galleries$manifest[ind])) {
 
+    repo <- paste0("djnavarro/series-", series)
+
     lines <- c(
       '---',
       paste0('title: "', galleries$name[ind], '"'),
       paste0('date: ', galleries$date[ind]),
+      paste0('repo: ', repo),
       '---',
       '  ',
       '```{r}',

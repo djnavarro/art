@@ -1,0 +1,24 @@
+<header id="title-block-header">
+$if(title)$<h1 class="title">$title$</h1>$endif$
+$if(subtitle)$
+<p class="subtitle">$subtitle$</p>
+$endif$
+$for(author)$
+<p class="author">$author$</p>
+$endfor$
+
+$if(date)$
+<div class="quarto-title-meta-heading">published</div>
+<div class="quarto-title-meta-contents">
+  <p class="date">$date$</p>
+</div>
+$endif$
+
+$if(repo)$
+<div class="quarto-title-meta-heading">github repository</div>
+<div class="quarto-title-meta-contents">
+  <p class="repo"><a href="https://github.com/$repo$">$repo$</a></p>
+</div>
+$endif$
+
+</header>

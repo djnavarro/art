@@ -1,6 +1,7 @@
 ---
 title: "Ghosts On Marble Paper"
 date: 2021-01-09
+repo: djnavarro/series-ghosts
 ---
   
 ```{r}

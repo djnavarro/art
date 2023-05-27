@@ -1,6 +1,7 @@
 ---
 title: "Interacting Paths"
 date: 2022-05-02
+repo: djnavarro/series-interacting-paths
 ---
   
 ```{r}

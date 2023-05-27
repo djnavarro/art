@@ -1,6 +1,7 @@
 ---
 title: "Hearts, Sampled Unwisely"
 date: 2020-10-09
+repo: djnavarro/series-heart-samples
 ---
   
 ```{r}

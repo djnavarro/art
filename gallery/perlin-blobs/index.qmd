@@ -1,6 +1,7 @@
 ---
 title: "Perlin Blobs"
 date: 2021-02-18
+repo: djnavarro/series-perlin-blobs
 ---
   
 ```{r}

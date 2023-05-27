@@ -1,6 +1,7 @@
 ---
 title: "Subdivision"
 date: 2023-02-17
+repo: djnavarro/series-subdivision
 ---
   
 ```{r}

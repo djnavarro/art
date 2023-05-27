@@ -1,6 +1,7 @@
 ---
 title: "Love In The Lightning"
 date: 2021-12-30
+repo: djnavarro/series-love-in-the-lightning
 ---
   
 ```{r}

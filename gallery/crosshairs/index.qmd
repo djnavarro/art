@@ -1,6 +1,7 @@
 ---
 title: "Crosshairs"
 date: 2020-10-11
+repo: djnavarro/series-crosshairs
 ---
   
 ```{r}

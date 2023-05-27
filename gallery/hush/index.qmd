@@ -1,6 +1,7 @@
 ---
 title: "Hush"
 date: 2021-10-10
+repo: djnavarro/series-hush
 ---
   
 ```{r}
