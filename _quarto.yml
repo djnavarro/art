@@ -19,6 +19,19 @@ website:
         text: About
       - href: ./gallery/index.qmd
         text: Galleries
+    right:
+      - icon: mastodon
+        aria-label: mastodon
+        href: https://genart.social/@djnavarro
+      - icon: github
+        aria-label: github
+        href: https://github.com/djnavarro
+      - icon: person-circle
+        aria-label: website
+        href: https://djnavarro.net
+      - icon: journal-text
+        aria-label: blog
+        href: https://blog.djnavarro.net
 
 # execute:
 #  freeze: true
