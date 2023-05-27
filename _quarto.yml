@@ -6,7 +6,6 @@ website:
   title: "Art by Danielle Navarro"
   site-url: https://art.djnavarro.net
   repo-url: https://github.com/djnavarro/art
-  search: false
   open-graph: true
   twitter-card:
     creator: "@djnavarro"
@@ -14,9 +13,10 @@ website:
   page-footer:
     background: "#eee"
     center:
-      - href: https://blog.djnavarro.net
-        text: blog.djnavarro.net
+      - href: https://art.djnavarro.net
+        text: art.djnavarro.net
   navbar:
+    title: false
     left:
       - href: index.qmd
         text: Home
@@ -24,6 +24,17 @@ website:
         text: About
       - href: ./gallery/index.qmd
         text: Galleries
+    right:
+      - text: Danielle Navarro
+        menu:
+        - href: https://djnavarro.net
+          text: Homepage
+        - href: https://blog.djnavarro.net
+          text: Data science blog
+        - href: https://art.djnavarro.net
+          text: Generative art
+        - href: https://papers.djnavarro.net
+          text: Academic papers
 
 # execute:
 #  freeze: true
