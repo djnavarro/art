@@ -6,7 +6,11 @@ toc: false
 ---
 
 ::: {.banner}
-art by 
+art 
 
-danielle navarro
+by 
+
+danielle
+
+navarro
 :::

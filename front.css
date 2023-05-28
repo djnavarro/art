@@ -10,14 +10,20 @@ body {
   display: none;
 }
 
+.navbar-dark {
+  background-color: #ffffff50;
+}
+
 .banner {
   position:absolute;
   top: 60%;
   width: 100%;
   text-align: right;
-  font-size: 200%;
+  font-size: 300%;
   font-weight: bold;
   line-height: 100%;
+  color: #00000050;
+  letter-spacing: 10px;
 }
 
 

@@ -7,6 +7,7 @@ website:
   site-url: https://art.djnavarro.net
   repo-url: https://github.com/djnavarro/art
   open-graph: true
+  search: false
   twitter-card:
     creator: "@djnavarro"
     card-style: summary_large_image
