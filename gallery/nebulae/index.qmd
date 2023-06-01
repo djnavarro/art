@@ -2,13 +2,18 @@
 title: "Nebulae"
 date: 2021-01-19
 repo: djnavarro/series-nebulae
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("nebulae")
 ```
+   
+:::
+   

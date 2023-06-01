@@ -2,13 +2,18 @@
 title: "Melancholia"
 date: 2021-10-06
 repo: djnavarro/series-melancholia
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("melancholia")
 ```
+   
+:::
+   

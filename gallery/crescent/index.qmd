@@ -2,13 +2,18 @@
 title: "Crescent"
 date: 2021-01-07
 repo: djnavarro/series-crescent
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("crescent")
 ```
+   
+:::
+   

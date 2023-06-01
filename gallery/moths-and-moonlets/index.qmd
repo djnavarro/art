@@ -2,13 +2,18 @@
 title: "Moths And Moonlets"
 date: 2022-03-13
 repo: djnavarro/series-moths-and-moonlets
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("moths-and-moonlets")
 ```
+   
+:::
+   

@@ -2,13 +2,18 @@
 title: "Expanse"
 date: 2020-08-24
 repo: djnavarro/series-expanse
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("expanse")
 ```
+   
+:::
+   

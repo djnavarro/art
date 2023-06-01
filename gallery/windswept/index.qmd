@@ -2,13 +2,18 @@
 title: "Windswept"
 date: 2020-11-28
 repo: djnavarro/series-windswept
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("windswept")
 ```
+   
+:::
+   

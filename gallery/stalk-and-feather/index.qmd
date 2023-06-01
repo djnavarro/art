@@ -2,13 +2,18 @@
 title: "Stalk And Feather"
 date: 2022-01-31
 repo: djnavarro/series-stalk-and-feather
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("stalk-and-feather")
 ```
+   
+:::
+   

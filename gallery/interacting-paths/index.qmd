@@ -2,13 +2,18 @@
 title: "Interacting Paths"
 date: 2022-05-02
 repo: djnavarro/series-interacting-paths
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("interacting-paths")
 ```
+   
+:::
+   

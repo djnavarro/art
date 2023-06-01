@@ -2,13 +2,18 @@
 title: "Fallow Flow"
 date: 2021-10-05
 repo: djnavarro/series-fallow-flow
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("fallow-flow")
 ```
+   
+:::
+   

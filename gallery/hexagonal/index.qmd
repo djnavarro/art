@@ -2,13 +2,18 @@
 title: "Hexagonal"
 date: 2022-11-06
 repo: djnavarro/series-hexagonal
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("hexagonal")
 ```
+   
+:::
+   

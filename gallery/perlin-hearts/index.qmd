@@ -2,13 +2,18 @@
 title: "Perlin Hearts"
 date: 2021-07-16
 repo: djnavarro/series-perlin-hearts
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("perlin-hearts")
 ```
+   
+:::
+   

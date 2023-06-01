@@ -2,13 +2,18 @@
 title: "Thorns"
 date: 2020-09-22
 repo: djnavarro/series-thorns
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("thorns")
 ```
+   
+:::
+   

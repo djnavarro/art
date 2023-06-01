@@ -2,13 +2,18 @@
 title: "Broken Lands"
 date: 2023-03-01
 repo: djnavarro/series-broken-lands
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("broken-lands")
 ```
+   
+:::
+   

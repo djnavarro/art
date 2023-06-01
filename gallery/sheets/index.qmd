@@ -2,13 +2,18 @@
 title: "Sheets"
 date: 2022-02-12
 repo: djnavarro/series-sheets
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("sheets")
 ```
+   
+:::
+   

@@ -2,13 +2,18 @@
 title: "Grid Graphics"
 date: 2021-09-19
 repo: djnavarro/series-grid-graphics
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("grid-graphics")
 ```
+   
+:::
+   

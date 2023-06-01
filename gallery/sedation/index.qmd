@@ -2,13 +2,18 @@
 title: "Sedation"
 date: 2021-11-03
 repo: djnavarro/series-sedation
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("sedation")
 ```
+   
+:::
+   

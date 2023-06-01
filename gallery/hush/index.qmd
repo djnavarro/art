@@ -2,13 +2,18 @@
 title: "Hush"
 date: 2021-10-10
 repo: djnavarro/series-hush
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("hush")
 ```
+   
+:::
+   

@@ -2,13 +2,18 @@
 title: "Heartbleed"
 date: 2020-08-10
 repo: djnavarro/series-heartbleed
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("heartbleed")
 ```
+   
+:::
+   

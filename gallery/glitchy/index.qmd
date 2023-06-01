@@ -2,13 +2,18 @@
 title: "Glitchy"
 date: 2022-02-24
 repo: djnavarro/series-glitchy
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("glitchy")
 ```
+   
+:::
+   

@@ -2,13 +2,18 @@
 title: "Hearts, Sampled Unwisely"
 date: 2020-10-09
 repo: djnavarro/series-heart-samples
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("heart-samples")
 ```
+   
+:::
+   

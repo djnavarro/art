@@ -2,13 +2,18 @@
 title: "Ash Cloud And Blood"
 date: 2021-07-17
 repo: djnavarro/series-ash
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("ash")
 ```
+   
+:::
+   

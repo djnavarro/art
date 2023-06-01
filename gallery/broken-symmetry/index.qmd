@@ -2,13 +2,18 @@
 title: "Broken Symmetry"
 date: 2022-04-30
 repo: djnavarro/series-broken-symmetry
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("broken-symmetry")
 ```
+   
+:::
+   

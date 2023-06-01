@@ -2,13 +2,18 @@
 title: "Embers"
 date: 2021-06-05
 repo: djnavarro/series-embers
+page-layout: full
 ---
+   
+::: {.grid}
   
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
 #| results: asis
 source(here::here("_common.R"))
 build_series("embers")
 ```
+   
+:::
+   
