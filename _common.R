@@ -10,8 +10,20 @@ build_url <- function(page, base_url = "https://djnavarro.net") {
 }
 
 add_image_html <- function(dat, thumbnail = "thumbnail", target = "target") {
-  tags <- paste0("<a href='", dat[[target]], "'><img src='", dat[[thumbnail]], "'><a>")
-  cat(tags, sep = "\n\n")
+  lines <- paste0(
+    '   ',
+    '<div class="g-col-12 g-col-md-4">',
+    '<div class="card h-100">',
+    '<a href="',
+    dat[[target]],
+    '"><img src="',
+    dat[[thumbnail]],
+    '" class="card-img-top"></a>',
+    '</div>',
+    '</div>',
+    '   '
+  )
+  cat(lines, sep="\n\n")
 }
 
 read_manifest <- function(url,
@@ -65,16 +77,21 @@ make_gallery <- function(series, force = FALSE) {
       paste0('title: "', galleries$name[ind], '"'),
       paste0('date: ', galleries$date[ind]),
       paste0('repo: ', repo),
+      'page-layout: full',
       '---',
+      '   ',
+      '::: {.grid}',
       '  ',
       '```{r}',
       '#| echo: false',
       '#| message: false',
-      '#| layout-ncol: 3',
       '#| results: asis',
       'source(here::here("_common.R"))',
       paste0('build_series("', galleries$series[ind], '")'),
-      '```'
+      '```',
+      '   ',
+      ':::',
+      '   '
     )
 
     gallery_dir <- here::here("gallery", galleries$series[ind])
