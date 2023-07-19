@@ -3,7 +3,7 @@ title: "Cards"
 date: 2022-02-15
 repo: djnavarro/series-cards
 page-layout: full
-image: "https://djnavarro.net/series-cards/800/pollen_30_3021.jpg"
+image: "https://storage.googleapis.com/djnavarro-art/series-cards/800/pollen_30_3021.jpg"
 image-alt: "A white square inside a much larger white square, with many distorted copies in orange, blue and yellow, against a black background"
 ---
    
