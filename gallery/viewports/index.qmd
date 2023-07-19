@@ -1,0 +1,21 @@
+---
+title: "Viewports"
+date: 2021-02-28
+repo: djnavarro/series-viewports
+page-layout: full
+image: "https://djnavarro.net/series-viewports/800/flora-fx_10_303.png"
+image-alt: "Textured branch-and-stalk patterns in blue red and white, extending along irregular grid, against a dark blue background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("viewports")
+```
+   
+:::
+   

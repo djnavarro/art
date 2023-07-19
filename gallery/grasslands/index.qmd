@@ -1,0 +1,21 @@
+---
+title: "Grasslands"
+date: 2020-11-29
+repo: djnavarro/series-grasslands
+page-layout: full
+image: "https://djnavarro.net/series-grasslands/800/grassland_08_217.jpg"
+image-alt: "Gentle field with subtle textures in various shades of green"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("grasslands")
+```
+   
+:::
+   

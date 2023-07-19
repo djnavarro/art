@@ -1,0 +1,21 @@
+---
+title: "Windswept"
+date: 2020-11-28
+repo: djnavarro/series-windswept
+page-layout: full
+image: "https://djnavarro.net/series-windswept/800/windswept_05_169.jpg"
+image-alt: "Texture of gently flowing wisps in brown, beige, and green, against a very pale blue background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("windswept")
+```
+   
+:::
+   

@@ -1,0 +1,21 @@
+---
+title: "Melancholia"
+date: 2021-10-06
+repo: djnavarro/series-melancholia
+page-layout: full
+image: "https://djnavarro.net/series-melancholia/1000/melancholia_sys05_seed1301.png"
+image-alt: "A 25x25 grid of square cells whose dominant colours give the impressions of rectangular forms in purple and gole, and whose interior are spatial patterns"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("melancholia")
+```
+   
+:::
+   

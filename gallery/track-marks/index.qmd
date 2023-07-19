@@ -1,0 +1,21 @@
+---
+title: "Track Marks"
+date: 2020-09-20
+repo: djnavarro/series-track-marks
+page-layout: full
+image: "https://djnavarro.net/series-track-marks/800/new_04_7.png"
+image-alt: "Black and white jagged polygons arranged to form the impression of a circle with a tail behind it"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("track-marks")
+```
+   
+:::
+   

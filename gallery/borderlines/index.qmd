@@ -1,0 +1,21 @@
+---
+title: "Borderlines"
+date: 2020-09-12
+repo: djnavarro/series-borderlines
+page-layout: full
+image: "https://djnavarro.net/series-borderlines/800/right-ff_12_1-3-1.png"
+image-alt: "Black and white grainy image that looks a little like a large circle with rays extending from it"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("borderlines")
+```
+   
+:::
+   

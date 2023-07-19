@@ -1,0 +1,28 @@
+/* css style for cover page only */
+
+body {
+  background-color: #eee;
+  background-image: url("turmeric.jpg");
+  background-position: cover;
+}
+
+.footer {
+  display: none;
+}
+
+.navbar-dark {
+  background-color: #ffffff00;
+}
+
+.banner > h1 {
+  position:absolute;
+  top: 30%;
+  width: 100%;
+  text-align: right;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 130%;
+  color: #00000050;
+  letter-spacing: 10px;
+}
+

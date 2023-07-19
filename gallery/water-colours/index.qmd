@@ -1,0 +1,21 @@
+---
+title: "Water Colours"
+date: 2021-09-05
+repo: djnavarro/series-water-colours
+page-layout: full
+image: "https://djnavarro.net/series-water-colours/500/watercolour_sys02_img42_turmeric.jpg"
+image-alt: "Yellow swirling patterns against a grey background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("water-colours")
+```
+   
+:::
+   

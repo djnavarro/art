@@ -1,0 +1,21 @@
+---
+title: "Native Flora"
+date: 2021-02-10
+repo: djnavarro/series-native-flora
+page-layout: full
+image: "https://djnavarro.net/series-native-flora/800/poa_11_199.png"
+image-alt: "Multicoloured branching structures with dots at the end, resembling a bunch of flowers"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("native-flora")
+```
+   
+:::
+   

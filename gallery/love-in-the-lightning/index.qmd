@@ -1,0 +1,21 @@
+---
+title: "Love In The Lightning"
+date: 2021-12-30
+repo: djnavarro/series-love-in-the-lightning
+page-layout: full
+image: "https://djnavarro.net/series-love-in-the-lightning/800/love_01_101_damaged.jpg"
+image-alt: "A black and white outline of a heart against a purple background, with chaotic arcs swirling around it"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("love-in-the-lightning")
+```
+   
+:::
+   

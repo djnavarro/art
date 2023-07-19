@@ -1,0 +1,21 @@
+---
+title: "Broken Symmetry"
+date: 2022-04-30
+repo: djnavarro/series-broken-symmetry
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-broken-symmetry/800/pollen_62_6201.jpg"
+image-alt: "Geometric tiling pattern with a four-petal radial structure in yellow, blue, and red"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("broken-symmetry")
+```
+   
+:::
+   

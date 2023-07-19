@@ -1,0 +1,21 @@
+---
+title: "Hearts, Sampled Unwisely"
+date: 2020-10-09
+repo: djnavarro/series-heart-samples
+page-layout: full
+image: "https://djnavarro.net/series-heart-samples/800/heart_01_01.png"
+image-alt: "Black and white grainy heart with concentric banding, and chaotic extrusions to a box in the top right"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("heart-samples")
+```
+   
+:::
+   

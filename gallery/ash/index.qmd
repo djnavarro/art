@@ -1,0 +1,21 @@
+---
+title: "Ash Cloud And Blood"
+date: 2021-07-17
+repo: djnavarro/series-ash
+page-layout: full
+image: "https://djnavarro.net/series-ash/800/ash_07_010.png"
+image-alt: "Watercolour style cloud shapes in black and blood red"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("ash")
+```
+   
+:::
+   

@@ -1,0 +1,21 @@
+---
+title: "Dreamlike"
+date: 2021-12-09
+repo: djnavarro/series-dreamlike
+page-layout: full
+image: "https://djnavarro.net/series-dreamlike/800/pollen_09_1272.jpg"
+image-alt: "Gently swirling purple amorphous blobs against an off-white background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("dreamlike")
+```
+   
+:::
+   

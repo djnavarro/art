@@ -1,0 +1,8 @@
+---
+title: "About"
+---
+
+
+I'm a computational artist based in Sydney, living on Gadigal land, making generative art using the R programming language, and in my [professional life](https://djnavarro.net) I am a recovering academic now working in data science. I sometimes post art on [mastodon](https://genart.social/@djnavarro). Unless stated otherwise, the art on this site is released under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licence: you are free to reuse the work as long as you attribute the original to me, and derivative works must use the same licence. 
+
+I believe that art can serve the public good, and tend to use the proceeds of art sales to support charities and other worthy causes. Some organisations that matter to me personally include the Sydney [Inner City Legal Centre](https://www.iclc.org.au/), the NSW [Sex Worker Outreach Project](https://swop.org.au/), [Black Rainbow](http://www.blackrainbow.org.au/), and [Lou's Place](https://www.lousplace.com.au/). If you've used my art and would like to donate to support me, please consider contributing to those organisations instead!

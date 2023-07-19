@@ -1,0 +1,21 @@
+---
+title: "Bright Seas, Night Skies"
+date: 2020-11-27
+repo: djnavarro/series-night-skies
+page-layout: full
+image: "https://djnavarro.net/series-night-skies/800/night-sky_11_264.png"
+image-alt: "Abstract geometric shapes in black, purple and grey, against a dark blue background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("night-skies")
+```
+   
+:::
+   

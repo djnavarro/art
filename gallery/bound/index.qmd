@@ -1,0 +1,21 @@
+---
+title: "Bound"
+date: 2023-06-02
+repo: djnavarro/series-bound
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-bound/800/dreamlike_16_2560.jpg"
+image-alt: "Orange and black hexagon against pale tan background, with many distorted echoes bouncing around the image"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("bound")
+```
+   
+:::
+   

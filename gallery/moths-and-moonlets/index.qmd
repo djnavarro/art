@@ -1,0 +1,21 @@
+---
+title: "Moths And Moonlets"
+date: 2022-03-13
+repo: djnavarro/series-moths-and-moonlets
+page-layout: full
+image: "https://djnavarro.net/series-moths-and-moonlets/800/pollen_55_5882.jpg"
+image-alt: "Many overlapping bubble shapes comprised of yellow grainy lines and arcs, against a black background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("moths-and-moonlets")
+```
+   
+:::
+   

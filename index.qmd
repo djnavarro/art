@@ -1,0 +1,17 @@
+---
+css: 
+  - styles.css
+  - front.css
+toc: false
+---
+
+::: {.banner}
+
+<h1><a href="/gallery/">art</a><br>by<br>danielle<br>navarro</h1>
+
+:::
+
+<!-- Mastodon verification -->
+<a rel="me" style="display:none" href="https://fosstodon.org/@djnavarro">Hidden link used to verify my account on fosstodon.org</a> 
+<a rel="me" style="display:none" href="https://genart.social/@djnavarro">Hidden link used to verify my account on genart.social</a>
+

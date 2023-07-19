@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Art by Danielle Navarro"
+  site-url: https://art.djnavarro.net
+  repo-url: https://github.com/djnavarro/art
+  open-graph: true
+  search: false
+  twitter-card:
+    creator: "@djnavarro"
+    card-style: summary_large_image
+  page-footer:
+    background: "#eee"
+    center:
+      - href: https://art.djnavarro.net
+        text: art.djnavarro.net
+  navbar:
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: ./about/index.qmd
+        text: About
+      - href: ./gallery/index.qmd
+        text: Galleries
+    right:
+      - text: Sites
+        menu:
+        - href: https://djnavarro.net
+          text: Homepage
+        - href: https://blog.djnavarro.net
+          text: Data science blog
+        - href: https://art.djnavarro.net
+          text: Generative art
+        - href: https://papers.djnavarro.net
+          text: Academic papers
+        - href: https://djnavarro.net/sites
+          text: More...
+
+# execute:
+#  freeze: true
+
+format:
+  html:
+    template-partials: title-block.html
+    page-layout: full
+    theme: ember.scss
+    css: styles.css
+    toc: true
+    include-after-body: plausible.html
+

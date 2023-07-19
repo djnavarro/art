@@ -1,0 +1,21 @@
+---
+title: "Broken Lands"
+date: 2023-03-01
+repo: djnavarro/series-broken-lands
+page-layout: full
+image: "https://djnavarro.net/series-broken-lands/800/alien-floe_15_2433.png"
+image-alt: "Geometric patterns that look like a topographic map of an brown textured alien coastline against a pale off white sea"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("broken-lands")
+```
+   
+:::
+   

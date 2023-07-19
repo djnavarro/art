@@ -1,0 +1,21 @@
+---
+title: "Cherish"
+date: 2022-02-12
+repo: djnavarro/series-cherish
+page-layout: full
+image: "https://djnavarro.net/series-cherish/800/pollen_29_2900.jpg"
+image-alt: "A white ball of light that appears to transform into rectangular shapes, against a green background, with a black shadow"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("cherish")
+```
+   
+:::
+   

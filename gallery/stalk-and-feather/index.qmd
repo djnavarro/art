@@ -1,0 +1,21 @@
+---
+title: "Stalk And Feather"
+date: 2022-01-31
+repo: djnavarro/series-stalk-and-feather
+page-layout: full
+image: "https://djnavarro.net/series-stalk-and-feather/800/pollen_18_1816.jpg"
+image-alt: "Feather-shaped grainy patterns in black, blue, and orange against a dark grey background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("stalk-and-feather")
+```
+   
+:::
+   

@@ -1,0 +1,21 @@
+---
+title: "Heartbleed"
+date: 2020-08-10
+repo: djnavarro/series-heartbleed
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-heartbleed/800/turmite_59_000000.png"
+image-alt: "Flowing hearts in brown, white and tan, against a textured background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("heartbleed")
+```
+   
+:::
+   

@@ -1,0 +1,21 @@
+---
+title: "Subdivision"
+date: 2023-02-17
+repo: djnavarro/series-subdivision
+page-layout: full
+image: "https://djnavarro.net/series-subdivision/800/subdivision_12_2249.png"
+image-alt: "Irregular rectangular tiling in yellow, red, blue and black, with circular shaped disruptions to the pattern"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("subdivision")
+```
+   
+:::
+   

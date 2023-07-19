@@ -1,0 +1,21 @@
+---
+title: "Tangle"
+date: 2020-12-29
+repo: djnavarro/series-tangle
+page-layout: full
+image: "https://djnavarro.net/series-tangle/800/tangle_17_17-132.png"
+image-alt: "Strange looping arcs that form interlocking circular and cylindrical patterns"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("tangle")
+```
+   
+:::
+   

@@ -1,0 +1,21 @@
+---
+title: "Embers"
+date: 2021-06-05
+repo: djnavarro/series-embers
+page-layout: full
+image: "https://djnavarro.net/series-embers/800/burst_05_130.jpg"
+image-alt: "Grainy, triangular shaped flow pattern in red, white, and orange, against a dark blue background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("embers")
+```
+   
+:::
+   

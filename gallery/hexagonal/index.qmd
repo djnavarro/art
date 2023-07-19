@@ -1,0 +1,21 @@
+---
+title: "Hexagonal"
+date: 2022-11-06
+repo: djnavarro/series-hexagonal
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-hexagonal/800/smudged-hexagon_010_1749.png"
+image-alt: "Several translucent, smudged, intersecting hexagons in pastel colours that look as if they are emerging from clouds"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("hexagonal")
+```
+   
+:::
+   

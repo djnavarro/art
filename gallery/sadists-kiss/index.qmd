@@ -1,0 +1,21 @@
+---
+title: "Sadists Kiss"
+date: 2021-10-04
+repo: djnavarro/series-sadists-kiss
+page-layout: full
+image: "https://djnavarro.net/series-sadists-kiss/800/thorns_07_1345.png"
+image-alt: "Jagged geometric patterns in pink and purple against a beige background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("sadists-kiss")
+```
+   
+:::
+   

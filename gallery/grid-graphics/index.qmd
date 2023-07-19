@@ -1,0 +1,21 @@
+---
+title: "Grid Graphics"
+date: 2021-09-19
+repo: djnavarro/series-grid-graphics
+page-layout: full
+image: "https://djnavarro.net/series-grid-graphics/800/grid_sys01_seed1002.png"
+image-alt: "A 5x5 grid of squares in various shades of purple. Each square is filled with a spatial noise pattern"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("grid-graphics")
+```
+   
+:::
+   

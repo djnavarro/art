@@ -1,0 +1,21 @@
+---
+title: "Boxes"
+date: 2020-09-15
+repo: djnavarro/series-boxes
+page-layout: full
+image: "https://djnavarro.net/series-boxes/800/box_01_31.jpg"
+image-alt: "Grainy multicoloured square against a black background, with many circular arcs extending"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("boxes")
+```
+   
+:::
+   

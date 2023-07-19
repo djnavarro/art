@@ -1,0 +1,21 @@
+---
+title: "Puffs"
+date: 2021-12-23
+repo: djnavarro/series-puffs
+page-layout: full
+image: "https://djnavarro.net/series-puffs/800/pollen_13_1306.jpg"
+image-alt: "A light blue fuzzy puffball against a dark blue background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("puffs")
+```
+   
+:::
+   
