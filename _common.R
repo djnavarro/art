@@ -1,9 +1,8 @@
 
-library(readr)
-library(dplyr)
-library(tidyr)
-
-galleries <- read_csv(here::here("_galleries.csv"))
+galleries <- readr::read_csv(
+  here::here("_galleries.csv"),
+  show_col_types = FALSE
+)
 
 build_url <- function(page, base_url) {
   paste0(base_url, "/", page, "/")
@@ -32,20 +31,20 @@ read_manifest <- function(url,
                           image_size = 4000,
                           image_format = "png") {
 
-  read_csv(paste0(url, manifest)) |>
-    filter(
+  readr::read_csv(paste0(url, manifest)) |>
+    dplyr::filter(
       resolution %in% c(preview_size, image_size),
       format == image_format
     ) |>
-    mutate(
-      type = case_when(
+    dplyr::mutate(
+      type = dplyr::case_when(
         resolution == preview_size ~ "thumbnail",
         resolution == image_size ~ "target"
       ),
       path = paste0(url, path)
     ) |>
-    select(-resolution) |>
-    pivot_wider(
+    dplyr::select(-resolution) |>
+    tidyr::pivot_wider(
       names_from = type,
       values_from = path
     )
@@ -108,17 +107,15 @@ make_gallery <- function(series, force = FALSE) {
     )
 
     gallery_dir <- here::here("gallery", galleries$series[ind])
-    gallery_qmd <- file.path(gallery_dir, "index.qmd")
+    gallery_qmd <- fs::path(gallery_dir, "index.qmd")
 
     if (force) {
-      if (file.exists(gallery_qmd)) {
-        file.remove(gallery_qmd)
+      if (fs::file_exists(gallery_qmd)) {
+        fs::file_delete(gallery_qmd)
       }
     }
-    if (!dir.exists(gallery_dir)) {
-      dir.create(gallery_dir)
-    }
-    if (!file.exists(gallery_qmd)) {
+    fs::dir_create(gallery_dir)
+    if (!fs::file_exists(gallery_qmd)) {
       brio::write_lines(lines, gallery_qmd)
       cli::cli_alert_success(paste("gallery created:", series))
     }
