@@ -33,7 +33,7 @@ crescent,Crescent,800,3000,jpg,2021-01-07,manifest.csv,https://djnavarro.net,FAL
 ghosts,Ghosts On Marble Paper,800,2000,png,2021-01-09,manifest.csv,https://djnavarro.net,TRUE,800/ghosts_01_162.png,"Abstract geometric texture in yellows and oranges, comprised of weirdly shaped polygons"
 wisptrees,Wisptrees,800,5000,jpg,2021-01-16,manifest.csv,https://djnavarro.net,FALSE,,
 ice-floes,Ice Floes,800,5000,png,2021-01-19,manifest.csv,https://djnavarro.net,TRUE,800/crystalline_05_160.png,"Jagged geometric shapes in blue, white and black that look like icebergs floating in a dark sea"
-nebulae,Nebulae,800,5000,jpg,2021-01-19,manifest.csv,https://djnavarro.net,TRUE,800/nebula_04_155.jpg,Random clouds of multicoloured dots against a black background
+nebulae,Nebulae,800,5000,jpg,2021-01-19,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/nebula_04_155.jpg,Random clouds of multicoloured dots against a black background
 silhouettes,Silhouettes,800,3000,jpg,2021-01-24,manifest.csv,https://djnavarro.net,TRUE,800/night-tree_04_468.jpg,"Silhouette of a tree waving in the wind against a cloudy background, all in shades of teal and white"
 native-flora,Native Flora,800,5000,png,2021-02-10,manifest.csv,https://djnavarro.net,TRUE,800/poa_11_199.png,"Multicoloured branching structures with dots at the end, resembling a bunch of flowers"
 perlin-blobs,Perlin Blobs,800,3000,png,2021-02-18,manifest.csv,https://djnavarro.net,TRUE,800/perlincircle_10_503.png,"Many smooth, vaguely-ellipsoidal blobs that looks a little like jellybeans, in a variety of colours"
