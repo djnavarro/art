@@ -3,7 +3,7 @@ title: "Glitchy"
 date: 2022-02-24
 repo: djnavarro/series-glitchy
 page-layout: full
-image: "https://djnavarro.net/series-glitchy/800/pollen_35_3500.jpg"
+image: "https://storage.googleapis.com/djnavarro-art/series-glitchy/800/pollen_35_3500.jpg"
 image-alt: "Dark, grainy greyscale image with many squares, circles and distorted arcs"
 ---
    

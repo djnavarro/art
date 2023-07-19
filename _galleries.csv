@@ -20,18 +20,18 @@ borderlines,Borderlines,800,5000,png,2020-09-12,manifest.csv,https://djnavarro.n
 bursts,Bursts,800,5000,png,2020-09-13,manifest.csv,https://djnavarro.net,TRUE,800/ff_13_9-3-34.png,"Violent bursts of grainy lines in red, black and white, with hints of a square frame"
 boxes,Boxes,800,5000,jpg,2020-09-15,manifest.csv,https://djnavarro.net,TRUE,800/box_01_31.jpg,"Grainy multicoloured square against a black background, with many circular arcs extending"
 track-marks,Track Marks,800,5000,png,2020-09-20,manifest.csv,https://djnavarro.net,TRUE,800/new_04_7.png,Black and white jagged polygons arranged to form the impression of a circle with a tail behind it
-thorns,Thorns,800,5000,png,2020-09-22,manifest.csv,https://djnavarro.net,FALSE,,
-votives,Votives,800,5000,png,2020-09-29,manifest.csv,https://djnavarro.net,FALSE,,
+thorns,Thorns,800,5000,png,2020-09-22,manifest.csv,,FALSE,,
+votives,Votives,800,5000,png,2020-09-29,manifest.csv,,FALSE,,
 heart-samples,"Hearts, Sampled Unwisely",800,5000,png,2020-10-09,manifest.csv,https://djnavarro.net,TRUE,800/heart_01_01.png,"Black and white grainy heart with concentric banding, and chaotic extrusions to a box in the top right"
-crosshairs,Crosshairs,800,3000,png,2020-10-11,manifest.csv,https://djnavarro.net,FALSE,,
+crosshairs,Crosshairs,800,3000,png,2020-10-11,manifest.csv,,FALSE,,
 pollen,Pollen,800,5000,jpg,2020-10-27,manifest.csv,https://djnavarro.net,TRUE,800/pollen_02_10_1.jpg,"Very soft orange and dark purple grainy texture in bottom left, against a lighter purple background"
 night-skies,"Bright Seas, Night Skies",800,6000,png,2020-11-27,manifest.csv,https://djnavarro.net,TRUE,800/night-sky_11_264.png,"Abstract geometric shapes in black, purple and grey, against a dark blue background"
 windswept,Windswept,800,3000,jpg,2020-11-28,manifest.csv,https://djnavarro.net,TRUE,800/windswept_05_169.jpg,"Texture of gently flowing wisps in brown, beige, and green, against a very pale blue background"
 grasslands,Grasslands,800,6000,jpg,2020-11-29,manifest.csv,https://djnavarro.net,TRUE,800/grassland_08_217.jpg,Gentle field with subtle textures in various shades of green 
 tangle,Tangle,800,3000,png,2020-12-29,manifest.csv,https://djnavarro.net,TRUE,800/tangle_17_17-132.png,Strange looping arcs that form interlocking circular and cylindrical patterns
-crescent,Crescent,800,3000,jpg,2021-01-07,manifest.csv,https://djnavarro.net,FALSE,,
+crescent,Crescent,800,3000,jpg,2021-01-07,manifest.csv,,FALSE,,
 ghosts,Ghosts On Marble Paper,800,2000,png,2021-01-09,manifest.csv,https://djnavarro.net,TRUE,800/ghosts_01_162.png,"Abstract geometric texture in yellows and oranges, comprised of weirdly shaped polygons"
-wisptrees,Wisptrees,800,5000,jpg,2021-01-16,manifest.csv,https://djnavarro.net,FALSE,,
+wisptrees,Wisptrees,800,5000,jpg,2021-01-16,manifest.csv,,FALSE,,
 ice-floes,Ice Floes,800,5000,png,2021-01-19,manifest.csv,https://djnavarro.net,TRUE,800/crystalline_05_160.png,"Jagged geometric shapes in blue, white and black that look like icebergs floating in a dark sea"
 nebulae,Nebulae,800,5000,jpg,2021-01-19,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/nebula_04_155.jpg,Random clouds of multicoloured dots against a black background
 silhouettes,Silhouettes,800,3000,jpg,2021-01-24,manifest.csv,https://djnavarro.net,TRUE,800/night-tree_04_468.jpg,"Silhouette of a tree waving in the wind against a cloudy background, all in shades of teal and white"
@@ -46,11 +46,11 @@ grid-graphics,Grid Graphics,800,4000,png,2021-09-19,manifest.csv,https://djnavar
 sadists-kiss,Sadists Kiss,800,5000,png,2021-10-04,manifest.csv,https://djnavarro.net,TRUE,800/thorns_07_1345.png,Jagged geometric patterns in pink and purple against a beige background
 fallow-flow,Fallow Flow,800,4000,png,2021-10-05,manifest.csv,https://djnavarro.net,TRUE,800/fallow-flow_10_pos1006-seed1160.png,A 4x4 grid of white circles each with curl noise extending from them against a pink background
 melancholia,Melancholia,1000,4000,png,2021-10-06,manifest.csv,https://djnavarro.net,TRUE,1000/melancholia_sys05_seed1301.png,"A 25x25 grid of square cells whose dominant colours give the impressions of rectangular forms in purple and gole, and whose interior are spatial patterns"
-hush,Hush,800,2500,png,2021-10-10,manifest.csv,https://djnavarro.net,FALSE,,
-sedation,Sedation,800,2500,jpg,2021-11-03,manifest.csv,https://djnavarro.net,FALSE,,
+hush,Hush,800,2500,png,2021-10-10,manifest.csv,,FALSE,,
+sedation,Sedation,800,2500,jpg,2021-11-03,manifest.csv,,FALSE,,
 dreamlike,Dreamlike,800,3000,jpg,2021-12-09,manifest.csv,https://djnavarro.net,TRUE,800/pollen_09_1272.jpg,Gently swirling purple amorphous blobs against an off-white background
 unboxing,Unboxing,800,2000,png,2021-12-13,manifest.csv,https://djnavarro.net,TRUE,800/unboxing_256.png,"Yellow and orange arcs tracing out shapes that create the impression of a square inside a second square, with distorted copies of the entire pattern radiating outward"
-disassembly,Disassembly,800,4000,png,2021-12-23,manifest.csv,https://djnavarro.net,FALSE,,
+disassembly,Disassembly,800,4000,png,2021-12-23,manifest.csv,,FALSE,,
 puffs,Puffs,800,3000,jpg,2021-12-23,manifest.csv,https://djnavarro.net,TRUE,800/pollen_13_1306.jpg,A light blue fuzzy puffball against a dark blue background
 love-in-the-lightning,Love In The Lightning,800,5000,jpg,2021-12-30,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/love_01_101_damaged.jpg,"A black and white outline of a heart against a purple background, with chaotic arcs swirling around it"
 stalk-and-feather,Stalk And Feather,800,3000,jpg,2022-01-31,manifest.csv,https://djnavarro.net,TRUE,800/pollen_18_1816.jpg,"Feather-shaped grainy patterns in black, blue, and orange against a dark grey background"
@@ -58,7 +58,7 @@ dancers,Dancers,800,3000,jpg,2022-02-09,manifest.csv,https://djnavarro.net,TRUE,
 cherish,Cherish,800,3000,jpg,2022-02-12,manifest.csv,https://djnavarro.net,TRUE,800/pollen_29_2900.jpg,"A white ball of light that appears to transform into rectangular shapes, against a green background, with a black shadow"
 sheets,Sheets,800,3000,jpg,2022-02-12,manifest.csv,https://djnavarro.net,TRUE,800/pollen_26_2614.jpg,"White twisting, spiralling patterns that look like intertwined ribbons against a red, orange, and tan background"
 cards,Cards,800,3000,jpg,2022-02-15,manifest.csv,https://djnavarro.net,TRUE,800/pollen_30_3021.jpg,"A white square inside a much larger white square, with many distorted copies in orange, blue and yellow, against a black background"
-glitchy,Glitchy,800,3000,jpg,2022-02-24,manifest.csv,https://djnavarro.net,TRUE,800/pollen_35_3500.jpg,"Dark, grainy greyscale image with many squares, circles and distorted arcs"
+glitchy,Glitchy,800,3000,jpg,2022-02-24,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/pollen_35_3500.jpg,"Dark, grainy greyscale image with many squares, circles and distorted arcs"
 moths-and-moonlets,Moths And Moonlets,800,3000,jpg,2022-03-13,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/pollen_55_5536.jpg,"Many overlapping bubble shapes comprised of yellow, black and purple grainy lines and arcs"
 broken-symmetry,Broken Symmetry,800,3000,jpg,2022-04-30,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/pollen_62_6201.jpg,"Geometric tiling pattern with a four-petal radial structure in yellow, blue, and red"
 interacting-paths,Interacting Paths,800,3000,jpg,2022-05-02,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/pollen_78_7904.jpg,Grainy greyscale image made from five intersecting circles with numerous paths creating a textured look
