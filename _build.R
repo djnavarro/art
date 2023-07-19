@@ -1,2 +1,2 @@
 source(here::here("_common.R"))
-make_all_galleries()
+make_all_galleries(force = TRUE)
