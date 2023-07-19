@@ -13,7 +13,6 @@ turmite,Turmite,800,3000,png,2020-06-20,,,FALSE,,
 dust,Dust,800,3000,png,2020-06-26,,,FALSE,,
 generalisation,Generalisation,800,3000,png,2020-07-01,,,FALSE,,
 the-heart-speaks,The Heart Speaks,800,3000,png,2020-07-27,,,FALSE,,
-lost,Lost In All This Light,800,3000,png,2020-08-01,,,FALSE,,
 heartbleed,Heartbleed,800,5000,png,2020-08-10,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/turmite_59_000000.png,"Flowing hearts in brown, white and tan, against a textured background"
 expanse,Expanse,800,5000,png,2020-08-24,manifest.csv,https://djnavarro.net,TRUE,800/set3-ff_05_9-3-12.png,Grainy tracery in orange and yellow forming geometric shapes against a black background
 borderlines,Borderlines,800,5000,png,2020-09-12,manifest.csv,https://djnavarro.net,TRUE,800/right-ff_12_1-3-1.png,Black and white grainy image that looks a little like a large circle with rays extending from it
@@ -23,13 +22,11 @@ track-marks,Track Marks,800,5000,png,2020-09-20,manifest.csv,https://djnavarro.n
 thorns,Thorns,800,5000,png,2020-09-22,manifest.csv,,FALSE,,
 votives,Votives,800,5000,png,2020-09-29,manifest.csv,,FALSE,,
 heart-samples,"Hearts, Sampled Unwisely",800,5000,png,2020-10-09,manifest.csv,https://djnavarro.net,TRUE,800/heart_01_01.png,"Black and white grainy heart with concentric banding, and chaotic extrusions to a box in the top right"
-crosshairs,Crosshairs,800,3000,png,2020-10-11,manifest.csv,,FALSE,,
 pollen,Pollen,800,5000,jpg,2020-10-27,manifest.csv,https://djnavarro.net,TRUE,800/pollen_02_10_1.jpg,"Very soft orange and dark purple grainy texture in bottom left, against a lighter purple background"
 night-skies,"Bright Seas, Night Skies",800,6000,png,2020-11-27,manifest.csv,https://djnavarro.net,TRUE,800/night-sky_11_264.png,"Abstract geometric shapes in black, purple and grey, against a dark blue background"
 windswept,Windswept,800,3000,jpg,2020-11-28,manifest.csv,https://djnavarro.net,TRUE,800/windswept_05_169.jpg,"Texture of gently flowing wisps in brown, beige, and green, against a very pale blue background"
 grasslands,Grasslands,800,6000,jpg,2020-11-29,manifest.csv,https://djnavarro.net,TRUE,800/grassland_08_217.jpg,Gentle field with subtle textures in various shades of green 
 tangle,Tangle,800,3000,png,2020-12-29,manifest.csv,https://djnavarro.net,TRUE,800/tangle_17_17-132.png,Strange looping arcs that form interlocking circular and cylindrical patterns
-crescent,Crescent,800,3000,jpg,2021-01-07,manifest.csv,,FALSE,,
 ghosts,Ghosts On Marble Paper,800,2000,png,2021-01-09,manifest.csv,https://djnavarro.net,TRUE,800/ghosts_01_162.png,"Abstract geometric texture in yellows and oranges, comprised of weirdly shaped polygons"
 wisptrees,Wisptrees,800,5000,jpg,2021-01-16,manifest.csv,,FALSE,,
 ice-floes,Ice Floes,800,5000,png,2021-01-19,manifest.csv,https://djnavarro.net,TRUE,800/crystalline_05_160.png,"Jagged geometric shapes in blue, white and black that look like icebergs floating in a dark sea"
@@ -46,8 +43,6 @@ grid-graphics,Grid Graphics,800,4000,png,2021-09-19,manifest.csv,https://djnavar
 sadists-kiss,Sadists Kiss,800,5000,png,2021-10-04,manifest.csv,https://djnavarro.net,TRUE,800/thorns_07_1345.png,Jagged geometric patterns in pink and purple against a beige background
 fallow-flow,Fallow Flow,800,4000,png,2021-10-05,manifest.csv,https://djnavarro.net,TRUE,800/fallow-flow_10_pos1006-seed1160.png,A 4x4 grid of white circles each with curl noise extending from them against a pink background
 melancholia,Melancholia,1000,4000,png,2021-10-06,manifest.csv,https://djnavarro.net,TRUE,1000/melancholia_sys05_seed1301.png,"A 25x25 grid of square cells whose dominant colours give the impressions of rectangular forms in purple and gole, and whose interior are spatial patterns"
-hush,Hush,800,2500,png,2021-10-10,manifest.csv,,FALSE,,
-sedation,Sedation,800,2500,jpg,2021-11-03,manifest.csv,,FALSE,,
 dreamlike,Dreamlike,800,3000,jpg,2021-12-09,manifest.csv,https://djnavarro.net,TRUE,800/pollen_09_1272.jpg,Gently swirling purple amorphous blobs against an off-white background
 unboxing,Unboxing,800,2000,png,2021-12-13,manifest.csv,https://djnavarro.net,TRUE,800/unboxing_256.png,"Yellow and orange arcs tracing out shapes that create the impression of a square inside a second square, with distorted copies of the entire pattern radiating outward"
 disassembly,Disassembly,800,4000,png,2021-12-23,manifest.csv,,FALSE,,
