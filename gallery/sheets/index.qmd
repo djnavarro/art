@@ -3,7 +3,7 @@ title: "Sheets"
 date: 2022-02-12
 repo: djnavarro/series-sheets
 page-layout: full
-image: "https://djnavarro.net/series-sheets/800/pollen_26_2614.jpg"
+image: "https://storage.googleapis.com/djnavarro-art/series-sheets/800/pollen_26_2614.jpg"
 image-alt: "White twisting, spiralling patterns that look like intertwined ribbons against a red, orange, and tan background"
 ---
    
