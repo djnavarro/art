@@ -7,7 +7,7 @@ scopes,Scopes,800,3000,png,2020-04-03,,,FALSE,,
 scrawl,Scrawl,800,3000,png,2020-04-09,,,FALSE,,
 voronoise,Voronoise,800,3000,png,2020-05-06,,,FALSE,,
 quarantine,Quarantine Moods,800,3000,png,2020-05-28,,,FALSE,,
-stoneskip,Stoneskip,800,3000,png,2020-06-05,,,FALSE,,
+stoneskip,Stoneskip,800,5000,png,2020-06-05,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/stoneskip_01_9.png,Abstract texture in blue and brown
 stonetree,Stonetree,800,3000,png,2020-06-13,,,FALSE,,
 turmite,Turmite,800,3000,png,2020-06-20,,,FALSE,,
 dust,Dust,800,3000,png,2020-06-26,,,FALSE,,
