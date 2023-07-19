@@ -1,4 +1,4 @@
-series,name,preview_size,image_size,format,date,manifest,base_url,include,preview_image,preview_alt
+series,name,preview_dir,target_dir,format,date,manifest,base_url,include,preview_image,preview_alt
 rosemary,Rosemary,800,3000,png,2019-12-27,manifest.csv,https://djnavarro.net,TRUE,800/rosemary_003_rainbow-prisms.png,"Rainbow coloured prisms with curl noise, against a black background"
 nye2019,NYE 2019,800,3000,png,2019-12-31,,,FALSE,,
 flametree,Flametree,800,3000,png,2020-03-15,,,FALSE,,

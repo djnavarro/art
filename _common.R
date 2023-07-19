@@ -8,7 +8,7 @@ build_url <- function(page, base_url) {
   paste0(base_url, "/", page, "/")
 }
 
-add_image_html <- function(dat, thumbnail = "thumbnail", target = "target") {
+add_image_html <- function(dat, preview = "preview", target = "target") {
   lines <- paste0(
     '   ',
     '<div class="g-col-12 g-col-md-4">',
@@ -16,7 +16,7 @@ add_image_html <- function(dat, thumbnail = "thumbnail", target = "target") {
     '<a href="',
     dat[[target]],
     '"><img src="',
-    dat[[thumbnail]],
+    dat[[preview]],
     '" class="card-img-top"></a>',
     '</div>',
     '</div>',
@@ -27,19 +27,19 @@ add_image_html <- function(dat, thumbnail = "thumbnail", target = "target") {
 
 read_manifest <- function(url,
                           manifest = "manifest.csv",
-                          preview_size = 800,
-                          image_size = 4000,
+                          preview_dir = "800",
+                          target_dir = "4000",
                           image_format = "png") {
 
   readr::read_csv(paste0(url, manifest)) |>
     dplyr::filter(
-      resolution %in% c(preview_size, image_size),
+      resolution %in% c(preview_dir, target_dir), # resolution needs renaming in manifests
       format == image_format
     ) |>
     dplyr::mutate(
       type = dplyr::case_when(
-        resolution == preview_size ~ "thumbnail",
-        resolution == image_size ~ "target"
+        resolution == preview_dir ~ "preview",
+        resolution == target_dir ~ "target"
       ),
       path = paste0(url, path)
     ) |>
@@ -57,8 +57,8 @@ build_series <- function(series) {
   dat <- paste0("series-", series) |>
     build_url(galleries$base_url[ind]) |>
     read_manifest(
-      preview_size = galleries$preview_size[ind],
-      image_size = galleries$image_size[ind],
+      preview_dir = galleries$preview_dir[ind],
+      target_dir = galleries$target_dir[ind],
       image_format = galleries$format[ind]
     ) |>
     add_image_html()
