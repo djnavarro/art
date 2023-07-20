@@ -3,7 +3,7 @@ title: "Ghosts On Marble Paper"
 date: 2021-01-09
 repo: djnavarro/series-ghosts
 page-layout: full
-image: "https://djnavarro.net/series-ghosts/800/ghosts_01_162.png"
+image: "https://storage.googleapis.com/djnavarro-art/series-ghosts/800/ghosts_01_162.png"
 image-alt: "Abstract geometric texture in yellows and oranges, comprised of weirdly shaped polygons"
 ---
    
