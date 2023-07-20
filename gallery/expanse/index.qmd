@@ -3,7 +3,7 @@ title: "Expanse"
 date: 2020-08-24
 repo: djnavarro/series-expanse
 page-layout: full
-image: "https://djnavarro.net/series-expanse/800/set3-ff_05_9-3-12.png"
+image: "https://storage.googleapis.com/djnavarro-art/series-expanse/800/set3-ff_05_9-3-12.png"
 image-alt: "Grainy tracery in orange and yellow forming geometric shapes against a black background"
 ---
    
