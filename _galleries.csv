@@ -1,5 +1,5 @@
 series,name,repo,preview_dir,target_dir,format,date,manifest,base_url,include,preview_image,preview_alt
-rosemary,Rosemary,https://github.com/djnavarro/series-rosemary,800,3000,png,2019-12-27,manifest.csv,https://djnavarro.net,TRUE,800/rosemary_003_rainbow-prisms.png,"Rainbow coloured prisms with curl noise, against a black background"
+rosemary,Rosemary,https://github.com/djnavarro/series-rosemary,800,3000,png,2019-12-27,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/rosemary_003_rainbow-prisms.png,"Rainbow coloured prisms with curl noise, against a black background"
 nye2019,NYE 2019,https://github.com/djnavarro/series-nye2019,800,3000,png,2019-12-31,NA,NA,FALSE,NA,NA
 flametree,Flametree,https://github.com/djnavarro/series-flametree,800,3000,png,2020-03-15,NA,NA,FALSE,NA,NA
 popart,Pop Art And Fracture,https://github.com/djnavarro/series-popart,800,3000,png,2020-03-23,NA,NA,FALSE,NA,NA
