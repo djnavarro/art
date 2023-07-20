@@ -3,7 +3,7 @@ title: "Perlin Blobs"
 date: 2021-02-18
 repo: djnavarro/series-perlin-blobs
 page-layout: full
-image: "https://djnavarro.net/series-perlin-blobs/800/perlincircle_10_503.png"
+image: "https://storage.googleapis.com/djnavarro-art/series-perlin-blobs/800/perlincircle_10_503.png"
 image-alt: "Many smooth, vaguely-ellipsoidal blobs that looks a little like jellybeans, in a variety of colours"
 ---
    
