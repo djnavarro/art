@@ -3,7 +3,7 @@ title: "Boxes"
 date: 2020-09-15
 repo: djnavarro/series-boxes
 page-layout: full
-image: "https://djnavarro.net/series-boxes/800/box_01_31.jpg"
+image: "https://storage.googleapis.com/djnavarro-art/series-boxes/800/box_01_31.jpg"
 image-alt: "Grainy multicoloured square against a black background, with many circular arcs extending"
 ---
    
