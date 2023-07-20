@@ -3,7 +3,7 @@ title: "Silhouettes"
 date: 2021-01-24
 repo: djnavarro/series-silhouettes
 page-layout: full
-image: "https://djnavarro.net/series-silhouettes/800/night-tree_04_468.jpg"
+image: "https://storage.googleapis.com/djnavarro-art/series-silhouettes/800/night-tree_04_468.jpg"
 image-alt: "Silhouette of a tree waving in the wind against a cloudy background, all in shades of teal and white"
 ---
    
