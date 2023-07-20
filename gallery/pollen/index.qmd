@@ -3,7 +3,7 @@ title: "Pollen"
 date: 2020-10-27
 repo: djnavarro/series-pollen
 page-layout: full
-image: "https://djnavarro.net/series-pollen/800/pollen_02_10_1.jpg"
+image: "https://storage.googleapis.com/djnavarro-art/series-pollen/800/pollen_02_10_1.jpg"
 image-alt: "Very soft orange and dark purple grainy texture in bottom left, against a lighter purple background"
 ---
    
