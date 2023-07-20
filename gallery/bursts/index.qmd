@@ -3,7 +3,7 @@ title: "Bursts"
 date: 2020-09-13
 repo: djnavarro/series-bursts
 page-layout: full
-image: "https://djnavarro.net/series-bursts/800/ff_13_9-3-34.png"
+image: "https://storage.googleapis.com/djnavarro-art/series-bursts/800/ff_13_9-3-34.png"
 image-alt: "Violent bursts of grainy lines in red, black and white, with hints of a square frame"
 ---
    
