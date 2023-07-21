@@ -4,7 +4,7 @@ nye2019,NYE 2019,https://github.com/djnavarro/series-nye2019,800,3000,png,2019-1
 flametree,Flametree,https://github.com/djnavarro/series-flametree,800,3000,png,2020-03-15,NA,NA,FALSE,NA,NA
 popart,Pop Art And Fracture,https://github.com/djnavarro/series-popart,800,3000,png,2020-03-23,NA,NA,FALSE,NA,NA
 scrawl,Scrawl,https://github.com/djnavarro/series-scrawl,800,3000,png,2020-04-09,NA,NA,FALSE,NA,NA
-voronoise,Voronoise,https://github.com/djnavarro/series-voronoise,800,3000,png,2020-05-06,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/voronoise_18_0.png,"Tiling of smoothed polygons in red, blue, and brown"
+voronoise,Voronoise,https://github.com/djnavarro/series-voronoise,800,5000,png,2020-05-06,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/voronoise_18_0.png,"Tiling of smoothed polygons in red, blue, and brown"
 stoneskip,Stoneskip,https://github.com/djnavarro/series-stoneskip,800,5000,png,2020-06-05,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/stoneskip_01_9.png,Abstract texture in blue and brown
 dust,Dust,https://github.com/djnavarro/series-dust,800,3000,png,2020-06-26,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/dust_07_0.png,"Pointillist heart shape in rainbow colours and black, against a tan background"
 generalisation,Generalisation,https://github.com/djnavarro/series-generalisation,400,5000,png,2020-07-01,manifest.csv,https://storage.googleapis.com/djnavarro-art,FALSE,NA,NA
