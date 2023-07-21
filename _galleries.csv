@@ -7,18 +7,15 @@ scrawl,Scrawl,https://github.com/djnavarro/series-scrawl,800,3000,png,2020-04-09
 voronoise,Voronoise,https://github.com/djnavarro/series-voronoise,800,3000,png,2020-05-06,NA,NA,FALSE,NA,NA
 quarantine,Quarantine Moods,https://github.com/djnavarro/series-quarantine,800,3000,png,2020-05-28,NA,NA,FALSE,NA,NA
 stoneskip,Stoneskip,https://github.com/djnavarro/series-stoneskip,800,5000,png,2020-06-05,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/stoneskip_01_9.png,Abstract texture in blue and brown
-turmite,Turmite,https://github.com/djnavarro/series-turmite,800,3000,png,2020-06-20,NA,NA,FALSE,NA,NA
 dust,Dust,https://github.com/djnavarro/series-dust,800,3000,png,2020-06-26,NA,NA,FALSE,NA,NA
 generalisation,Generalisation,https://github.com/djnavarro/series-generalisation,800,3000,png,2020-07-01,NA,NA,FALSE,NA,NA
-the-heart-speaks,The Heart Speaks,https://github.com/djnavarro/series-the-heart-speaks,800,3000,png,2020-07-27,NA,NA,FALSE,NA,NA
 heartbleed,Heartbleed,https://github.com/djnavarro/series-heartbleed,800,5000,png,2020-08-10,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/turmite_59_000000.png,"Flowing hearts in brown, white and tan, against a textured background"
 expanse,Expanse,https://github.com/djnavarro/series-expanse,800,5000,png,2020-08-24,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/set3-ff_05_9-3-12.png,Grainy tracery in orange and yellow forming geometric shapes against a black background
 borderlines,Borderlines,https://github.com/djnavarro/series-borderlines,800,5000,png,2020-09-12,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/right-ff_12_1-3-1.png,Black and white grainy image that looks a little like a large circle with rays extending from it
 bursts,Bursts,https://github.com/djnavarro/series-bursts,800,5000,png,2020-09-13,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/ff_13_9-3-34.png,"Violent bursts of grainy lines in red, black and white, with hints of a square frame"
 boxes,Boxes,https://github.com/djnavarro/series-boxes,800,5000,jpg,2020-09-15,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/box_01_31.jpg,"Grainy multicoloured square against a black background, with many circular arcs extending"
 track-marks,Track Marks,https://github.com/djnavarro/series-track-marks,800,5000,png,2020-09-20,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/new_04_7.png,Black and white jagged polygons arranged to form the impression of a circle with a tail behind it
-thorns,Thorns,https://github.com/djnavarro/series-thorns,800,5000,png,2020-09-22,manifest.csv,NA,FALSE,NA,NA
-votives,Votives,https://github.com/djnavarro/series-votives,800,5000,png,2020-09-29,manifest.csv,NA,FALSE,NA,NA
+votives,Votives,https://github.com/djnavarro/series-votives,800,5000,png,2020-09-29,manifest.csv,https://storage.googleapis.com/djnavarro-art,FALSE,NA,NA
 heart-samples,"Hearts, Sampled Unwisely",https://github.com/djnavarro/series-heart-samples,800,5000,png,2020-10-09,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/heart_01_01.png,"Black and white grainy heart with concentric banding, and chaotic extrusions to a box in the top right"
 pollen,Pollen,https://github.com/djnavarro/series-pollen,800,5000,jpg,2020-10-27,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/pollen_02_10_1.jpg,"Very soft orange and dark purple grainy texture in bottom left, against a lighter purple background"
 night-skies,"Bright Seas, Night Skies",https://github.com/djnavarro/series-night-skies,800,6000,png,2020-11-27,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/night-sky_11_264.png,"Abstract geometric shapes in black, purple and grey, against a dark blue background"
@@ -26,7 +23,6 @@ windswept,Windswept,https://github.com/djnavarro/series-windswept,800,6000,jpg,2
 grasslands,Grasslands,https://github.com/djnavarro/series-grasslands,800,6000,jpg,2020-11-29,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/grassland_08_217.jpg,Gentle field with subtle textures in various shades of green
 tangle,Tangle,https://github.com/djnavarro/series-tangle,800,3000,png,2020-12-29,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/tangle_17_17-132.png,Strange looping arcs that form interlocking circular and cylindrical patterns
 ghosts,Ghosts On Marble Paper,https://github.com/djnavarro/series-ghosts,800,2000,png,2021-01-09,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/ghosts_01_162.png,"Abstract geometric texture in yellows and oranges, comprised of weirdly shaped polygons"
-wisptrees,Wisptrees,https://github.com/djnavarro/series-wisptrees,800,5000,jpg,2021-01-16,manifest.csv,NA,FALSE,NA,NA
 ice-floes,Ice Floes,https://github.com/djnavarro/series-ice-floes,800,5000,png,2021-01-19,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/crystalline_05_160.png,"Jagged geometric shapes in blue, white and black that look like icebergs floating in a dark sea"
 nebulae,Nebulae,https://github.com/djnavarro/series-nebulae,800,5000,jpg,2021-01-19,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/nebula_04_155.jpg,Random clouds of multicoloured dots against a black background
 silhouettes,Silhouettes,https://github.com/djnavarro/series-silhouettes,800,3000,jpg,2021-01-24,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/night-tree_04_468.jpg,"Silhouette of a tree waving in the wind against a cloudy background, all in shades of teal and white"
