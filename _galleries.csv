@@ -5,10 +5,9 @@ flametree,Flametree,https://github.com/djnavarro/series-flametree,800,3000,png,2
 popart,Pop Art And Fracture,https://github.com/djnavarro/series-popart,800,3000,png,2020-03-23,NA,NA,FALSE,NA,NA
 scrawl,Scrawl,https://github.com/djnavarro/series-scrawl,800,3000,png,2020-04-09,NA,NA,FALSE,NA,NA
 voronoise,Voronoise,https://github.com/djnavarro/series-voronoise,800,3000,png,2020-05-06,NA,NA,FALSE,NA,NA
-quarantine,Quarantine Moods,https://github.com/djnavarro/series-quarantine,800,3000,png,2020-05-28,NA,NA,FALSE,NA,NA
 stoneskip,Stoneskip,https://github.com/djnavarro/series-stoneskip,800,5000,png,2020-06-05,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/stoneskip_01_9.png,Abstract texture in blue and brown
 dust,Dust,https://github.com/djnavarro/series-dust,800,3000,png,2020-06-26,NA,NA,FALSE,NA,NA
-generalisation,Generalisation,https://github.com/djnavarro/series-generalisation,800,3000,png,2020-07-01,NA,NA,FALSE,NA,NA
+generalisation,Generalisation,https://github.com/djnavarro/series-generalisation,800,3000,png,2020-07-01,manifest.csv,https://storage.googleapis.com/djnavarro-art,FALSE,NA,NA
 heartbleed,Heartbleed,https://github.com/djnavarro/series-heartbleed,800,5000,png,2020-08-10,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/turmite_59_000000.png,"Flowing hearts in brown, white and tan, against a textured background"
 expanse,Expanse,https://github.com/djnavarro/series-expanse,800,5000,png,2020-08-24,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/set3-ff_05_9-3-12.png,Grainy tracery in orange and yellow forming geometric shapes against a black background
 borderlines,Borderlines,https://github.com/djnavarro/series-borderlines,800,5000,png,2020-09-12,manifest.csv,https://storage.googleapis.com/djnavarro-art,TRUE,800/right-ff_12_1-3-1.png,Black and white grainy image that looks a little like a large circle with rays extending from it
