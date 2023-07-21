@@ -1,0 +1,21 @@
+---
+title: "Voronoise"
+date: 2020-05-06
+repo: djnavarro/series-voronoise
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-voronoise/800/voronoise_18_0.png"
+image-alt: "Tiling of smoothed polygons in red, blue, and brown"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("voronoise")
+```
+   
+:::
+   
