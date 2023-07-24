@@ -11,10 +11,11 @@ image-alt: "A white ball of light that appears to transform into rectangular sha
   
 ```{r}
 #| echo: false
+#| label: build-series-cherish
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("cherish")
+build_series("series-cherish")
 ```
    
 :::

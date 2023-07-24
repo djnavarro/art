@@ -11,10 +11,11 @@ image-alt: "Geometric tiling pattern with a four-petal radial structure in yello
   
 ```{r}
 #| echo: false
+#| label: build-series-broken-symmetry
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("broken-symmetry")
+build_series("series-broken-symmetry")
 ```
    
 :::

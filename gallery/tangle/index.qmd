@@ -11,10 +11,11 @@ image-alt: "Strange looping arcs that form interlocking circular and cylindrical
   
 ```{r}
 #| echo: false
+#| label: build-series-tangle
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("tangle")
+build_series("series-tangle")
 ```
    
 :::

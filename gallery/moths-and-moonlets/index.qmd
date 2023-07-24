@@ -11,10 +11,11 @@ image-alt: "Many overlapping bubble shapes comprised of yellow, black and purple
   
 ```{r}
 #| echo: false
+#| label: build-series-moths-and-moonlets
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("moths-and-moonlets")
+build_series("series-moths-and-moonlets")
 ```
    
 :::

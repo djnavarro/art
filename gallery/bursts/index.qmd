@@ -11,10 +11,11 @@ image-alt: "Violent bursts of grainy lines in red, black and white, with hints o
   
 ```{r}
 #| echo: false
+#| label: build-series-bursts
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("bursts")
+build_series("series-bursts")
 ```
    
 :::

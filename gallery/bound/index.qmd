@@ -11,10 +11,11 @@ image-alt: "Orange and black hexagon against pale tan background, with many dist
   
 ```{r}
 #| echo: false
+#| label: build-series-bound
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("bound")
+build_series("series-bound")
 ```
    
 :::

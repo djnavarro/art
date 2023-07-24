@@ -11,10 +11,11 @@ image-alt: "Texture of gently flowing wisps in brown, beige, and green, against 
   
 ```{r}
 #| echo: false
+#| label: build-series-windswept
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("windswept")
+build_series("series-windswept")
 ```
    
 :::

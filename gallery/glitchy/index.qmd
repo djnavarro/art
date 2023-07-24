@@ -11,10 +11,11 @@ image-alt: "Dark, grainy greyscale image with many squares, circles and distorte
   
 ```{r}
 #| echo: false
+#| label: build-series-glitchy
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("glitchy")
+build_series("series-glitchy")
 ```
    
 :::

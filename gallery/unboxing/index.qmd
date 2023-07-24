@@ -3,7 +3,7 @@ title: "Unboxing"
 date: 2021-12-13
 repo: djnavarro/series-unboxing
 page-layout: full
-image: "https://storage.googleapis.com/djnavarro-art/series-unboxing/800/unboxing_256.png"
+image: "https://storage.googleapis.com/djnavarro-art/series-unboxing/800/unboxing_1_256.png"
 image-alt: "Yellow and orange arcs tracing out shapes that create the impression of a square inside a second square, with distorted copies of the entire pattern radiating outward"
 ---
    
@@ -11,10 +11,11 @@ image-alt: "Yellow and orange arcs tracing out shapes that create the impression
   
 ```{r}
 #| echo: false
+#| label: build-series-unboxing
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("unboxing")
+build_series("series-unboxing")
 ```
    
 :::

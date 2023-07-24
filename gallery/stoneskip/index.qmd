@@ -11,10 +11,11 @@ image-alt: "Abstract texture in blue and brown"
   
 ```{r}
 #| echo: false
+#| label: build-series-stoneskip
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("stoneskip")
+build_series("series-stoneskip")
 ```
    
 :::

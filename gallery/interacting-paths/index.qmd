@@ -11,10 +11,11 @@ image-alt: "Grainy greyscale image made from five intersecting circles with nume
   
 ```{r}
 #| echo: false
+#| label: build-series-interacting-paths
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("interacting-paths")
+build_series("series-interacting-paths")
 ```
    
 :::

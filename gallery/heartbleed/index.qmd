@@ -11,10 +11,11 @@ image-alt: "Flowing hearts in brown, white and tan, against a textured backgroun
   
 ```{r}
 #| echo: false
+#| label: build-series-heartbleed
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("heartbleed")
+build_series("series-heartbleed")
 ```
    
 :::

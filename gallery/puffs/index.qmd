@@ -11,10 +11,11 @@ image-alt: "A light blue fuzzy puffball against a dark blue background"
   
 ```{r}
 #| echo: false
+#| label: build-series-puffs
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("puffs")
+build_series("series-puffs")
 ```
    
 :::

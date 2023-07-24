@@ -11,10 +11,11 @@ image-alt: "Several translucent, smudged, intersecting hexagons in pastel colour
   
 ```{r}
 #| echo: false
+#| label: build-series-hexagonal
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("hexagonal")
+build_series("series-hexagonal")
 ```
    
 :::

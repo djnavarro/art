@@ -11,10 +11,11 @@ image-alt: "Feather-shaped grainy patterns in black, blue, and orange against a 
   
 ```{r}
 #| echo: false
+#| label: build-series-stalk-and-feather
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("stalk-and-feather")
+build_series("series-stalk-and-feather")
 ```
    
 :::

@@ -11,10 +11,11 @@ image-alt: "Random clouds of multicoloured dots against a black background"
   
 ```{r}
 #| echo: false
+#| label: build-series-nebulae
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("nebulae")
+build_series("series-nebulae")
 ```
    
 :::

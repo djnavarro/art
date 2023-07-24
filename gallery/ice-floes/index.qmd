@@ -11,10 +11,11 @@ image-alt: "Jagged geometric shapes in blue, white and black that look like iceb
   
 ```{r}
 #| echo: false
+#| label: build-series-ice-floes
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("ice-floes")
+build_series("series-ice-floes")
 ```
    
 :::

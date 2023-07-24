@@ -11,10 +11,11 @@ image-alt: "Watercolour style cloud shapes in black and blood red"
   
 ```{r}
 #| echo: false
+#| label: build-series-ash
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("ash")
+build_series("series-ash")
 ```
    
 :::

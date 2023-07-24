@@ -11,10 +11,11 @@ image-alt: "Tiling of smoothed polygons in red, blue, and brown"
   
 ```{r}
 #| echo: false
+#| label: build-series-voronoise
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("voronoise")
+build_series("series-voronoise")
 ```
    
 :::

@@ -11,10 +11,11 @@ image-alt: "Textured branch-and-stalk patterns in blue red and white, extending 
   
 ```{r}
 #| echo: false
+#| label: build-series-viewports
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("viewports")
+build_series("series-viewports")
 ```
    
 :::

@@ -11,10 +11,11 @@ image-alt: "A white square inside a much larger white square, with many distorte
   
 ```{r}
 #| echo: false
+#| label: build-series-cards
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("cards")
+build_series("series-cards")
 ```
    
 :::

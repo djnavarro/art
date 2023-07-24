@@ -11,10 +11,11 @@ image-alt: "Abstract geometric texture in yellows and oranges, comprised of weir
   
 ```{r}
 #| echo: false
+#| label: build-series-ghosts
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("ghosts")
+build_series("series-ghosts")
 ```
    
 :::

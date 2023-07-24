@@ -11,10 +11,11 @@ image-alt: "Very soft orange and dark purple grainy texture in bottom left, agai
   
 ```{r}
 #| echo: false
+#| label: build-series-pollen
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("pollen")
+build_series("series-pollen")
 ```
    
 :::

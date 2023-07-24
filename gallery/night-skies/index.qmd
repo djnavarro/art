@@ -11,10 +11,11 @@ image-alt: "Abstract geometric shapes in black, purple and grey, against a dark 
   
 ```{r}
 #| echo: false
+#| label: build-series-night-skies
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("night-skies")
+build_series("series-night-skies")
 ```
    
 :::

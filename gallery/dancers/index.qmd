@@ -11,10 +11,11 @@ image-alt: "Swirling black hourglass shapes against a blue background, that look
   
 ```{r}
 #| echo: false
+#| label: build-series-dancers
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("dancers")
+build_series("series-dancers")
 ```
    
 :::

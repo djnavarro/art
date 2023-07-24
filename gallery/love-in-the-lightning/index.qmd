@@ -11,10 +11,11 @@ image-alt: "A black and white outline of a heart against a purple background, wi
   
 ```{r}
 #| echo: false
+#| label: build-series-love-in-the-lightning
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("love-in-the-lightning")
+build_series("series-love-in-the-lightning")
 ```
    
 :::

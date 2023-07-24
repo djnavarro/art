@@ -11,10 +11,11 @@ image-alt: "Geometric patterns that look like a topographic map of an brown text
   
 ```{r}
 #| echo: false
+#| label: build-series-broken-lands
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("broken-lands")
+build_series("series-broken-lands")
 ```
    
 :::

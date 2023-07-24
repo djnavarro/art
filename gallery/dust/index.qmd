@@ -11,10 +11,11 @@ image-alt: "Pointillist heart shape in rainbow colours and black, against a tan 
   
 ```{r}
 #| echo: false
+#| label: build-series-dust
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("dust")
+build_series("series-dust")
 ```
    
 :::

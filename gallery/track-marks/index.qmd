@@ -11,10 +11,11 @@ image-alt: "Black and white jagged polygons arranged to form the impression of a
   
 ```{r}
 #| echo: false
+#| label: build-series-track-marks
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("track-marks")
+build_series("series-track-marks")
 ```
    
 :::

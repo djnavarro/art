@@ -11,10 +11,11 @@ image-alt: "Jagged geometric patterns in pink and purple against a beige backgro
   
 ```{r}
 #| echo: false
+#| label: build-series-sadists-kiss
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("sadists-kiss")
+build_series("series-sadists-kiss")
 ```
    
 :::

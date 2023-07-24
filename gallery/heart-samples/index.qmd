@@ -11,10 +11,11 @@ image-alt: "Black and white grainy heart with concentric banding, and chaotic ex
   
 ```{r}
 #| echo: false
+#| label: build-series-heart-samples
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("heart-samples")
+build_series("series-heart-samples")
 ```
    
 :::

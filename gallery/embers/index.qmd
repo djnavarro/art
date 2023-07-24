@@ -11,10 +11,11 @@ image-alt: "Grainy, triangular shaped flow pattern in red, white, and orange, ag
   
 ```{r}
 #| echo: false
+#| label: build-series-embers
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("embers")
+build_series("series-embers")
 ```
    
 :::

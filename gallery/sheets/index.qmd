@@ -11,10 +11,11 @@ image-alt: "White twisting, spiralling patterns that look like intertwined ribbo
   
 ```{r}
 #| echo: false
+#| label: build-series-sheets
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("sheets")
+build_series("series-sheets")
 ```
    
 :::

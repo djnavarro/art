@@ -11,10 +11,11 @@ image-alt: "Grainy tracery in orange and yellow forming geometric shapes against
   
 ```{r}
 #| echo: false
+#| label: build-series-expanse
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("expanse")
+build_series("series-expanse")
 ```
    
 :::

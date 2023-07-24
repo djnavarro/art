@@ -11,10 +11,11 @@ image-alt: "Multicoloured branching structures with dots at the end, resembling 
   
 ```{r}
 #| echo: false
+#| label: build-series-native-flora
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("native-flora")
+build_series("series-native-flora")
 ```
    
 :::

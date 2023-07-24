@@ -11,10 +11,11 @@ image-alt: "Grainy multicoloured square against a black background, with many ci
   
 ```{r}
 #| echo: false
+#| label: build-series-boxes
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("boxes")
+build_series("series-boxes")
 ```
    
 :::

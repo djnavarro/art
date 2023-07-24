@@ -3,7 +3,7 @@ title: "Rosemary"
 date: 2019-12-27
 repo: djnavarro/series-rosemary
 page-layout: full
-image: "https://storage.googleapis.com/djnavarro-art/series-rosemary/800/rosemary_003_rainbow-prisms.png"
+image: "https://storage.googleapis.com/djnavarro-art/series-rosemary/800/rosemary_003_000_rainbow-prisms.png"
 image-alt: "Rainbow coloured prisms with curl noise, against a black background"
 ---
    
@@ -11,10 +11,11 @@ image-alt: "Rainbow coloured prisms with curl noise, against a black background"
   
 ```{r}
 #| echo: false
+#| label: build-series-rosemary
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("rosemary")
+build_series("series-rosemary")
 ```
    
 :::
