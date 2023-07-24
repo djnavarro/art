@@ -2,6 +2,8 @@
 title: "Cherish"
 date: 2022-02-12
 repo: djnavarro/series-cherish
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-cherish/800/pollen_29_2900.jpg"
 image-alt: "A white ball of light that appears to transform into rectangular shapes, against a green background, with a black shadow"

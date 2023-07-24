@@ -2,6 +2,8 @@
 title: "Rosemary"
 date: 2019-12-27
 repo: djnavarro/series-rosemary
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-rosemary/800/rosemary_003_000_rainbow-prisms.png"
 image-alt: "Rainbow coloured prisms with curl noise, against a black background"

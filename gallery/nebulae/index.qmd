@@ -2,6 +2,8 @@
 title: "Nebulae"
 date: 2021-01-19
 repo: djnavarro/series-nebulae
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-nebulae/800/nebula_04_155.jpg"
 image-alt: "Random clouds of multicoloured dots against a black background"

@@ -2,6 +2,8 @@
 title: "Windswept"
 date: 2020-11-28
 repo: djnavarro/series-windswept
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-windswept/800/windswept_05_169.jpg"
 image-alt: "Texture of gently flowing wisps in brown, beige, and green, against a very pale blue background"

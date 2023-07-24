@@ -2,6 +2,8 @@
 title: "Dancers"
 date: 2022-02-09
 repo: djnavarro/series-dancers
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-dancers/800/pollen_20_2086.jpg"
 image-alt: "Swirling black hourglass shapes against a blue background, that looks like echos of motion"

@@ -2,6 +2,8 @@
 title: "Ice Floes"
 date: 2021-01-19
 repo: djnavarro/series-ice-floes
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-ice-floes/800/crystalline_05_160.png"
 image-alt: "Jagged geometric shapes in blue, white and black that look like icebergs floating in a dark sea"

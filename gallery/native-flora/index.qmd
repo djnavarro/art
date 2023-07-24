@@ -2,6 +2,8 @@
 title: "Native Flora"
 date: 2021-02-10
 repo: djnavarro/series-native-flora
+license-type: "CC0 1.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-native-flora/800/poa_11_199.png"
 image-alt: "Multicoloured branching structures with dots at the end, resembling a bunch of flowers"

@@ -2,6 +2,8 @@
 title: "Pollen"
 date: 2020-10-27
 repo: djnavarro/series-pollen
+license-type: "CC0 1.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-pollen/800/pollen_02_10_1.jpg"
 image-alt: "Very soft orange and dark purple grainy texture in bottom left, against a lighter purple background"

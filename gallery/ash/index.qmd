@@ -2,6 +2,8 @@
 title: "Ash Cloud And Blood"
 date: 2021-07-17
 repo: djnavarro/series-ash
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-ash/800/ash_07_010.png"
 image-alt: "Watercolour style cloud shapes in black and blood red"

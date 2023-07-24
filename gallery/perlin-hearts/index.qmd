@@ -2,6 +2,8 @@
 title: "Perlin Hearts"
 date: 2021-07-16
 repo: djnavarro/series-perlin-hearts
+license-type: "CC0 1.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-perlin-hearts/800/perlin-heart_01_008.png"
 image-alt: "A 10x10 grid of wonky hearts in shades of brown and green, against a black background"

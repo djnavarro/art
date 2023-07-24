@@ -2,6 +2,8 @@
 title: "Ghosts On Marble Paper"
 date: 2021-01-09
 repo: djnavarro/series-ghosts
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-ghosts/800/ghosts_01_162.png"
 image-alt: "Abstract geometric texture in yellows and oranges, comprised of weirdly shaped polygons"

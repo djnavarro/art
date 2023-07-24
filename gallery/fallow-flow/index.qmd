@@ -2,6 +2,8 @@
 title: "Fallow Flow"
 date: 2021-10-05
 repo: djnavarro/series-fallow-flow
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-fallow-flow/800/fallow-flow_10_pos1006-seed1160.png"
 image-alt: "A 4x4 grid of white circles each with curl noise extending from them against a pink background"

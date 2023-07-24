@@ -2,6 +2,8 @@
 title: "Heartbleed"
 date: 2020-08-10
 repo: djnavarro/series-heartbleed
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-heartbleed/800/turmite_59_000000.png"
 image-alt: "Flowing hearts in brown, white and tan, against a textured background"

@@ -2,6 +2,8 @@
 title: "Borderlines"
 date: 2020-09-12
 repo: djnavarro/series-borderlines
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-borderlines/800/right-ff_12_1-3-1.png"
 image-alt: "Black and white grainy image that looks a little like a large circle with rays extending from it"

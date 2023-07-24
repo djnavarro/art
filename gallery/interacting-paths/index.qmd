@@ -2,6 +2,8 @@
 title: "Interacting Paths"
 date: 2022-05-02
 repo: djnavarro/series-interacting-paths
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-interacting-paths/800/pollen_78_7904.jpg"
 image-alt: "Grainy greyscale image made from five intersecting circles with numerous paths creating a textured look"

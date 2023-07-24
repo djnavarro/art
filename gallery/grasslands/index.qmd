@@ -2,6 +2,8 @@
 title: "Grasslands"
 date: 2020-11-29
 repo: djnavarro/series-grasslands
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-grasslands/800/grassland_08_217.jpg"
 image-alt: "Gentle field with subtle textures in various shades of green"

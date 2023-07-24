@@ -2,6 +2,8 @@
 title: "Broken Lands"
 date: 2023-03-01
 repo: djnavarro/series-broken-lands
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-broken-lands/800/alien-floe_15_2433.png"
 image-alt: "Geometric patterns that look like a topographic map of an brown textured alien coastline against a pale off white sea"

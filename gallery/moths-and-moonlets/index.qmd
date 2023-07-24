@@ -2,6 +2,8 @@
 title: "Moths And Moonlets"
 date: 2022-03-13
 repo: djnavarro/series-moths-and-moonlets
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-moths-and-moonlets/800/pollen_55_5536.jpg"
 image-alt: "Many overlapping bubble shapes comprised of yellow, black and purple grainy lines and arcs"

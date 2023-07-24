@@ -2,6 +2,8 @@
 title: "Dreamlike"
 date: 2021-12-09
 repo: djnavarro/series-dreamlike
+license-type: "CC0 1.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-dreamlike/800/pollen_09_1272.jpg"
 image-alt: "Gently swirling purple amorphous blobs against an off-white background"

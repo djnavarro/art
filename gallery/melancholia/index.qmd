@@ -2,6 +2,8 @@
 title: "Melancholia"
 date: 2021-10-06
 repo: djnavarro/series-melancholia
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-melancholia/1000/melancholia_sys05_seed1301.png"
 image-alt: "A 25x25 grid of square cells whose dominant colours give the impressions of rectangular forms in purple and gole, and whose interior are spatial patterns"

@@ -2,6 +2,8 @@
 title: "Puffs"
 date: 2021-12-23
 repo: djnavarro/series-puffs
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-puffs/800/pollen_13_1306.jpg"
 image-alt: "A light blue fuzzy puffball against a dark blue background"

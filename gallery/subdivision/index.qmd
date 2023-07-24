@@ -2,6 +2,8 @@
 title: "Subdivision"
 date: 2023-02-17
 repo: djnavarro/series-subdivision
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-subdivision/800/subdivision_12_2249.png"
 image-alt: "Irregular rectangular tiling in yellow, red, blue and black, with circular shaped disruptions to the pattern"

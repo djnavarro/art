@@ -2,6 +2,8 @@
 title: "Tangle"
 date: 2020-12-29
 repo: djnavarro/series-tangle
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-tangle/800/tangle_17_17-132.png"
 image-alt: "Strange looping arcs that form interlocking circular and cylindrical patterns"

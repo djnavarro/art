@@ -2,6 +2,8 @@
 title: "Grid Graphics"
 date: 2021-09-19
 repo: djnavarro/series-grid-graphics
+license-type: "CC BY 4.0"
+appendix-style: none
 page-layout: full
 image: "https://storage.googleapis.com/djnavarro-art/series-grid-graphics/800/grid_sys01_seed1002.png"
 image-alt: "A 5x5 grid of squares in various shades of purple. Each square is filled with a spatial noise pattern"
