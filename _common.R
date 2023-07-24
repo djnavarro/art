@@ -66,6 +66,8 @@ make_gallery <- function(series, force = FALSE) {
     paste0('title: "', galleries$name[ind], '"'),
     paste0('date: ', galleries$date[ind]),
     paste0('repo: ', repospec),
+    paste0('license-type: "', galleries$license[ind], '"'),
+    'appendix-style: none',
     'page-layout: full'
   )
   img <- paste(

@@ -14,8 +14,15 @@ $if(date)$
 </div>
 $endif$
 
+$if(license-type)$
+<div class="quarto-title-meta-heading">license</div>
+<div class="quarto-title-meta-contents">
+  <p class="license"><a href="https://github.com/$repo$/blob/main/LICENSE.md">$license-type$</a></p>
+</div>
+$endif$
+
 $if(repo)$
-<div class="quarto-title-meta-heading">github repository</div>
+<div class="quarto-title-meta-heading">repository</div>
 <div class="quarto-title-meta-contents">
   <p class="repo"><a href="https://github.com/$repo$">$repo$</a></p>
 </div>
