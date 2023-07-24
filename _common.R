@@ -1,12 +1,15 @@
 
+options(
+  arttools.bucket.remote = "https://storage.googleapis.com/djnavarro-art",
+  arttools.bucket.local = "~/Buckets/djnavarro-art",
+  arttools.repos.remote = "https://github.com/djnavarro",
+  arttools.repos.local = "~/GitHub"
+)
+
 galleries <- readr::read_csv(
   here::here("_galleries.csv"),
   show_col_types = FALSE
 )
-
-build_url <- function(page, base_url) {
-  paste0(base_url, "/", page, "/")
-}
 
 add_image_html <- function(dat, preview = "preview", target = "target") {
   lines <- paste0(
@@ -25,107 +28,86 @@ add_image_html <- function(dat, preview = "preview", target = "target") {
   cat(lines, sep="\n\n")
 }
 
-read_manifest <- function(url,
-                          manifest = "manifest.csv",
-                          preview_dir = "800",
-                          target_dir = "4000",
-                          image_format = "png") {
+build_series <- function(series) {
+  ind <- which(galleries$series == series)
+  preview <- galleries$preview_dir[ind]
+  target <- galleries$target_dir[ind]
+  format <- galleries$format[ind]
 
-  readr::read_csv(paste0(url, manifest)) |>
-    dplyr::filter(
-      resolution %in% c(preview_dir, target_dir), # resolution needs renaming in manifests
-      format == image_format
-    ) |>
+  manifest <- arttools::manifest_read(series)
+
+  dat <- manifest |>
+    dplyr::filter(folder %in% c(preview, target), file_format == format) |>
     dplyr::mutate(
       type = dplyr::case_when(
-        resolution == preview_dir ~ "preview",
-        resolution == target_dir ~ "target"
+        folder == preview ~ "preview",
+        folder == target ~ "target"
       ),
-      path = paste0(url, path)
+      path = arttools::bucket_remote_path(series, path)
     ) |>
-    dplyr::select(-resolution) |>
+    dplyr::select(type, path, file_name) |>
     tidyr::pivot_wider(
       names_from = type,
       values_from = path
     )
-}
 
-build_series <- function(series) {
-
-  ind <- which(galleries$series == series)
-
-  dat <- paste0("series-", series) |>
-    build_url(galleries$base_url[ind]) |>
-    read_manifest(
-      preview_dir = galleries$preview_dir[ind],
-      target_dir = galleries$target_dir[ind],
-      image_format = galleries$format[ind]
-    ) |>
-    add_image_html()
+  add_image_html(dat)
 }
 
 make_gallery <- function(series, force = FALSE) {
 
   ind <- which(galleries$series == series)
-  if(galleries$include[ind] && !is.na(galleries$manifest[ind])) {
+  if (!galleries$include[ind]) return()
 
-    repo <- paste0("djnavarro/series-", series)
+  # ---- write yaml header ----
+  repospec <- gsub("https://github.com/", "", galleries$repo[ind])
+  lines <- c(
+    '---',
+    paste0('title: "', galleries$name[ind], '"'),
+    paste0('date: ', galleries$date[ind]),
+    paste0('repo: ', repospec),
+    'page-layout: full'
+  )
+  img <- paste(
+      galleries$bucket[ind],
+      galleries$preview_image[ind],
+      sep = "/"
+  )
+  lines <- c(lines, paste0('image: "', img, '"'))
+  lines <- c(lines, paste0('image-alt: "', galleries$preview_alt[ind], '"'))
+  lines <- c(lines, '---', '   ')
 
-    lines <- c(
-      '---',
-      paste0('title: "', galleries$name[ind], '"'),
-      paste0('date: ', galleries$date[ind]),
-      paste0('repo: ', repo),
-      'page-layout: full'
-    )
+  # ---- write code chunk ----
+  lines <- c(lines,
+    '::: {.grid}',
+    '  ',
+    '```{r}',
+    '#| echo: false',
+    paste0('#| label: build-', galleries$series[ind]),
+    '#| message: false',
+    '#| results: asis',
+    'source(here::here("_common.R"))',
+    paste0('build_series("', galleries$series[ind], '")'),
+    '```',
+    '   ',
+    ':::',
+    '   '
+  )
 
-    if(!is.na(galleries$preview_image[ind])) {
-      page <- paste0("series-", series)
-      url <- build_url(page, galleries$base_url[ind])
-      img <- paste0(url, galleries$preview_image[ind])
-      lines <- c(lines, paste0('image: "', img, '"'))
-    }
-    if(!is.na(galleries$preview_alt[ind])) {
-      lines <- c(lines, paste0('image-alt: "', galleries$preview_alt[ind], '"'))
-    }
-
-    lines <- c(lines,
-      '---',
-      '   ',
-      '::: {.grid}',
-      '  ',
-      '```{r}',
-      '#| echo: false',
-      '#| message: false',
-      '#| results: asis',
-      'source(here::here("_common.R"))',
-      paste0('build_series("', galleries$series[ind], '")'),
-      '```',
-      '   ',
-      ':::',
-      '   '
-    )
-
-    gallery_dir <- here::here("gallery", galleries$series[ind])
-    gallery_qmd <- fs::path(gallery_dir, "index.qmd")
-
-    if (force) {
-      if (fs::file_exists(gallery_qmd)) {
-        fs::file_delete(gallery_qmd)
-      }
-    }
-    fs::dir_create(gallery_dir)
-    if (!fs::file_exists(gallery_qmd)) {
-      brio::write_lines(lines, gallery_qmd)
-      cli::cli_alert_success(paste("gallery created:", series))
-    }
+  # --- write the quarto document to file ---
+  series_short_name <- gsub("^series-", "", galleries$series[ind])
+  gallery_dir <- here::here("gallery", series_short_name)
+  gallery_qmd <- fs::path(gallery_dir, "index.qmd")
+  if (force & fs::file_exists(gallery_qmd)) fs::file_delete(gallery_qmd)
+  fs::dir_create(gallery_dir)
+  if (!fs::file_exists(gallery_qmd)) {
+    brio::write_lines(lines, gallery_qmd)
+    cli::cli_alert_success(paste("gallery created:", series))
   }
 }
 
 make_all_galleries <- function(force = FALSE) {
-  for(series in galleries$series) {
-    make_gallery(series, force = force)
-  }
+  for(series in galleries$series) make_gallery(series, force = force)
 }
 
 
