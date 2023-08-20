@@ -1,0 +1,24 @@
+---
+title: "Curled"
+date: 2023-08-20
+repo: djnavarro/series-curled
+license-type: "CC BY 4.0"
+appendix-style: none
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-curled/800/curled_13_222.png"
+image-alt: "Orange, purple and blue swirling patterns with superimposed vertical stripes"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| label: build-series-curled
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("series-curled")
+```
+   
+:::
+   

@@ -43,7 +43,7 @@ build_series <- function(series) {
         folder == preview ~ "preview",
         folder == target ~ "target"
       ),
-      path = arttools::bucket_remote_path(series, path)
+      path = arttools::bucket_remote_url(series, path)
     ) |>
     dplyr::select(type, path, file_name) |>
     tidyr::pivot_wider(
