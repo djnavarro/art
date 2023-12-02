@@ -1,0 +1,24 @@
+---
+title: "Splotches"
+date: 2023-12-02
+repo: djnavarro/series-splotches
+license-type: "CC BY 4.0"
+appendix-style: none
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-splotches/preview/curled_23_1854.png"
+image-alt: "Red, white, and orange swirling patterns arranged in approximately circular patterns agains ta pale background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| label: build-series-splotches
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("series-splotches")
+```
+   
+:::
+   

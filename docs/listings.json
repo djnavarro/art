@@ -2,6 +2,7 @@
   {
     "listing": "/gallery/index.html",
     "items": [
+      "/gallery/splotches/index.html",
       "/gallery/curled/index.html",
       "/gallery/bound/index.html",
       "/gallery/broken-lands/index.html",
