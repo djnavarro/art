@@ -1,0 +1,24 @@
+---
+title: "Advent"
+date: 2023-12-16
+repo: djnavarro/series-advent
+license-type: "CC BY 4.0"
+appendix-style: none
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-advent/preview/advent_04_215.png"
+image-alt: "Geometric patterns of circles and lines laid out on a partial grid in a subdued pastel palette"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| label: build-series-advent
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("series-advent")
+```
+   
+:::
+   

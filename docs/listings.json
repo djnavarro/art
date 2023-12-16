@@ -2,6 +2,7 @@
   {
     "listing": "/gallery/index.html",
     "items": [
+      "/gallery/advent/index.html",
       "/gallery/splotches/index.html",
       "/gallery/curled/index.html",
       "/gallery/bound/index.html",
