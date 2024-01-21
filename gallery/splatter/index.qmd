@@ -1,0 +1,24 @@
+---
+title: "Splatter"
+date: 2024-01-21
+repo: djnavarro/series-splatter
+license-type: "CC BY 4.0"
+appendix-style: none
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-splatter/preview/splatter_07_973.png"
+image-alt: "Curling patterns of yellow, red, orange, blue and grey"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| label: build-series-splatter
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("series-splatter")
+```
+   
+:::
+   
