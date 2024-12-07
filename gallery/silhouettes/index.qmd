@@ -17,7 +17,7 @@ image-alt: "Silhouette of a tree waving in the wind against a cloudy background,
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-silhouettes")
+build_series("series-silhouettes", seed = NULL)
 ```
    
 :::

@@ -1,5 +1,9 @@
 /* css styles */
 
+.navbar {
+  opacity: .8;
+}
+
 .quarto-title-meta-heading {
   color: #666;
   font-variant: small-caps;

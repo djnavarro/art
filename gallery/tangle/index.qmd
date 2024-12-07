@@ -17,7 +17,7 @@ image-alt: "Strange looping arcs that form interlocking circular and cylindrical
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-tangle")
+build_series("series-tangle", seed = NULL)
 ```
    
 :::

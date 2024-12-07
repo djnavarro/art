@@ -17,7 +17,7 @@ image-alt: "Grainy, triangular shaped flow pattern in red, white, and orange, ag
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-embers")
+build_series("series-embers", seed = NULL)
 ```
    
 :::

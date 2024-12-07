@@ -7,7 +7,8 @@ toc: false
 
 ::: {.banner}
 
-<h1><a href="/gallery/">art</a><br>by<br>danielle<br>navarro</h1>
+<br><br>
+<h1>art by danielle navarro</h1>
 
 :::
 

@@ -28,7 +28,7 @@ add_image_html <- function(dat, preview = "preview", target = "target") {
   cat(lines, sep="\n\n")
 }
 
-build_series <- function(series) {
+build_series <- function(series, seed = NULL) {
   ind <- which(galleries$series == series)
   preview <- galleries$preview_dir[ind]
   target <- galleries$target_dir[ind]
@@ -50,6 +50,10 @@ build_series <- function(series) {
       names_from = type,
       values_from = path
     )
+
+  if (!is.null(seed)) {
+    withr::with_seed(seed, dat <- dplyr::slice_sample(dat, prop = 1))
+  }
 
   add_image_html(dat)
 }
@@ -89,7 +93,13 @@ make_gallery <- function(series, force = FALSE) {
     '#| message: false',
     '#| results: asis',
     'source(here::here("_common.R"))',
-    paste0('build_series("', galleries$series[ind], '")'),
+    paste0(
+      'build_series("',
+      galleries$series[ind],
+      '", seed = ',
+      galleries$seed[ind],
+      ')'
+    ),
     '```',
     '   ',
     ':::',

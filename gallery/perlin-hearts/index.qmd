@@ -17,7 +17,7 @@ image-alt: "A 10x10 grid of wonky hearts in shades of brown and green, against a
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-perlin-hearts")
+build_series("series-perlin-hearts", seed = NULL)
 ```
    
 :::

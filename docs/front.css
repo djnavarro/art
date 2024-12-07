@@ -2,7 +2,7 @@
 
 body {
   background-color: #eee;
-  background-image: url("turmeric.jpg");
+  background-image: url("curled.jpg");
   background-position: cover;
 }
 
@@ -15,14 +15,13 @@ body {
 }
 
 .banner > h1 {
-  position:absolute;
   top: 30%;
   width: 100%;
   text-align: right;
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 130%;
-  color: #00000050;
-  letter-spacing: 10px;
+  color: #eee;
+  letter-spacing: 2px;
 }
 

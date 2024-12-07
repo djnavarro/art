@@ -17,7 +17,7 @@ image-alt: "Watercolour style cloud shapes in black and blood red"
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-ash")
+build_series("series-ash", seed = NULL)
 ```
    
 :::

@@ -17,7 +17,7 @@ image-alt: "Black and white grainy heart with concentric banding, and chaotic ex
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-heart-samples")
+build_series("series-heart-samples", seed = NULL)
 ```
    
 :::

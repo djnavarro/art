@@ -17,7 +17,7 @@ image-alt: "A 4x4 grid of white circles each with curl noise extending from them
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-fallow-flow")
+build_series("series-fallow-flow", seed = NULL)
 ```
    
 :::

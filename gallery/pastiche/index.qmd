@@ -17,7 +17,7 @@ image-alt: "Discordant pattern of jagged semi-circular shapes a palette of reds 
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-pastiche")
+build_series("series-pastiche", seed = NULL)
 ```
    
 :::

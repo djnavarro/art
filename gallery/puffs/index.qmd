@@ -17,7 +17,7 @@ image-alt: "A light blue fuzzy puffball against a dark blue background"
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-puffs")
+build_series("series-puffs", seed = NULL)
 ```
    
 :::

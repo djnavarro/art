@@ -17,7 +17,7 @@ image-alt: "Many smooth, vaguely-ellipsoidal blobs that looks a little like jell
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-perlin-blobs")
+build_series("series-perlin-blobs", seed = NULL)
 ```
    
 :::

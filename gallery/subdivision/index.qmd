@@ -17,7 +17,7 @@ image-alt: "Irregular rectangular tiling in yellow, red, blue and black, with ci
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-subdivision")
+build_series("series-subdivision", seed = NULL)
 ```
    
 :::

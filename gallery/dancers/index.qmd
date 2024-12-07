@@ -17,7 +17,7 @@ image-alt: "Swirling black hourglass shapes against a blue background, that look
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-dancers")
+build_series("series-dancers", seed = NULL)
 ```
    
 :::

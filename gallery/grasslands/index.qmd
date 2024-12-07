@@ -17,7 +17,7 @@ image-alt: "Gentle field with subtle textures in various shades of green"
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-grasslands")
+build_series("series-grasslands", seed = NULL)
 ```
    
 :::

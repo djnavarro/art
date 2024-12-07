@@ -17,7 +17,7 @@ image-alt: "White twisting, spiralling patterns that look like intertwined ribbo
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-sheets")
+build_series("series-sheets", seed = NULL)
 ```
    
 :::

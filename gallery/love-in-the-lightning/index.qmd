@@ -17,7 +17,7 @@ image-alt: "A black and white outline of a heart against a purple background, wi
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-love-in-the-lightning")
+build_series("series-love-in-the-lightning", seed = NULL)
 ```
    
 :::

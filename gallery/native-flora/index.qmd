@@ -17,7 +17,7 @@ image-alt: "Multicoloured branching structures with dots at the end, resembling 
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-native-flora")
+build_series("series-native-flora", seed = NULL)
 ```
    
 :::

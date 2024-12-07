@@ -4,6 +4,7 @@ listing:
   id: gallery-listing
   feed: true
   contents: .
+  fields: [image, date, title]  
   sort: "date desc"
   type: grid
   grid-columns: 3

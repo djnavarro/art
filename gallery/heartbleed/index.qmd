@@ -17,7 +17,7 @@ image-alt: "Flowing hearts in brown, white and tan, against a textured backgroun
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-heartbleed")
+build_series("series-heartbleed", seed = NULL)
 ```
    
 :::

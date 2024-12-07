@@ -17,7 +17,7 @@ image-alt: "Curling patterns of yellow, red, orange, blue and grey"
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-splatter")
+build_series("series-splatter", seed = NULL)
 ```
    
 :::

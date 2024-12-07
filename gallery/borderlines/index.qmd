@@ -17,7 +17,7 @@ image-alt: "Black and white grainy image that looks a little like a large circle
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-borderlines")
+build_series("series-borderlines", seed = NULL)
 ```
    
 :::

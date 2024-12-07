@@ -18,6 +18,7 @@ website:
         text: art.djnavarro.net
   navbar:
     title: false
+    background: "#eee"
     left:
       - href: index.qmd
         text: Home
