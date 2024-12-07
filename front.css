@@ -20,8 +20,19 @@ body {
   text-align: right;
   font-size: 2.5rem;
   font-weight: bold;
-  line-height: 130%;
+  line-height: 150%;
   color: #eee;
   letter-spacing: 2px;
+}
+
+.splashtext {
+  color: #eee;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+a {
+  color: #eee;
 }
 

@@ -12,6 +12,34 @@ toc: false
 
 :::
 
+<br>
+
+::: {.splashtext}
+
+```{r}
+#| results: asis
+#| echo: false
+
+linkify <- function(name, series, ...) {
+  paste0(
+    '<a href="\\gallery\\',
+    stringr::str_remove(series, "^series-"),
+    '\\">',
+    name,
+    '</a>'
+  )
+}
+
+here::here("_galleries.csv") |>
+  readr::read_csv(show_col_types = FALSE) |>
+  purrr::pmap_chr(linkify) |> 
+  stringr::str_c(collapse = ", ") |> 
+  stringr::str_to_lower() |> 
+  cat()
+```
+
+:::
+
 <!-- Mastodon verification -->
 <a rel="me" style="display:none" href="https://fosstodon.org/@djnavarro">Hidden link used to verify my account on fosstodon.org</a> 
 <a rel="me" style="display:none" href="https://genart.social/@djnavarro">Hidden link used to verify my account on genart.social</a>
