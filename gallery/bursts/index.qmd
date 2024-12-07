@@ -17,7 +17,7 @@ image-alt: "Violent bursts of grainy lines in red, black and white, with hints o
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-bursts", seed = NULL)
+build_series("series-bursts", seed = 123)
 ```
    
 :::

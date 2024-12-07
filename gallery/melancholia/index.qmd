@@ -17,7 +17,7 @@ image-alt: "A 25x25 grid of square cells whose dominant colours give the impress
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-melancholia", seed = NULL)
+build_series("series-melancholia", seed = 123)
 ```
    
 :::

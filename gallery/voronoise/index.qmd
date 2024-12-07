@@ -17,7 +17,7 @@ image-alt: "Tiling of smoothed polygons in red, blue, and brown"
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-voronoise", seed = NULL)
+build_series("series-voronoise", seed = 123)
 ```
    
 :::

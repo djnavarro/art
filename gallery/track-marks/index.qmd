@@ -17,7 +17,7 @@ image-alt: "Black and white jagged polygons arranged to form the impression of a
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-track-marks", seed = NULL)
+build_series("series-track-marks", seed = 123)
 ```
    
 :::

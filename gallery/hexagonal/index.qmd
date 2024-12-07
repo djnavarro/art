@@ -17,7 +17,7 @@ image-alt: "Several translucent, smudged, intersecting hexagons in pastel colour
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-hexagonal", seed = NULL)
+build_series("series-hexagonal", seed = 123)
 ```
    
 :::

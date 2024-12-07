@@ -17,7 +17,7 @@ image-alt: "Many overlapping bubble shapes comprised of yellow, black and purple
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-moths-and-moonlets", seed = NULL)
+build_series("series-moths-and-moonlets", seed = 123)
 ```
    
 :::

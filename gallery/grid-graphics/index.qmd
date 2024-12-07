@@ -17,7 +17,7 @@ image-alt: "A 5x5 grid of squares in various shades of purple. Each square is fi
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-grid-graphics", seed = NULL)
+build_series("series-grid-graphics", seed = 123)
 ```
    
 :::

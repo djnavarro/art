@@ -17,7 +17,7 @@ image-alt: "Red, white, and orange swirling patterns arranged in approximately c
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-splotches", seed = NULL)
+build_series("series-splotches", seed = 123)
 ```
    
 :::

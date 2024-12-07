@@ -17,7 +17,7 @@ image-alt: "Geometric patterns of circles and lines laid out on a partial grid i
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-advent", seed = NULL)
+build_series("series-advent", seed = 123)
 ```
    
 :::

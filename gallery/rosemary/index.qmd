@@ -17,7 +17,7 @@ image-alt: "Rainbow coloured prisms with curl noise, against a black background"
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-rosemary", seed = NULL)
+build_series("series-rosemary", seed = 123)
 ```
    
 :::

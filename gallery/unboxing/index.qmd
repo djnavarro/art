@@ -17,7 +17,7 @@ image-alt: "Yellow and orange arcs tracing out shapes that create the impression
 #| message: false
 #| results: asis
 source(here::here("_common.R"))
-build_series("series-unboxing", seed = NULL)
+build_series("series-unboxing", seed = 123)
 ```
    
 :::
