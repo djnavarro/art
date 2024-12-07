@@ -18,7 +18,7 @@ body {
   top: 30%;
   width: 100%;
   text-align: right;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   line-height: 150%;
   color: #eee;
@@ -26,13 +26,14 @@ body {
 }
 
 .splashtext {
-  color: #eee;
-  font-size: 1.5rem;
+  color: #ffffff80;
+  font-size: 2rem;
   font-weight: bold;
   line-height: 150%;
 }
 
 a {
-  color: #eee;
+  color: #ffffff80;
+  text-decoration: none;
 }
 
