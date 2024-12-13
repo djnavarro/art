@@ -1,0 +1,24 @@
+---
+title: "Lissajous"
+date: 2024-12-13
+repo: djnavarro/series-lissajous
+license-type: "CC BY 4.0"
+appendix-style: none
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-lissajous/preview/lissajous_01_1301.png"
+image-alt: "Mesh of twisting ribbons in red, orange and yellow against a dark brown background"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| label: build-series-lissajous
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("series-lissajous", seed = 123)
+```
+   
+:::
+   
