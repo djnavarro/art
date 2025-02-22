@@ -2,6 +2,7 @@
   {
     "listing": "/gallery/index.html",
     "items": [
+      "/gallery/incursion/index.html",
       "/gallery/lissajous/index.html",
       "/gallery/sketches/index.html",
       "/gallery/splatter/index.html",
