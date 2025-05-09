@@ -3,6 +3,7 @@ css:
   - styles.css
   - front.css
 toc: false
+image: descent.jpg
 ---
 
 ::: {.banner}
