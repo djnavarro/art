@@ -1,0 +1,24 @@
+---
+title: "Within Fog"
+date: 2025-05-31
+repo: djnavarro/series-fog
+license-type: "CC BY 4.0"
+appendix-style: none
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-fog/preview/fog_20_2086.png"
+image-alt: "A 5x5 grid in pastel colours that blend into each other with a watercolour look"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| label: build-series-fog
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("series-fog", seed = 123)
+```
+   
+:::
+   

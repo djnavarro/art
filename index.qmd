@@ -34,6 +34,7 @@ linkify <- function(name, series, ...) {
 here::here("_galleries.csv") |>
   readr::read_csv(show_col_types = FALSE) |>
   dplyr::arrange(name) |> 
+  dplyr::mutate(name = stringr::str_remove_all(name, ",")) |>
   purrr::pmap_chr(linkify) |> 
   stringr::str_c(collapse = ", ") |> 
   stringr::str_to_lower() |> 
