@@ -1,0 +1,24 @@
+---
+title: "June"
+date: 2025-07-13
+repo: djnavarro/series-june
+license-type: "CC BY 4.0"
+appendix-style: none
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-june/preview/june_02_0242.png"
+image-alt: "A soft watercolour piece with rectangular grid using the pink, yellow, and blue from the pansexual flag"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| label: build-series-june
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("series-june", seed = 123)
+```
+   
+:::
+   
