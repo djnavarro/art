@@ -1,0 +1,24 @@
+---
+title: "Nautilus"
+date: 2026-03-22
+repo: djnavarro/series-nautilus
+license-type: "CC BY 4.0"
+appendix-style: none
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-nautilus/preview/nautilus_18_1817.png"
+image-alt: "Purple and black ribbons against a pale backgrouns"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| label: build-series-nautilus
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("series-nautilus", seed = 123)
+```
+   
+:::
+   
