@@ -50,8 +50,8 @@ format:
     page-layout: full
     respect-user-color-scheme: true
     theme: 
-      dark: ash.scss
-      light: ember.scss
+      dark: blackpink.scss
+      light: paleblue.scss
     css: styles.css
     toc: true
     include-after-body: plausible.html
