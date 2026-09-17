@@ -4,3 +4,5 @@
 .Ruserdata
 /.quarto/
 .~lock._galleries.csv#
+
+**/*.quarto_ipynb

@@ -2,7 +2,7 @@
 
 body {
   background-color: #eee;
-  background-image: url("descent.jpg");
+  background-image: url("june.jpg");
   background-position: cover;
 }
 
@@ -50,14 +50,14 @@ body {
 }
 
 .splashtext {
-  color: #ffffff80;
+  color: #ffffff60;
   font-size: 1.25rem;
   font-weight: bold;
   line-height: 150%;
 }
 
 a {
-  color: #ffffff80;
+  color: #ffffff60;
   text-decoration: none;
 }
 

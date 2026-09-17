@@ -7,11 +7,445 @@
     "text": "I’m a computational artist based in Sydney, living on Gadigal land, making generative art using the R programming language, and in my professional life I am a recovering academic now working in statistics. I sometimes post art on mastodon and bluesky. Unless stated otherwise, the art on this site is released under a CC-BY-SA licence: you are free to reuse the work as long as you attribute the original to me, and derivative works must use the same licence.\nI believe that art can serve the public good, and tend to use the proceeds of art sales to support charities and other worthy causes. Some organisations that matter to me personally include the Sydney Inner City Legal Centre, the NSW Sex Worker Outreach Project, Black Rainbow, and Lou’s Place. If you’ve used my art and would like to donate to support me, please consider contributing to those organisations."
   },
   {
+    "objectID": "gallery/stalk-and-feather/index.html",
+    "href": "gallery/stalk-and-feather/index.html",
+    "title": "Stalk And Feather",
+    "section": "",
+    "text": "published\n\n  January 31, 2022\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-stalk-and-feather"
+  },
+  {
+    "objectID": "gallery/nautilus/index.html",
+    "href": "gallery/nautilus/index.html",
+    "title": "Nautilus",
+    "section": "",
+    "text": "published\n\n  March 22, 2026\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-nautilus"
+  },
+  {
+    "objectID": "gallery/voronoise/index.html",
+    "href": "gallery/voronoise/index.html",
+    "title": "Voronoise",
+    "section": "",
+    "text": "published\n\n  May 6, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-voronoise"
+  },
+  {
+    "objectID": "gallery/june/index.html",
+    "href": "gallery/june/index.html",
+    "title": "June",
+    "section": "",
+    "text": "published\n\n  July 13, 2025\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-june"
+  },
+  {
+    "objectID": "gallery/night-skies/index.html",
+    "href": "gallery/night-skies/index.html",
+    "title": "Bright Seas, Night Skies",
+    "section": "",
+    "text": "published\n\n  November 27, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-night-skies"
+  },
+  {
+    "objectID": "gallery/curled/index.html",
+    "href": "gallery/curled/index.html",
+    "title": "Curled",
+    "section": "",
+    "text": "published\n\n  August 20, 2023\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-curled"
+  },
+  {
+    "objectID": "gallery/sadists-kiss/index.html",
+    "href": "gallery/sadists-kiss/index.html",
+    "title": "Sadists Kiss",
+    "section": "",
+    "text": "published\n\n  October 4, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-sadists-kiss"
+  },
+  {
+    "objectID": "gallery/windswept/index.html",
+    "href": "gallery/windswept/index.html",
+    "title": "Windswept",
+    "section": "",
+    "text": "published\n\n  November 28, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-windswept"
+  },
+  {
+    "objectID": "gallery/ice-floes/index.html",
+    "href": "gallery/ice-floes/index.html",
+    "title": "Ice Floes",
+    "section": "",
+    "text": "published\n\n  January 19, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-ice-floes"
+  },
+  {
+    "objectID": "gallery/unravel/index.html",
+    "href": "gallery/unravel/index.html",
+    "title": "Knit, Mend, Unravel",
+    "section": "",
+    "text": "published\n\n  May 24, 2025\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-unravel"
+  },
+  {
+    "objectID": "gallery/cherish/index.html",
+    "href": "gallery/cherish/index.html",
+    "title": "Cherish",
+    "section": "",
+    "text": "published\n\n  February 12, 2022\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-cherish"
+  },
+  {
+    "objectID": "gallery/viewports/index.html",
+    "href": "gallery/viewports/index.html",
+    "title": "Viewports",
+    "section": "",
+    "text": "published\n\n  February 28, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-viewports"
+  },
+  {
+    "objectID": "gallery/puffs/index.html",
+    "href": "gallery/puffs/index.html",
+    "title": "Puffs",
+    "section": "",
+    "text": "published\n\n  December 23, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-puffs"
+  },
+  {
+    "objectID": "gallery/unboxing/index.html",
+    "href": "gallery/unboxing/index.html",
+    "title": "Unboxing",
+    "section": "",
+    "text": "published\n\n  December 13, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-unboxing"
+  },
+  {
+    "objectID": "gallery/perlin-hearts/index.html",
+    "href": "gallery/perlin-hearts/index.html",
+    "title": "Perlin Hearts",
+    "section": "",
+    "text": "published\n\n  July 16, 2021\n\n\nlicense\n\n  CC0 1.0\n\n\nrepository\n\n  djnavarro/series-perlin-hearts"
+  },
+  {
+    "objectID": "gallery/water-colours/index.html",
+    "href": "gallery/water-colours/index.html",
+    "title": "Water Colours",
+    "section": "",
+    "text": "published\n\n  September 5, 2021\n\n\nlicense\n\n  CC0 1.0\n\n\nrepository\n\n  djnavarro/series-water-colours"
+  },
+  {
+    "objectID": "gallery/track-marks/index.html",
+    "href": "gallery/track-marks/index.html",
+    "title": "Track Marks",
+    "section": "",
+    "text": "published\n\n  September 20, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-track-marks"
+  },
+  {
+    "objectID": "gallery/splatter/index.html",
+    "href": "gallery/splatter/index.html",
+    "title": "Splatter",
+    "section": "",
+    "text": "published\n\n  January 21, 2024\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-splatter"
+  },
+  {
+    "objectID": "gallery/sketches/index.html",
+    "href": "gallery/sketches/index.html",
+    "title": "Sketches",
+    "section": "",
+    "text": "published\n\n  December 7, 2024\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-sketches"
+  },
+  {
+    "objectID": "gallery/ghosts/index.html",
+    "href": "gallery/ghosts/index.html",
+    "title": "Ghosts On Marble Paper",
+    "section": "",
+    "text": "published\n\n  January 9, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-ghosts"
+  },
+  {
+    "objectID": "gallery/grasslands/index.html",
+    "href": "gallery/grasslands/index.html",
+    "title": "Grasslands",
+    "section": "",
+    "text": "published\n\n  November 29, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-grasslands"
+  },
+  {
+    "objectID": "gallery/glitchy/index.html",
+    "href": "gallery/glitchy/index.html",
+    "title": "Glitchy",
+    "section": "",
+    "text": "published\n\n  February 24, 2022\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-glitchy"
+  },
+  {
+    "objectID": "gallery/bursts/index.html",
+    "href": "gallery/bursts/index.html",
+    "title": "Bursts",
+    "section": "",
+    "text": "published\n\n  September 13, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-bursts"
+  },
+  {
+    "objectID": "gallery/grid-graphics/index.html",
+    "href": "gallery/grid-graphics/index.html",
+    "title": "Grid Graphics",
+    "section": "",
+    "text": "published\n\n  September 19, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-grid-graphics"
+  },
+  {
+    "objectID": "gallery/moths-and-moonlets/index.html",
+    "href": "gallery/moths-and-moonlets/index.html",
+    "title": "Moths And Moonlets",
+    "section": "",
+    "text": "published\n\n  March 13, 2022\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-moths-and-moonlets"
+  },
+  {
+    "objectID": "gallery/silhouettes/index.html",
+    "href": "gallery/silhouettes/index.html",
+    "title": "Silhouettes",
+    "section": "",
+    "text": "published\n\n  January 24, 2021\n\n\nlicense\n\n  CC0 1.0\n\n\nrepository\n\n  djnavarro/series-silhouettes"
+  },
+  {
+    "objectID": "gallery/pastiche/index.html",
+    "href": "gallery/pastiche/index.html",
+    "title": "Pastiche",
+    "section": "",
+    "text": "published\n\n  December 16, 2023\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-pastiche"
+  },
+  {
+    "objectID": "gallery/splotches/index.html",
+    "href": "gallery/splotches/index.html",
+    "title": "Splotches",
+    "section": "",
+    "text": "published\n\n  December 2, 2023\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-splotches"
+  },
+  {
+    "objectID": "gallery/advent/index.html",
+    "href": "gallery/advent/index.html",
+    "title": "Advent",
+    "section": "",
+    "text": "published\n\n  December 16, 2023\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-advent"
+  },
+  {
+    "objectID": "gallery/nebulae/index.html",
+    "href": "gallery/nebulae/index.html",
+    "title": "Nebulae",
+    "section": "",
+    "text": "published\n\n  January 19, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-nebulae"
+  },
+  {
+    "objectID": "gallery/dancers/index.html",
+    "href": "gallery/dancers/index.html",
+    "title": "Dancers",
+    "section": "",
+    "text": "published\n\n  February 9, 2022\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-dancers"
+  },
+  {
+    "objectID": "gallery/ash/index.html",
+    "href": "gallery/ash/index.html",
+    "title": "Ash Cloud And Blood",
+    "section": "",
+    "text": "published\n\n  July 17, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-ash"
+  },
+  {
+    "objectID": "gallery/cards/index.html",
+    "href": "gallery/cards/index.html",
+    "title": "Cards",
+    "section": "",
+    "text": "published\n\n  February 15, 2022\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-cards"
+  },
+  {
+    "objectID": "gallery/incursion/index.html",
+    "href": "gallery/incursion/index.html",
+    "title": "Incursion",
+    "section": "",
+    "text": "published\n\n  February 22, 2025\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-incursion"
+  },
+  {
+    "objectID": "gallery/bound/index.html",
+    "href": "gallery/bound/index.html",
+    "title": "Bound",
+    "section": "",
+    "text": "published\n\n  June 2, 2023\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-bound"
+  },
+  {
+    "objectID": "gallery/melancholia/index.html",
+    "href": "gallery/melancholia/index.html",
+    "title": "Melancholia",
+    "section": "",
+    "text": "published\n\n  October 6, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-melancholia"
+  },
+  {
+    "objectID": "gallery/embers/index.html",
+    "href": "gallery/embers/index.html",
+    "title": "Embers",
+    "section": "",
+    "text": "published\n\n  June 5, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-embers"
+  },
+  {
+    "objectID": "gallery/dreamlike/index.html",
+    "href": "gallery/dreamlike/index.html",
+    "title": "Dreamlike",
+    "section": "",
+    "text": "published\n\n  December 9, 2021\n\n\nlicense\n\n  CC0 1.0\n\n\nrepository\n\n  djnavarro/series-dreamlike"
+  },
+  {
+    "objectID": "gallery/heart-samples/index.html",
+    "href": "gallery/heart-samples/index.html",
+    "title": "Hearts, Sampled Unwisely",
+    "section": "",
+    "text": "published\n\n  October 9, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-heart-samples"
+  },
+  {
+    "objectID": "gallery/rosemary/index.html",
+    "href": "gallery/rosemary/index.html",
+    "title": "Rosemary",
+    "section": "",
+    "text": "published\n\n  December 27, 2019\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-rosemary"
+  },
+  {
+    "objectID": "gallery/broken-lands/index.html",
+    "href": "gallery/broken-lands/index.html",
+    "title": "Broken Lands",
+    "section": "",
+    "text": "published\n\n  March 1, 2023\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-broken-lands"
+  },
+  {
     "objectID": "gallery/index.html",
     "href": "gallery/index.html",
     "title": "Galleries",
     "section": "",
-    "text": "Nautilus\n\n\n\nMar 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSofter\n\n\n\nAug 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJune\n\n\n\nJul 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWithin Fog\n\n\n\nMay 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKnit, Mend, Unravel\n\n\n\nMay 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSlightly Menacing Hearts\n\n\n\nApr 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIncursion\n\n\n\nFeb 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLissajous\n\n\n\nDec 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSketches\n\n\n\nDec 7, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSplatter\n\n\n\nJan 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvent\n\n\n\nDec 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPastiche\n\n\n\nDec 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSplotches\n\n\n\nDec 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurled\n\n\n\nAug 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBound\n\n\n\nJun 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBroken Lands\n\n\n\nMar 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubdivision\n\n\n\nFeb 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHexagonal\n\n\n\nNov 6, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteracting Paths\n\n\n\nMay 2, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBroken Symmetry\n\n\n\nApr 30, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoths And Moonlets\n\n\n\nMar 13, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlitchy\n\n\n\nFeb 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCards\n\n\n\nFeb 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSheets\n\n\n\nFeb 12, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCherish\n\n\n\nFeb 12, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDancers\n\n\n\nFeb 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStalk And Feather\n\n\n\nJan 31, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLove In The Lightning\n\n\n\nDec 30, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPuffs\n\n\n\nDec 23, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnboxing\n\n\n\nDec 13, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDreamlike\n\n\n\nDec 9, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMelancholia\n\n\n\nOct 6, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFallow Flow\n\n\n\nOct 5, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSadists Kiss\n\n\n\nOct 4, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrid Graphics\n\n\n\nSep 19, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWater Colours\n\n\n\nSep 5, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAsh Cloud And Blood\n\n\n\nJul 17, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPerlin Hearts\n\n\n\nJul 16, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmbers\n\n\n\nJun 5, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nViewports\n\n\n\nFeb 28, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPerlin Blobs\n\n\n\nFeb 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNative Flora\n\n\n\nFeb 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSilhouettes\n\n\n\nJan 24, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNebulae\n\n\n\nJan 19, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIce Floes\n\n\n\nJan 19, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGhosts On Marble Paper\n\n\n\nJan 9, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTangle\n\n\n\nDec 29, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrasslands\n\n\n\nNov 29, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWindswept\n\n\n\nNov 28, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBright Seas, Night Skies\n\n\n\nNov 27, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPollen\n\n\n\nOct 27, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHearts, Sampled Unwisely\n\n\n\nOct 9, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrack Marks\n\n\n\nSep 20, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBoxes\n\n\n\nSep 15, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBursts\n\n\n\nSep 13, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorderlines\n\n\n\nSep 12, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExpanse\n\n\n\nAug 24, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeartbleed\n\n\n\nAug 10, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDust\n\n\n\nJun 26, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStoneskip\n\n\n\nJun 5, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVoronoise\n\n\n\nMay 6, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRosemary\n\n\n\nDec 27, 2019\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Nautilus\n\n\n\nMar 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSofter\n\n\n\nAug 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nJune\n\n\n\nJul 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nWithin Fog\n\n\n\nMay 31, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nKnit, Mend, Unravel\n\n\n\nMay 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSlightly Menacing Hearts\n\n\n\nApr 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nIncursion\n\n\n\nFeb 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nLissajous\n\n\n\nDec 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSketches\n\n\n\nDec 7, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSplatter\n\n\n\nJan 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvent\n\n\n\nDec 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nPastiche\n\n\n\nDec 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nSplotches\n\n\n\nDec 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurled\n\n\n\nAug 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBound\n\n\n\nJun 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nBroken Lands\n\n\n\nMar 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubdivision\n\n\n\nFeb 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nHexagonal\n\n\n\nNov 6, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteracting Paths\n\n\n\nMay 2, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBroken Symmetry\n\n\n\nApr 30, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoths And Moonlets\n\n\n\nMar 13, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlitchy\n\n\n\nFeb 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nCards\n\n\n\nFeb 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nSheets\n\n\n\nFeb 12, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nCherish\n\n\n\nFeb 12, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nDancers\n\n\n\nFeb 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nStalk And Feather\n\n\n\nJan 31, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nLove In The Lightning\n\n\n\nDec 30, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nPuffs\n\n\n\nDec 23, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnboxing\n\n\n\nDec 13, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nDreamlike\n\n\n\nDec 9, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nMelancholia\n\n\n\nOct 6, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nFallow Flow\n\n\n\nOct 5, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nSadists Kiss\n\n\n\nOct 4, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrid Graphics\n\n\n\nSep 19, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nWater Colours\n\n\n\nSep 5, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nAsh Cloud And Blood\n\n\n\nJul 17, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nPerlin Hearts\n\n\n\nJul 16, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmbers\n\n\n\nJun 5, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nViewports\n\n\n\nFeb 28, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nPerlin Blobs\n\n\n\nFeb 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nNative Flora\n\n\n\nFeb 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nSilhouettes\n\n\n\nJan 24, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nNebulae\n\n\n\nJan 19, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nIce Floes\n\n\n\nJan 19, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nGhosts On Marble Paper\n\n\n\nJan 9, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nTangle\n\n\n\nDec 29, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrasslands\n\n\n\nNov 29, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nWindswept\n\n\n\nNov 28, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nBright Seas, Night Skies\n\n\n\nNov 27, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nPollen\n\n\n\nOct 27, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nHearts, Sampled Unwisely\n\n\n\nOct 9, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrack Marks\n\n\n\nSep 20, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nBoxes\n\n\n\nSep 15, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nBursts\n\n\n\nSep 13, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nBorderlines\n\n\n\nSep 12, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nExpanse\n\n\n\nAug 24, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nHeartbleed\n\n\n\nAug 10, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nDust\n\n\n\nJun 26, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nStoneskip\n\n\n\nJun 5, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nVoronoise\n\n\n\nMay 6, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nRosemary\n\n\n\nDec 27, 2019\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "gallery/love-in-the-lightning/index.html",
+    "href": "gallery/love-in-the-lightning/index.html",
+    "title": "Love In The Lightning",
+    "section": "",
+    "text": "published\n\n  December 30, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-love-in-the-lightning"
+  },
+  {
+    "objectID": "gallery/subdivision/index.html",
+    "href": "gallery/subdivision/index.html",
+    "title": "Subdivision",
+    "section": "",
+    "text": "published\n\n  February 17, 2023\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-subdivision"
+  },
+  {
+    "objectID": "gallery/tangle/index.html",
+    "href": "gallery/tangle/index.html",
+    "title": "Tangle",
+    "section": "",
+    "text": "published\n\n  December 29, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-tangle"
+  },
+  {
+    "objectID": "gallery/heartbleed/index.html",
+    "href": "gallery/heartbleed/index.html",
+    "title": "Heartbleed",
+    "section": "",
+    "text": "published\n\n  August 10, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-heartbleed"
+  },
+  {
+    "objectID": "gallery/menacing-hearts/index.html",
+    "href": "gallery/menacing-hearts/index.html",
+    "title": "Slightly Menacing Hearts",
+    "section": "",
+    "text": "published\n\n  April 13, 2025\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-menacing-hearts"
+  },
+  {
+    "objectID": "gallery/softer/index.html",
+    "href": "gallery/softer/index.html",
+    "title": "Softer",
+    "section": "",
+    "text": "published\n\n  August 22, 2025\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-softer"
+  },
+  {
+    "objectID": "gallery/interacting-paths/index.html",
+    "href": "gallery/interacting-paths/index.html",
+    "title": "Interacting Paths",
+    "section": "",
+    "text": "published\n\n  May 2, 2022\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-interacting-paths"
+  },
+  {
+    "objectID": "gallery/fog/index.html",
+    "href": "gallery/fog/index.html",
+    "title": "Within Fog",
+    "section": "",
+    "text": "published\n\n  May 31, 2025\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-fog"
+  },
+  {
+    "objectID": "gallery/broken-symmetry/index.html",
+    "href": "gallery/broken-symmetry/index.html",
+    "title": "Broken Symmetry",
+    "section": "",
+    "text": "published\n\n  April 30, 2022\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-broken-symmetry"
+  },
+  {
+    "objectID": "gallery/sheets/index.html",
+    "href": "gallery/sheets/index.html",
+    "title": "Sheets",
+    "section": "",
+    "text": "published\n\n  February 12, 2022\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-sheets"
+  },
+  {
+    "objectID": "gallery/boxes/index.html",
+    "href": "gallery/boxes/index.html",
+    "title": "Boxes",
+    "section": "",
+    "text": "published\n\n  September 15, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-boxes"
+  },
+  {
+    "objectID": "gallery/dust/index.html",
+    "href": "gallery/dust/index.html",
+    "title": "Dust",
+    "section": "",
+    "text": "published\n\n  June 26, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-dust"
+  },
+  {
+    "objectID": "gallery/hexagonal/index.html",
+    "href": "gallery/hexagonal/index.html",
+    "title": "Hexagonal",
+    "section": "",
+    "text": "published\n\n  November 6, 2022\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-hexagonal"
+  },
+  {
+    "objectID": "gallery/borderlines/index.html",
+    "href": "gallery/borderlines/index.html",
+    "title": "Borderlines",
+    "section": "",
+    "text": "published\n\n  September 12, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-borderlines"
+  },
+  {
+    "objectID": "gallery/lissajous/index.html",
+    "href": "gallery/lissajous/index.html",
+    "title": "Lissajous",
+    "section": "",
+    "text": "published\n\n  December 13, 2024\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-lissajous"
+  },
+  {
+    "objectID": "gallery/pollen/index.html",
+    "href": "gallery/pollen/index.html",
+    "title": "Pollen",
+    "section": "",
+    "text": "published\n\n  October 27, 2020\n\n\nlicense\n\n  CC0 1.0\n\n\nrepository\n\n  djnavarro/series-pollen"
+  },
+  {
+    "objectID": "gallery/stoneskip/index.html",
+    "href": "gallery/stoneskip/index.html",
+    "title": "Stoneskip",
+    "section": "",
+    "text": "published\n\n  June 5, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-stoneskip"
+  },
+  {
+    "objectID": "gallery/perlin-blobs/index.html",
+    "href": "gallery/perlin-blobs/index.html",
+    "title": "Perlin Blobs",
+    "section": "",
+    "text": "published\n\n  February 18, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-perlin-blobs"
+  },
+  {
+    "objectID": "gallery/expanse/index.html",
+    "href": "gallery/expanse/index.html",
+    "title": "Expanse",
+    "section": "",
+    "text": "published\n\n  August 24, 2020\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-expanse"
+  },
+  {
+    "objectID": "gallery/fallow-flow/index.html",
+    "href": "gallery/fallow-flow/index.html",
+    "title": "Fallow Flow",
+    "section": "",
+    "text": "published\n\n  October 5, 2021\n\n\nlicense\n\n  CC BY 4.0\n\n\nrepository\n\n  djnavarro/series-fallow-flow"
+  },
+  {
+    "objectID": "gallery/native-flora/index.html",
+    "href": "gallery/native-flora/index.html",
+    "title": "Native Flora",
+    "section": "",
+    "text": "published\n\n  February 10, 2021\n\n\nlicense\n\n  CC0 1.0\n\n\nrepository\n\n  djnavarro/series-native-flora"
   },
   {
     "objectID": "index.html",
