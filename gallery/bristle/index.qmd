@@ -1,0 +1,24 @@
+---
+title: "Bristle"
+date: 2026-10-01
+repo: djnavarro/series-bristle
+license-type: "CC BY 4.0"
+appendix-style: none
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-bristle/preview/bristle_14_1444.png"
+image-alt: "Black square surrounded with blobs and wavy lines in red, white, black and olive"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| label: build-series-bristle
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("series-bristle", seed = 123)
+```
+   
+:::
+   
