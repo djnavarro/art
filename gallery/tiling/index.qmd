@@ -1,7 +1,7 @@
 ---
 title: "Tiling"
 date: 2026-10-18
-repo: djnavarro/series-tiling
+repo: djnavarro/series-tilings
 license-type: "CC BY 4.0"
 appendix-style: none
 page-layout: full
