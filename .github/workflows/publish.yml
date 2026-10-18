@@ -39,6 +39,8 @@ jobs:
           cache-version: 1
 
       - name: Install arttools
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: Rscript -e 'remotes::install_github("djnavarro/arttools")'
 
       - name: Set up Quarto
