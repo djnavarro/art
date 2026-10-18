@@ -6,3 +6,7 @@
 .~lock._galleries.csv#
 
 **/*.quarto_ipynb
+
+# Site is built in CI and deployed to the gh-pages branch; local builds
+# are for preview only and shouldn't be committed.
+/docs/
