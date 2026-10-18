@@ -1,0 +1,24 @@
+---
+title: "Tiling"
+date: 2026-10-18
+repo: djnavarro/series-tiling
+license-type: "CC BY 4.0"
+appendix-style: none
+page-layout: full
+image: "https://storage.googleapis.com/djnavarro-art/series-tiling/preview/debruijn-tiling_14_1415.png"
+image-alt: "Pink blue and white aperiodic tiling of rhombus shapes"
+---
+   
+::: {.grid}
+  
+```{r}
+#| echo: false
+#| label: build-series-tiling
+#| message: false
+#| results: asis
+source(here::here("_common.R"))
+build_series("series-tiling", seed = 123)
+```
+   
+:::
+   
