@@ -156,7 +156,10 @@ build_image_page_templates <- function(series_vec) {
       paste0('license-type: "', galleries$license[ind], '"'),
       'appendix-style: none',
       'page-layout: full',
-      'image: "https://PLACEHOLDER.invalid/{{IMAGE_URL}}"',
+      # social-preview (og:image/twitter:image) uses the thumbnail, not
+      # the full-size image shown on the page itself: some platforms
+      # refuse to generate a preview from a large file
+      'image: "https://PLACEHOLDER.invalid/{{PREVIEW_URL}}"',
       'image-alt: "{{TITLE}}"',
       '---',
       '   ',
@@ -221,11 +224,16 @@ make_image_pages_fast <- function(series, template, seed = NULL, force = TRUE) {
   ind <- which(galleries$series == series)
   if (!galleries$include[ind]) return(invisible(NULL))
 
+  preview <- galleries$preview_dir[ind]
   target <- galleries$target_dir[ind]
   format <- galleries$format[ind]
   series_short_name <- gsub("^series-", "", galleries$series[ind])
 
   manifest <- arttools::manifest_read(series)
+
+  preview_lookup <- manifest |>
+    dplyr::filter(folder == preview, file_format == format) |>
+    dplyr::transmute(file_name, preview_url = arttools::bucket_remote_url(series, path))
 
   meta <- manifest |>
     dplyr::filter(folder == target, file_format == format) |>
@@ -238,7 +246,13 @@ make_image_pages_fast <- function(series, template, seed = NULL, force = TRUE) {
         paste(galleries$name[ind], paste(system_version, image_id, sep = "-"))
       )
     ) |>
-    dplyr::select(file_name, slug, full_url, title)
+    dplyr::select(file_name, slug, full_url, title) |>
+    dplyr::left_join(preview_lookup, by = "file_name") |>
+    dplyr::mutate(
+      # fall back to the full-size image if a thumbnail is somehow
+      # missing, rather than leaving a literal "NA" in the og:image tag
+      preview_url = dplyr::coalesce(preview_url, full_url)
+    )
 
   # same seeded shuffle used for the gallery grid (build_series()), so
   # prev/next here matches the order a visitor saw there. Any file
@@ -285,13 +299,14 @@ make_image_pages_fast <- function(series, template, seed = NULL, force = TRUE) {
     }
 
     page <- template |>
-      # longer, more specific token first: see note in
-      # build_image_page_templates() about the placeholder image url
+      # longer, more specific tokens first: see note in
+      # build_image_page_templates() about the placeholder image urls
       stringr::str_replace_all(
-        stringr::fixed('https://PLACEHOLDER.invalid/{{IMAGE_URL}}'),
-        row$full_url
+        stringr::fixed('https://PLACEHOLDER.invalid/{{PREVIEW_URL}}'),
+        row$preview_url
       ) |>
       stringr::str_replace_all(stringr::fixed('{{IMAGE_URL}}'), row$full_url) |>
+      stringr::str_replace_all(stringr::fixed('{{PREVIEW_URL}}'), row$preview_url) |>
       stringr::str_replace_all(stringr::fixed('{{TITLE}}'), row$title) |>
       stringr::str_replace_all(stringr::fixed('<p>{{PREV_LINK}}</p>'), prev_link) |>
       stringr::str_replace_all(stringr::fixed('<p>{{NEXT_LINK}}</p>'), next_link)
