@@ -4,8 +4,21 @@
   opacity: .8;
 }
 
-.quarto-title-meta-heading {
-  color: #666;
-  font-variant: small-caps;
-  padding-top: 10px;
+.art-meta-compact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15em 0.6em;
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.art-meta-compact .art-meta-item:not(:last-child)::after {
+  content: "\00b7";
+  margin-left: 0.6em;
+  color: #888;
+}
+
+.art-meta-compact a {
+  color: inherit;
 }

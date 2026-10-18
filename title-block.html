@@ -7,25 +7,10 @@ $for(author)$
 <p class="author">$author$</p>
 $endfor$
 
-$if(date)$
-<div class="quarto-title-meta-heading">published</div>
-<div class="quarto-title-meta-contents">
-  <p class="date">$date$</p>
+<div class="art-meta-compact">
+$if(date)$<span class="art-meta-item art-meta-date">$date$</span>$endif$
+$if(license-type)$<span class="art-meta-item"><a href="https://github.com/$repo$/blob/main/LICENSE.md">$license-type$</a></span>$endif$
+$if(repo)$<span class="art-meta-item"><a href="https://github.com/$repo$">$repo$</a></span>$endif$
 </div>
-$endif$
-
-$if(license-type)$
-<div class="quarto-title-meta-heading">license</div>
-<div class="quarto-title-meta-contents">
-  <p class="license"><a href="https://github.com/$repo$/blob/main/LICENSE.md">$license-type$</a></p>
-</div>
-$endif$
-
-$if(repo)$
-<div class="quarto-title-meta-heading">repository</div>
-<div class="quarto-title-meta-contents">
-  <p class="repo"><a href="https://github.com/$repo$">$repo$</a></p>
-</div>
-$endif$
 
 </header>
