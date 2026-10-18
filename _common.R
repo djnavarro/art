@@ -28,13 +28,23 @@ add_image_html <- function(dat, preview = "preview", target = "target") {
   cat(lines, sep="\n\n")
 }
 
-build_series <- function(series, seed = NULL) {
+#' Determine the seeded display order for a series' images
+#'
+#' Shared by the gallery grid (build_series()) and the per-image detail
+#' pages (make_image_pages_fast()), so that "previous"/"next" on a
+#' detail page always matches the order a visitor saw on the gallery
+#' grid, rather than drifting to e.g. alphabetical file-name order.
+#'
+#' @param manifest Optionally pass an already-loaded manifest (as
+#'   returned by arttools::manifest_read()) to avoid re-fetching it when
+#'   the caller already has a copy.
+series_image_order <- function(series, seed = NULL, manifest = NULL) {
   ind <- which(galleries$series == series)
   preview <- galleries$preview_dir[ind]
   target <- galleries$target_dir[ind]
   format <- galleries$format[ind]
 
-  manifest <- arttools::manifest_read(series)
+  if (is.null(manifest)) manifest <- arttools::manifest_read(series)
 
   dat <- manifest |>
     dplyr::filter(folder %in% c(preview, target), file_format == format) |>
@@ -49,15 +59,21 @@ build_series <- function(series, seed = NULL) {
     tidyr::pivot_wider(
       names_from = type,
       values_from = path
-    ) |>
-    dplyr::mutate(
-      # link thumbnails to the per-image page rather than the raw file
-      target = paste0(tools::file_path_sans_ext(file_name), "/")
     )
 
   if (!is.null(seed)) {
     withr::with_seed(seed, dat <- dplyr::slice_sample(dat, prop = 1))
   }
+
+  dat
+}
+
+build_series <- function(series, seed = NULL) {
+  dat <- series_image_order(series, seed) |>
+    dplyr::mutate(
+      # link thumbnails to the per-image page rather than the raw file
+      target = paste0(tools::file_path_sans_ext(file_name), "/")
+    )
 
   add_image_html(dat)
 }
@@ -92,7 +108,13 @@ make_all_image_pages <- function(force = TRUE) {
   templates <- build_image_page_templates(included)
 
   for (series in included) {
-    make_image_pages_fast(series, templates[[series]], force = force)
+    ind <- which(galleries$series == series)
+    make_image_pages_fast(
+      series,
+      templates[[series]],
+      seed = galleries$seed[ind],
+      force = force
+    )
   }
 
   invisible(NULL)
@@ -191,7 +213,10 @@ build_image_page_templates <- function(series_vec) {
 #' a pre-rendered template (see build_image_page_templates()). This
 #' performs no Quarto/Pandoc render of its own; it's pure string
 #' substitution, which is what makes it fast at ~4,500-image scale.
-make_image_pages_fast <- function(series, template, force = TRUE) {
+#'
+#' @param seed Passed to series_image_order() so prev/next links follow
+#'   the same shuffled order shown on the series' gallery grid page.
+make_image_pages_fast <- function(series, template, seed = NULL, force = TRUE) {
 
   ind <- which(galleries$series == series)
   if (!galleries$include[ind]) return(invisible(NULL))
@@ -202,9 +227,8 @@ make_image_pages_fast <- function(series, template, force = TRUE) {
 
   manifest <- arttools::manifest_read(series)
 
-  dat <- manifest |>
+  meta <- manifest |>
     dplyr::filter(folder == target, file_format == format) |>
-    dplyr::arrange(file_name) |>
     dplyr::mutate(
       slug = tools::file_path_sans_ext(file_name),
       full_url = arttools::bucket_remote_url(series, path),
@@ -213,7 +237,31 @@ make_image_pages_fast <- function(series, template, force = TRUE) {
         image_short_title,
         paste(galleries$name[ind], paste(system_version, image_id, sep = "-"))
       )
-    )
+    ) |>
+    dplyr::select(file_name, slug, full_url, title)
+
+  # same seeded shuffle used for the gallery grid (build_series()), so
+  # prev/next here matches the order a visitor saw there. Any file
+  # present in the target folder but missing a matching preview (so it
+  # wouldn't appear in the shuffle) is still given a page, just appended
+  # after the shuffled ones, so nothing silently goes missing.
+  shuffled_names <- series_image_order(series, seed, manifest = manifest)$file_name
+  extra_names <- setdiff(sort(meta$file_name), shuffled_names)
+  display_order <- c(shuffled_names, extra_names)
+
+  dat <- meta[match(display_order, meta$file_name), ]
+  unmatched <- sum(is.na(dat$file_name))
+  if (unmatched > 0) {
+    # Seen e.g. for series-tangle, whose declared target_dir doesn't
+    # match any folder in its manifest -- a pre-existing data issue, not
+    # something to paper over silently.
+    cli::cli_alert_warning(paste(
+      series, "- preview/target manifest mismatch:", unmatched,
+      "shuffled image(s) have no matching target-folder file and will",
+      "not get a page"
+    ))
+    dat <- dat[!is.na(dat$file_name), ]
+  }
 
   n <- nrow(dat)
   out_root <- here::here("docs", "gallery", series_short_name)
